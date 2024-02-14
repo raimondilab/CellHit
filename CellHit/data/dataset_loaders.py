@@ -8,26 +8,6 @@ from .metadata_processing import obtain_metadata
 #from .sampler import StratisfiedSampler
 
 
-def standardize_dataframe(df):
-    # Ensure the input DataFrame is numeric
-    if not all(df.dtypes.apply(lambda x: np.issubdtype(x, np.number))):
-        raise ValueError("DataFrame contains non-numeric columns.")
-    
-    # Initialize the StandardScaler
-    scaler = StandardScaler()
-
-    # Fit and transform the data
-    scaled_data = scaler.fit_transform(df)
-
-    # Convert the scaled data back into a DataFrame with original indexing
-    scaled_df = pd.DataFrame(scaled_data, index=df.index, columns=df.columns)
-
-    # Extract means and standard deviations
-    means = {column: mean for column, mean in zip(df.columns, scaler.mean_)}
-    stds = {column: std for column, std in zip(df.columns, np.sqrt(scaler.var_))}
-
-    return scaled_df, means, stds
-
 class DatasetLoader():
 
     def __init__(self,
@@ -51,8 +31,9 @@ class DatasetLoader():
         #load all transcriptomic data from the Celligner output
         if use_external_datasets:
             self.all_transcriptomics_data = pd.read_feather(self.celligner_output_path)
-            self.source_mapper = self.all_transcriptomics_data[[['index','Source']]]#.set_index('index')
-            self.cell_lines_data = self.all_data[self.all_data['Source']=='CCLE'].drop(columns=['Source']).set_index('index')
+            self.source_mapper = self.all_transcriptomics_data[['index','Source']]#.set_index('index')
+            self.cell_lines_data = self.all_transcriptomics_data[self.all_transcriptomics_data['Source']=='CCLE'].drop(columns=['Source']).set_index('index')
+            self.all_transcriptomics_data = self.all_transcriptomics_data.drop(columns=['Source']).set_index('index')
         else:
             all_transcriptomics_data = pd.read_feather(self.celligner_output_path)
             #subset on CCLE cell lines
@@ -138,9 +119,11 @@ class DatasetLoader():
             out_values += [valid_X,valid_Y]
     
         if use_external:
-            external_ids = list(self.source_mapper[self.source_mapper['Source']=='CCLE']['index'])
-            external_X = self.Xs[list(self.all_transcriptomics_data.index)]
-            out_values += [external_X,external_ids]
+            #otain external data (source not CCLE)
+            external_ids = list(self.source_mapper[self.source_mapper['Source']!='CCLE']['index'].values)
+            external_X = self.Xs[external_ids]
+            external_X = pd.DataFrame(external_X,columns=self.genes,index=external_ids)
+            out_values += [external_X]
 
         return out_values
     
@@ -153,7 +136,6 @@ class DatasetLoader():
         self.cell_std = self.cell_lines_data[self.cell_lines_data.index.isin(train_depmapIDs)].std()
         self.cell_lines_data = (self.cell_lines_data - self.cell_mean)/self.cell_std
         
-
         #X scaling and formatting everything
         if use_external:
             self.all_transcriptomics_data = (self.all_transcriptomics_data - self.cell_mean)/self.cell_std
