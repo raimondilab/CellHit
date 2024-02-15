@@ -98,3 +98,55 @@ def get_prism_lfc_drugs_metadata(data_path='./data'):
     out = pd.merge(drugs,prism_metadata[['IDs','MOA','repurposing_target']],left_on='BroadID',right_on='IDs',how='left').drop(columns=['IDs'])
     out = out.drop_duplicates()
     return out
+
+
+
+class GeneGetter():
+
+    def __init__(self,dataset='gdsc',data_path=None,available_genes=None,**kwargs):
+
+        self.dataset = dataset
+        self.available_genes = set(available_genes)
+
+        if dataset == 'gdsc':
+            
+            #read the most common genes
+            with open(data_path/'MOA_data'/'gdsc_most_common_genes.txt','r') as f:
+                self.common_genes = f.read().splitlines()
+        
+        #read LLM associated genes
+        with open(data_path/'MOA_data'/f'{dataset}_LLM_drugID_to_genes.json','r') as f:
+            self.llm_genes = json.load(f)
+
+        #read ligand associated genes
+        with open(data_path/'MOA_data'/f'{dataset}_ligand_drugID_to_genes.json','r') as f:
+            self.ligand_genes = json.load(f)
+
+        with open(data_path/'MOA_data'/f'{dataset}_target_drugID_to_genes.json','r') as f:
+            self.target_genes = json.load(f)
+
+    def get_genes(self,drugID):
+
+        genes = []
+
+        if str(drugID) in self.llm_genes.keys():
+            genes.extend(self.llm_genes[str(drugID)])
+
+        if (self.dataset == 'gdsc') and (str(drugID) not in self.llm_genes.keys()):
+            genes.extend(self.common_genes)
+
+        if str(drugID) in self.ligand_genes.keys():
+            genes.extend(self.ligand_genes[str(drugID)])
+
+        if str(drugID) in self.target_genes.keys():
+            genes.extend(self.target_genes[str(drugID)])
+
+        return list(set(genes).intersection(self.available_genes))
+
+
+
+        
+        
+
+
+
