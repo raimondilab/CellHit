@@ -50,6 +50,9 @@ class DatasetLoader():
         #if subset_on_drug is not None:
         #    self.metadata = self.metadata[self.metadata['DrugID']==int(subset_on_drug)]
 
+        #utilities
+        #TODO: create some attributes to facilitate name,id and index conversion
+
 
     def split_and_scale(self,drugID=None,val_split=True,val_random_state=0,use_external=False,scale_full_metadata=False,pre_scaling=True):
 
@@ -152,3 +155,34 @@ class DatasetLoader():
         self.drug_mean_dict = pd.Series(data=self.drug_mean_dict['Y'].values,index=self.drug_mean_dict.index).to_dict()
         self.drug_std_dict = self.meta_train[['DrugID','Y']].groupby('DrugID').std()
         self.drug_std_dict = pd.Series(data=self.drug_std_dict['Y'].values,index=self.drug_std_dict.index).to_dict()
+
+    #define some getter methods
+    def get_genes(self):
+        return self.genes
+    
+    def get_drugs(self):
+        return self.metadata['DrugID'].unique()
+    
+    def get_drugs_names(self):
+        return self.metadata['Drug'].unique()
+    
+    def get_drug_name(self,drugID):
+
+        #if first call, create the dictionary
+        if not hasattr(self,'drug_name_dict'):
+            mapping_data = self.metadata[['Drug','DrugID']].drop_duplicates()
+            mapping_data['DrugID'] = mapping_data['DrugID'].astype(int)
+            self.drug_name_dict = pd.Series(data=mapping_data['Drug'].values,index=mapping_data['DrugID']).to_dict()
+        
+        return self.drug_name_dict[int(drugID)]
+    
+    def get_drug_id(self,drug_name):
+
+        #if first call, create the dictionary
+        if not hasattr(self,'drug_id_dict'):
+            mapping_data = self.metadata[['Drug','DrugID']].drop_duplicates()
+            mapping_data['DrugID'] = mapping_data['DrugID'].astype(int)
+            self.drug_id_dict = pd.Series(data=mapping_data['DrugID'].values,index=mapping_data['Drug']).to_dict()
+        
+        return self.drug_id_dict[drug_name]
+
