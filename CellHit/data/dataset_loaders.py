@@ -1,10 +1,11 @@
+import pickle
 import pandas as pd
 import numpy as np
 from pathlib import Path
 from sklearn.preprocessing import StandardScaler
 
 from .indexed_array import IndexedArray
-from .metadata_processing import obtain_metadata
+from .metadata_processing import obtain_metadata, GeneGetter
 #from .sampler import StratisfiedSampler
 
 
@@ -113,34 +114,42 @@ class DatasetLoader():
         train_Y = pd.Series(self.meta_train['Y'].values,index=self.meta_train['DrugID'].values)
         test_Y = pd.Series(self.meta_test['Y'].values,index=self.meta_test['DrugID'].values)
 
-        out_values = [train_X,train_Y,test_X,test_Y]
+        #out_values = [train_X,train_Y,test_X,test_Y]
+        out_values = {'train_X':train_X,'train_Y':train_Y,'test_X':test_X,'test_Y':test_Y}
 
         if val_split:
             valid_X = self.Xs[list(self.meta_valid['DepMapID'].values)]
             valid_X = pd.DataFrame(valid_X,columns=self.genes,index=self.meta_valid['DepMapID'].values)
             valid_Y = pd.Series(self.meta_valid['Y'].values,index=self.meta_valid['DrugID'].values)
-            out_values += [valid_X,valid_Y]
+            #out_values += [valid_X,valid_Y]
+            out_values['valid_X'] = valid_X
+            out_values['valid_Y'] = valid_Y
+        
     
         if use_external:
             #otain external data (source not CCLE)
             external_ids = list(self.source_mapper[self.source_mapper['Source']!='CCLE']['index'].values)
             external_X = self.Xs[external_ids]
             external_X = pd.DataFrame(external_X,columns=self.genes,index=external_ids)
-            out_values += [external_X]
+            #out_values += [external_X]
+            out_values['external_X'] = external_X
 
         return out_values
     
 
     def _scale(self,train_depmapIDs,use_external=False):
 
-        #if not self.cell_scaled:
-        #compute mean and std for each gene
-        self.cell_mean = self.cell_lines_data[self.cell_lines_data.index.isin(train_depmapIDs)].mean()
-        self.cell_std = self.cell_lines_data[self.cell_lines_data.index.isin(train_depmapIDs)].std()
-        self.cell_lines_data = (self.cell_lines_data - self.cell_mean)/self.cell_std
+        #if we are doing inference without external data, we scale the data using the mean and std of the train set
+        if not use_external:
+            self.cell_mean = self.cell_lines_data[self.cell_lines_data.index.isin(train_depmapIDs)].mean()
+            self.cell_std = self.cell_lines_data[self.cell_lines_data.index.isin(train_depmapIDs)].std()
+            self.cell_lines_data = (self.cell_lines_data - self.cell_mean)/self.cell_std
         
-        #X scaling and formatting everything
+        #otherwise we scale the data using the mean and std of the full dataset since we will use the external data as "test"
         if use_external:
+            self.cell_mean = self.cell_lines_data.mean()
+            self.cell_std = self.cell_lines_data.std()
+            self.cell_lines_data = (self.cell_lines_data - self.cell_mean)/self.cell_std
             self.all_transcriptomics_data = (self.all_transcriptomics_data - self.cell_mean)/self.cell_std
             all_lines_dict = {cid:np.array(cell).reshape(1,-1) for cid,cell in zip(self.all_transcriptomics_data.index,self.all_transcriptomics_data.values)}
             self.Xs = IndexedArray(all_lines_dict)
@@ -160,7 +169,7 @@ class DatasetLoader():
     def get_genes(self):
         return self.genes
     
-    def get_drugs(self):
+    def get_drugs_ids(self):
         return self.metadata['DrugID'].unique()
     
     def get_drugs_names(self):
@@ -185,4 +194,91 @@ class DatasetLoader():
             self.drug_id_dict = pd.Series(data=mapping_data['DrugID'].values,index=mapping_data['Drug']).to_dict()
         
         return self.drug_id_dict[drug_name]
+    
+    def get_drug_mean(self,drugID):
+        return self.drug_mean_dict[drugID]
+    
+    def get_drug_std(self,drugID):
+        return self.drug_std_dict[drugID]
 
+
+
+def prepare_data(drugID, dataset, random_state, 
+                 gene_selection_mode, 
+                 cv_iterations=3,
+                 #return_loader=False,
+                 use_external_datasets=False,
+                 data_path=None,celligner_output_path=None,
+                 use_dumped_loaders=False):
+
+    if use_dumped_loaders:
+        data_path = Path(data_path)
+        with open(data_path/'loader_dumps'/dataset/f'{random_state}.pkl','rb') as f:
+            loader = pickle.load(f)
+
+    #load data
+    else:
+        loader = DatasetLoader(dataset=dataset,
+                            data_path=data_path,
+                            celligner_output_path=celligner_output_path,
+                            use_external_datasets=use_external_datasets,
+                            samp_x_tissue=2, random_state=random_state)
+    
+    
+    if use_external_datasets:
+        #inference for now is only supported for moa primed models
+        assert gene_selection_mode == 'moa_primed', "Inference is only supported for moa primed models when using external datasets"
+        #if using external inference, asses that the celligner output path is provided
+        assert celligner_output_path is not None, "If using external datasets, celligner_output_path must be provided"
+        
+    #prepare cross validation data and genes if knowledge primed
+    if gene_selection_mode == 'moa_primed':
+        
+        data = []
+        #obtain data for each cross validation iteration
+        for i in range(cv_iterations):
+            data.append(loader.split_and_scale(drugID=drugID, val_random_state=i,use_external=use_external_datasets))
+
+        #get genes selected for the drug
+        genes = loader.get_genes()
+        gene_getter = GeneGetter(dataset=dataset, data_path=data_path, available_genes=genes)
+        genes = gene_getter.get_genes(drugID)
+
+        #subset data for the selected genes
+        cv_data = []
+        for idx, d in enumerate(data):
+            train_X = d['train_X'][genes]
+            test_X = d['test_X'][genes]
+            valid_X = d['valid_X'][genes]
+
+            #TODO: probably we should get rid of saving test_X in cv_data
+            #if we're doing inference on external datasets we only have train and validation (we use all available data), we rejoin train and test to leverage the same code
+            if use_external_datasets:
+                cv_data.append({'train_X': pd.concat([train_X,test_X]), 'train_Y': pd.concat([d['train_Y'],d['test_Y']]), 'valid_X': valid_X, 'valid_Y': d['valid_Y']})
+            #if no inference on external datasets we have all of the splits
+            else:
+                #cv_data.append({'train_X': train_X, 'train_Y': d['train_Y'], 'valid_X': valid_X, 'valid_Y': d['valid_Y'], 'test_X': test_X, 'test_Y': d['test_Y']})
+                cv_data.append({'train_X': train_X, 'train_Y': d['train_Y'], 'valid_X': valid_X, 'valid_Y': d['valid_Y']})
+                
+        #return cv_data, genes, loader
+        out = {'cv_data': cv_data, 'genes': genes, 'loader': loader}
+
+        if use_external_datasets:
+            out['external_X'] = d['external_X'][genes]
+            out['external_indexes'] = d['external_X'].index
+        else:
+            out['test_X'] = d['test_X'][genes]
+            out['test_Y'] = d['test_Y']
+            out['test_indexes'] = d['test_X'].index
+
+        return out
+
+    #prepare data for all genes
+    elif gene_selection_mode == 'all_genes':
+        data_dict = loader.split_and_scale(drugID=drugID, val_random_state=0)
+        data_dict['loader'] = loader
+        data_dict['test_indexes'] = data_dict['test_X'].index
+        return data_dict
+        
+    else:
+        raise ValueError("Invalid gene_selection_mode. Must be 'knowledge_primed' or 'all_genes'")

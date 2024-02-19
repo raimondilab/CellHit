@@ -45,7 +45,7 @@ def obtain_prism_lfc(data_path,drug_threshold=10,**kwargs):
     model = model.rename(columns={'ModelID':'DepMapID'})
     
     prism_lfc = pd.read_csv(path/'metadata'/'Repurposing_Public_23Q2_Extended_Primary_Data_Matrix.csv')
-    mapping_metadata = pd.read_csv(path/'Repurposing_Public_23Q2_Extended_Primary_Compound_List.csv')
+    mapping_metadata = pd.read_csv(path/'metadata'/'Repurposing_Public_23Q2_Extended_Primary_Compound_List.csv')
     mapping_metadata = mapping_metadata[['Drug.Name','IDs']]
     mapping_metadata.columns = ['Drug','DrugID']
     
@@ -86,7 +86,7 @@ def obtain_metadata(dataset='gdsc',path='./data',drug_threshold=10,**kwargs):
     if dataset == 'gdsc':
         return obtain_gdsc(path,drug_threshold,**kwargs)
     
-    if dataset == 'prism_lfc':
+    if dataset == 'prism':
         return obtain_prism_lfc(path,drug_threshold,**kwargs)
     
     

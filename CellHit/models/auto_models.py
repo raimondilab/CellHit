@@ -29,7 +29,7 @@ class AutoXGBRegressor:
         self.num_parallel_tree = num_parallel_tree
         self.gpuID = gpuID
 
-    def objective(self, trial, X_train=None, y_train=None, X_val=None, y_val=None, cv=None):
+    def objective(self, trial, train_X=None, train_Y=None, valid_X=None, valid_Y=None, cv_data=None):
         """
         Objective function for Optuna study.
         """
@@ -53,46 +53,44 @@ class AutoXGBRegressor:
 
         params['eval_metric'] = 'rmse' # Evaluation metric
 
-        if cv:
+        if cv_data:
             mses_scores = []
             corr_scores = []
             
-            for data in cv:
+            for data in cv_data:
                 
-                X_train,y_train,X_val,y_val,*_ = data
-                
-                dtrain = xgb.DMatrix(X_train, y_train)
-                dval = xgb.DMatrix(X_val, y_val)
+                dtrain = xgb.DMatrix(data['train_X'], data['train_Y'])
+                dval = xgb.DMatrix(data['valid_X'], data['valid_Y'])
                 
                 booster = xgb.train(params, dtrain, evals=[(dval, 'eval')], num_boost_round=params['n_estimators'], early_stopping_rounds=params['early_stopping_rounds'], verbose_eval=False)
-                booster.set_param({'device':f'cuda:{self.gpuID}'})
+                #booster.set_param({'device':f'cuda:{self.gpuID}'})
                 
                 y_pred = booster.predict(dval)
                 
-                mses_scores.append(mean_squared_error(y_val, y_pred))
-                corr_scores.append(np.corrcoef(y_val, y_pred)[0, 1])
+                mses_scores.append(mean_squared_error(data['valid_Y'], y_pred))
+                corr_scores.append(np.corrcoef(data['valid_Y'], y_pred)[0, 1])
                 
             return sum(mses_scores) / len(mses_scores), sum(corr_scores) / len(corr_scores)
         
         else:
 
-            if X_val is not None and y_val is not None:
+            if valid_X is not None and valid_Y is not None:
 
-                dtrain = xgb.DMatrix(X_train, y_train)
-                dval = xgb.DMatrix(X_val, y_val)
+                dtrain = xgb.DMatrix(train_X, train_Y)
+                dval = xgb.DMatrix(valid_X, valid_Y)
                 
                 booster = xgb.train(params, dtrain, evals=[(dval, 'eval')], num_boost_round=params['n_estimators'], early_stopping_rounds=params['early_stopping_rounds'], verbose_eval=False)
                 
                 y_pred = booster.predict(dval)
                 
-                return mean_squared_error(y_val, y_pred), np.corrcoef(y_val, y_pred)[0, 1]
+                return mean_squared_error(valid_Y, y_pred), np.corrcoef(valid_Y, y_pred)[0, 1]
 
         
 
     def search(self, 
-               X_train=None, y_train=None, 
-               X_val=None, y_val=None, 
-               cv=None, 
+               train_X=None, train_Y=None, 
+               valid_X=None, valid_Y=None, 
+               cv_data=None, 
                n_trials=300, n_startup_trials=100,
                optim_seed=0):
         """
@@ -103,12 +101,12 @@ class AutoXGBRegressor:
         self.study = optuna.create_study(directions=["minimize", "maximize"], sampler=sampler)
                                     #storage=storage, study_name=drug, load_if_exists=True)
 
-        if cv is None:
-            self.study.optimize(lambda trial: self.objective(trial, X_train, y_train, X_val, y_val), n_trials=n_trials)
+        if cv_data is None:
+            self.study.optimize(lambda trial: self.objective(trial, train_X, train_Y, valid_X, valid_Y), n_trials=n_trials)
             self.ensemble = False
 
         else:
-            self.study.optimize(lambda trial: self.objective(trial, cv=cv), n_trials=n_trials)
+            self.study.optimize(lambda trial: self.objective(trial, cv_data=cv_data), n_trials=n_trials)
             self.ensemble = True
         
 
