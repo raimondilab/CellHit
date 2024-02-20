@@ -24,14 +24,15 @@ class CustomXGBoost():
     def predict(self, test_X, return_shaps=False):
         
         dtest = xgb.DMatrix(test_X)
-        preds = self.model.predict(dtest)
+        out = {}
+        out['predictions'] = self.model.predict(dtest)
         
         if return_shaps:
             explainer = shap.TreeExplainer(self.model)
             shaps = explainer(test_X.values)
-            return preds, shaps
+            return {**out, **{'shap_values':shaps}}
         
-        return preds
+        return out
 
 
 class EnsembleXGBoost():
@@ -107,8 +108,9 @@ class EnsembleXGBoost():
                                 data=test_X.values,
                                 feature_names=feature_names)
             
-            return np.mean(preds, axis=0),explanation
+            #return np.mean(preds, axis=0),explanation
+            return {'predictions':np.mean(preds, axis=0), 'shap_values':explanation}
         
-        return np.mean(preds, axis=0)
+        return {'predictions':np.mean(preds, axis=0)}
     
     

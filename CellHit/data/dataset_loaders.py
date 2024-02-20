@@ -200,6 +200,9 @@ class DatasetLoader():
     
     def get_drug_std(self,drugID):
         return self.drug_std_dict[drugID]
+    
+    def get_indexes_sources(self,indexes):
+        return self.source_mapper.set_index('index').loc[indexes]['Source'].values
 
 
 
@@ -208,12 +211,19 @@ def prepare_data(drugID, dataset, random_state,
                  cv_iterations=3,
                  #return_loader=False,
                  use_external_datasets=False,
+                 external_dataset=None,
                  data_path=None,celligner_output_path=None,
-                 use_dumped_loaders=False):
+                 use_dumped_loaders=False,**kwargs):
+    
+    if (use_external_datasets) and (use_dumped_loaders):
+        load_path = Path(data_path)/'loader_dumps'/f'{dataset}_inference'/f'{external_dataset}.pkl'
+        #dataset_dump = dataset + '_inference'
+    else:
+        load_path = Path(data_path)/'loader_dumps'/dataset/f'{random_state}.pkl'
 
     if use_dumped_loaders:
-        data_path = Path(data_path)
-        with open(data_path/'loader_dumps'/dataset/f'{random_state}.pkl','rb') as f:
+        #with open(data_path/'loader_dumps'/dataset/f'{random_state}.pkl','rb') as f:
+        with open(load_path,'rb') as f:
             loader = pickle.load(f)
 
     #load data
@@ -264,8 +274,10 @@ def prepare_data(drugID, dataset, random_state,
         out = {'cv_data': cv_data, 'genes': genes, 'loader': loader}
 
         if use_external_datasets:
-            out['external_X'] = d['external_X'][genes]
-            out['external_indexes'] = d['external_X'].index
+            #out['external_X'] = d['external_X'][genes]
+            #conatenate everything for external inference
+            out['external_X'] = pd.concat([d['external_X'][genes],d['test_X'][genes],d['train_X'][genes],d['valid_X'][genes]])
+            out['external_indexes'] = out['external_X'].index
         else:
             out['test_X'] = d['test_X'][genes]
             out['test_Y'] = d['test_Y']

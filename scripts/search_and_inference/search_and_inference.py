@@ -11,18 +11,21 @@ import numpy as np
 
 import pickle
 
+from tqdm.auto import tqdm
+
 from sqlalchemy import create_engine
+from AsyncDistribJobs.models import Job
 from AsyncDistribJobs.operations import configure_database
-from AsyncDistribJobs.operations import add_job, get_jobs_by_state, job_statistics,fetch_job
+from AsyncDistribJobs.operations import add_jobs, get_jobs_by_state, job_statistics,fetch_job
 from AsyncDistribJobs.operations import process_job
 
 
 #define the pipline to run hyperparameter search and inference on the test sets of the different random states
-def search_and_inference_drug(drugID, dataset, 
-                              random_state, 
+def search_and_inference_drug(drugID, dataset,  
                               gene_selection_mode, 
                               use_external_datasets, 
                               data_path, celligner_output_path,
+                              random_state=0,
                               n_iter=20,
                               save_output=True, results_path=None,
                               use_dumped_loaders=False,
@@ -45,14 +48,15 @@ def search_and_inference_drug(drugID, dataset,
                         use_dumped_loaders=use_dumped_loaders)
     
 
-    best_params, study = search(n_trials=2, n_startup_trials=1,
-                                    cv_iterations=2, num_parallel_tree=1, gpuID=0, random_state=0,
-                                    gene_selection_mode=gene_selection_mode,
-                                    **data_dict)
+    best_params, study = search(n_trials=kwargs['n_trials'], n_startup_trials=kwargs['n_startup_trials'],
+                                cv_iterations=kwargs['cv_iterations'], num_parallel_tree=kwargs['num_parallel_tree'], gpuID=kwargs['gpuID'], random_state=random_state,
+                                gene_selection_mode=gene_selection_mode,
+                                **data_dict)
 
     predictions_df = []
     output_container = {}
-    output_container['HyperparamStudy'] = study
+    output_container['hyperparam_study'] = study
+    output_container['best_params'] = best_params
     output_container['means'] = []
     output_container['stds'] = []
     if gene_selection_mode == 'moa_primed':
@@ -165,8 +169,11 @@ def run_full_asynch_search(args,search_database_path):
         
         drugs_ids = loader.get_drugs_ids()
 
-        for drugID in drugs_ids:
-            add_job(payload={'drugID': int(drugID)},cid=f'{drugID}')
+        #for drugID in tqdm(drugs_ids):
+        #    add_job(payload={'drugID': int(drugID)},cid=f'{drugID}')
+
+        jobs_list = [Job(state='pending',payload={'drugID': int(drugID)},cid=f'{drugID}') for drugID in drugs_ids]
+        add_jobs(jobs_list)
 
 
     while len(get_jobs_by_state('pending')) > 0:
@@ -186,7 +193,7 @@ if __name__ == '__main__':
     argparser.add_argument('--dataset', type=str, default='prism')
     argparser.add_argument('--gene_selection_mode', type=str, default='all_genes')
     argparser.add_argument('--num_parallel_tree', type=int, default=5)
-    argparser.add_argument('--gpu_id', type=int, default=0)
+    argparser.add_argument('--gpuID', type=int, default=0)
     argparser.add_argument('--n_trials', type=int, default=300)
     argparser.add_argument('--n_startup_trials', type=int, default=100)
     argparser.add_argument('--random_state', type=int, default=0)
@@ -198,9 +205,9 @@ if __name__ == '__main__':
     argparser.add_argument('--disable_saving', default=False, action='store_true')
     argparser.add_argument('--results_path', type=str, default='./../../results/')
 
-    argparser.add_argument('--search_mode', type=str, default='full_asynch')
+    argparser.add_argument('--search_mode', type=str, default='single_drug')
     argparser.add_argument('--build_search_db', default=False, action='store_true')
-    argparser.add_argument('--search_database_path', type=str, default='./../../results/gdsc/search_database')
+    #argparser.add_argument('--search_database_path', type=str, default='./../../results/gdsc/search_database')
 
 
     args = argparser.parse_args()
@@ -209,7 +216,8 @@ if __name__ == '__main__':
     sanity_checks(**vars(args))
 
     if args.search_mode == 'full_asynch':
-        run_full_asynch_search(args, Path(args.search_database_path))
+        search_database_paths = Path(f'./../../results/{args.dataset}/search_database')
+        run_full_asynch_search(args, search_database_paths)
 
     elif args.search_mode == 'single_drug':
         data = search_and_inference_drug(**vars(args))

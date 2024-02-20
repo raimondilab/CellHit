@@ -16,6 +16,7 @@ def inference(model = None,
               best_params=None,
               refit=False,
               internal_inference=True,
+              return_shaps=False,
               return_model=False,
               gene_selection_mode='all_genes',**kwargs):
     
@@ -40,9 +41,11 @@ def inference(model = None,
 
     #make predictions
     if internal_inference:
-        out_dict['predictions'] = model.predict(test_X)
+        #out_dict['predictions'] = model.predict(test_X, return_shaps=return_shaps)
+        out_dict = {**out_dict, **model.predict(test_X, return_shaps=return_shaps)}
     else:
-        out_dict['predictions'] = model.predict(external_X)
+        #out_dict['predictions'] = model.predict(external_X, return_shaps=return_shaps)
+        out_dict = {**out_dict, **model.predict(external_X, return_shaps=return_shaps)}
 
     #return the model if requested
     if return_model:
