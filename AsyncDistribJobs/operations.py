@@ -42,6 +42,10 @@ def add_job(payload=None, cid=None):
         new_job = Job(state='pending',cid=cid, payload=payload)
         session.add(new_job)
 
+def add_jobs(jobs_list):
+    with session_scope() as session:
+        session.add_all(jobs_list)
+
 def fetch_job(return_mode='job'):
     with session_scope() as session:
         job = session.query(Job).filter_by(state='pending').with_for_update().first()
