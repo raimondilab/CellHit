@@ -33,6 +33,9 @@ class CustomXGBoost():
             return {**out, **{'shap_values':shaps}}
         
         return out
+    
+    def get_important_features(self):
+        return self.model.get_score(importance_type='gain')
 
 
 class EnsembleXGBoost():
@@ -112,5 +115,8 @@ class EnsembleXGBoost():
             return {'predictions':np.mean(preds, axis=0), 'shap_values':explanation}
         
         return {'predictions':np.mean(preds, axis=0)}
+    
+    def get_important_features(self):
+        return np.mean([model.feature_importances_ for model in self.models], axis=0)
     
     

@@ -62,24 +62,27 @@ def external_inference(drugID,
     shap_df.to_csv(Path(results_path) / dataset / 'search_and_inference' / 'moa_primed' / full_inference_shaps / f'{drugID}.csv',index=False)
 
 
-def run_full_asynch_inference(args,search_database_path):
+def run_full_asynch_inference(args,inference_database_path):
 
-    engine = create_engine(f'sqlite:///{search_database_path/args.dataset}_{args.external_dataset}_inference_database.db')
-    configure_database(engine,reset=args.build_inference_db)
+    engine = create_engine(f'sqlite:///{inference_database_path/args["dataset"]}_{args["external_dataset"]}_inference_database.db')
+    configure_database(engine,reset=args["build_inference_db"])
 
     #if specified, build the search database
-    if args.build_inference_db:
+    if args["build_inference_db"]:
 
-        if args.use_dumped_loaders:
-            with open(Path(args.data_path)/'loader_dumps'/f'{args.dataset}_inference'/f'{args.external_dataset}.pkl','rb') as f:
+        if args["use_dumped_loaders"]:
+            with open(Path(args["data_path"])/'loader_dumps'/f'{args["dataset"]}_inference'/f'{args["external_dataset"]}.pkl','rb') as f:
                 loader = pickle.load(f)
 
         else:
 
             #populate the search database
-            loader = prepare_data(use_external_datasets=True,
-                             gene_selection_mode='moa_primed',
-                             **args)
+            loader = DatasetLoader(dataset=args['dataset'],
+                                    data_path=args['data_path'],
+                                    celligner_output_path=args['celligner_output_path'],
+                                    use_external_datasets=True,
+                                    samp_x_tissue=2,
+                                    random_state=0)
         
         drugs_ids = loader.get_drugs_ids()
 
@@ -91,7 +94,7 @@ def run_full_asynch_inference(args,search_database_path):
 
 
     while len(get_jobs_by_state('pending')) > 0:
-        process_job(external_inference,**vars(args))
+        process_job(external_inference,**args)
 
 
 if __name__ == '__main__':
@@ -109,7 +112,6 @@ if __name__ == '__main__':
 
     argparser.add_argument('--inference_mode', type=str, default='full_asynch')
     argparser.add_argument('--build_inference_db', default=False, action='store_true')
-    argparser.add_argument('--inference_database_path', type=str, default='./../../results/gdsc/search_database')
 
     args = argparser.parse_args()
 
@@ -124,8 +126,14 @@ if __name__ == '__main__':
 
 
     if args.inference_mode == 'full_asynch':
-        search_database_paths = Path(f'./../../results/{args.dataset}/search_database')
-        run_full_asynch_inference(args, search_database_paths)
-    else:
-        external_inference(args_dict)
+
+        if 'drugID' in args_dict:
+            del args_dict['drugID']
+
+        search_database_paths = Path(f'./../../results/{args.dataset}/inference_database')
+        run_full_asynch_inference(args_dict, search_database_paths)
+    
+    elif args.inference_mode == 'single_drug':
+        external_inference(**args_dict)
+
 

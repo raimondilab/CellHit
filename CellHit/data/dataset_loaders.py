@@ -16,7 +16,7 @@ class DatasetLoader():
                 data_path='metadata.csv',
                 celligner_output_path='celligner_CCLE_TCGA.feather',
                 use_external_datasets=False,
-                samp_x_tissue=2,random_state=0):
+                samp_x_tissue=2,random_state=0,**kwargs):
         
         #set data input path
         self.data_path = Path(data_path)
@@ -39,6 +39,9 @@ class DatasetLoader():
             all_transcriptomics_data = pd.read_feather(self.celligner_output_path)
             #subset on CCLE cell lines
             self.cell_lines_data = all_transcriptomics_data[all_transcriptomics_data['Source']=='CCLE'].drop(columns=['Source']).set_index('index')
+
+        #scalig flag for the transcriptomic data
+        self.x_are_scaled = False
 
         #save the genes names for future use
         self.genes = self.cell_lines_data.columns
@@ -138,6 +141,10 @@ class DatasetLoader():
     
 
     def _scale(self,train_depmapIDs,use_external=False):
+        
+        #check if data is already scaled
+        if self.x_are_scaled:
+            self._revert_scaling(use_external=use_external)
 
         #if we are doing inference without external data, we scale the data using the mean and std of the train set
         if not use_external:
@@ -157,6 +164,8 @@ class DatasetLoader():
         else:
             cell_lines_dict = {cid:np.array(cell).reshape(1,-1) for cid,cell in zip(self.cell_lines_data.index,self.cell_lines_data.values)}
             self.Xs = IndexedArray(cell_lines_dict)
+
+        self.x_are_scaled = True
         
         ##Y scaling and formatting##
         #compute mean and std for each drug
@@ -164,6 +173,19 @@ class DatasetLoader():
         self.drug_mean_dict = pd.Series(data=self.drug_mean_dict['Y'].values,index=self.drug_mean_dict.index).to_dict()
         self.drug_std_dict = self.meta_train[['DrugID','Y']].groupby('DrugID').std()
         self.drug_std_dict = pd.Series(data=self.drug_std_dict['Y'].values,index=self.drug_std_dict.index).to_dict()
+
+    def _revert_scaling(self,use_external=False):
+
+        #check if data is already scaled
+        assert self.x_are_scaled, "Data is not scaled"
+
+        if use_external:
+            self.cell_lines_data = self.cell_lines_data*self.cell_std + self.cell_mean
+            self.all_transcriptomics_data = self.all_transcriptomics_data*self.cell_std + self.cell_mean
+
+        else:
+            self.cell_lines_data = self.cell_lines_data*self.cell_std + self.cell_mean
+
 
     #define some getter methods
     def get_genes(self):

@@ -41,26 +41,29 @@ def search_and_inference_drug(drugID, dataset,
         assert results_path.exists(), f"results_path not found at {results_path}"
 
 
+    #obtain the data
     data_dict = prepare_data(drugID, dataset, random_state, 
                         gene_selection_mode, 
                         use_external_datasets=use_external_datasets,
                         data_path=data_path,celligner_output_path=celligner_output_path,
                         use_dumped_loaders=use_dumped_loaders)
     
-
+    #lunch the hyperparameter search procedure
     best_params, study = search(n_trials=kwargs['n_trials'], n_startup_trials=kwargs['n_startup_trials'],
                                 cv_iterations=kwargs['cv_iterations'], num_parallel_tree=kwargs['num_parallel_tree'], gpuID=kwargs['gpuID'], random_state=random_state,
                                 gene_selection_mode=gene_selection_mode,
                                 **data_dict)
 
+    #run inference on the test set, but first initialize the output container
     predictions_df = []
     output_container = {}
-    output_container['hyperparam_study'] = study
-    output_container['best_params'] = best_params
-    output_container['means'] = []
-    output_container['stds'] = []
+    output_container['HyperparamStudy'] = study
+    output_container['BestParams'] = best_params
+    output_container['Models'] = []
+    output_container['Means'] = []
+    output_container['Stds'] = []
     if gene_selection_mode == 'moa_primed':
-        output_container['genes'] = data_dict['genes']
+        output_container['Genes'] = data_dict['genes']
     output_container['DrugName'] = data_dict['loader'].get_drug_name(drugID)
     
     mses = []
@@ -75,21 +78,23 @@ def search_and_inference_drug(drugID, dataset,
                         use_dumped_loaders=use_dumped_loaders)
 
         #join the two dictionaries
-        output_container = {**output_container, **inference(best_params=best_params, refit=True, internal_inference=True, gene_selection_mode=gene_selection_mode, return_model=True,  **data_dict)}
+        inference_results = inference(best_params=best_params, refit=True, internal_inference=True, gene_selection_mode=gene_selection_mode, return_model=True,  **data_dict)
+        
+        output_container['Models'].append(inference_results['model'])
         
         drug_mean = data_dict['loader'].get_drug_mean(drugID)
         drug_std = data_dict['loader'].get_drug_std(drugID)
 
-        output_container['means'].append(drug_mean)
-        output_container['stds'].append(drug_std)
+        output_container['Means'].append(drug_mean)
+        output_container['Stds'].append(drug_std)
 
         tdf = pd.DataFrame()
-        tdf['DrugName'] = [data_dict['loader'].get_drug_name(drugID)]*len(output_container['predictions'])
-        tdf['DrugID'] = [drugID]*len(output_container['predictions'])
-        tdf['Predictions'] = (output_container['predictions']* drug_std) + drug_mean
+        tdf['DrugName'] = [data_dict['loader'].get_drug_name(drugID)]*len(inference_results['predictions'])
+        tdf['DrugID'] = [drugID]*len(inference_results['predictions'])
+        tdf['Predictions'] = (inference_results['predictions']* drug_std) + drug_mean
         tdf['Actual'] = ((data_dict['test_Y'] * drug_std) + drug_mean).values
         tdf['DepMapID'] = data_dict['test_indexes']
-        tdf['Seed'] = [random_state]*len(output_container['predictions'])
+        tdf['Seed'] = [random_state]*len(inference_results['predictions'])
         predictions_df.append(tdf)
 
         mses.append(mean_squared_error(tdf['Actual'],tdf['Predictions']))
@@ -120,7 +125,8 @@ def search_and_inference_drug(drugID, dataset,
 
 #function to check whether the provided paths exist / are valid
 def sanity_checks(data_path, celligner_output_path,
-                  search_database_path,
+                  search_database_path=None,
+                  search_mode = 'single_drug',
                   save_output=False, results_path=None,
                   dataset='gdsc', gene_selection_mode='all_genes',
                   use_dumped_loaders=False,
@@ -128,11 +134,13 @@ def sanity_checks(data_path, celligner_output_path,
     
     data_path = Path(data_path)
     celligner_output_path = Path(celligner_output_path)
-    search_database_path = Path(search_database_path)
 
     assert data_path.exists(), f"data_path not found at {data_path}"
     assert celligner_output_path.exists(), f"celligner_output_path not found at {celligner_output_path}"
-    assert search_database_path.exists(), f"search_database_path not found at {search_database_path}"
+    
+    if search_mode == 'full_asynch':
+        search_database_path = Path(search_database_path)
+        assert search_database_path.exists(), f"search_database_path not found at {search_database_path}"
 
     if use_dumped_loaders:
         assert (data_path/'loader_dumps'/dataset).exists(), f"dumped_loaders folder not found at {data_path/dataset/'dumped_loaders'}"
@@ -147,22 +155,22 @@ def sanity_checks(data_path, celligner_output_path,
 
 def run_full_asynch_search(args,search_database_path):
 
-    engine = create_engine(f'sqlite:///{search_database_path/args.dataset}_{args.gene_selection_mode}_search_database.db')
-    configure_database(engine,reset=args.build_search_db)
+    engine = create_engine(f'sqlite:///{search_database_path/args["dataset"]}_{args["gene_selection_mode"]}_search_database.db')
+    configure_database(engine,reset=args['build_search_db'])
 
     #if specified, build the search database
-    if args.build_search_db:
+    if args['build_search_db']:
 
-        if args.use_dumped_loaders:
-            with open(Path(args.data_path)/'loader_dumps'/args.dataset/f'0.pkl','rb') as f:
+        if args['use_dumped_loaders']:
+            with open(Path(args['data_path'])/'loader_dumps'/args['dataset']/f'0.pkl','rb') as f:
                 loader = pickle.load(f)
 
         else:
 
             #populate the search database
-            loader = DatasetLoader(dataset=args.dataset,
-                                    data_path=args.data_path,
-                                    celligner_output_path=args.celligner_output_path,
+            loader = DatasetLoader(dataset=args['dataset'],
+                                    data_path=args['data_path'],
+                                    celligner_output_path=args['celligner_output_path'],
                                     use_external_datasets=False,
                                     samp_x_tissue=2,
                                     random_state=0)
@@ -175,9 +183,8 @@ def run_full_asynch_search(args,search_database_path):
         jobs_list = [Job(state='pending',payload={'drugID': int(drugID)},cid=f'{drugID}') for drugID in drugs_ids]
         add_jobs(jobs_list)
 
-
     while len(get_jobs_by_state('pending')) > 0:
-        process_job(search_and_inference_drug,**vars(args))
+        process_job(search_and_inference_drug,**args)
 
 
 def run_single_drug(args):
@@ -190,7 +197,7 @@ if __name__ == '__main__':
     argparser.add_argument('--drugID', type=int, default=1909)
     argparser.add_argument('--celligner_output_path', type=str, default='./../../data/transcriptomics/celligner_CCLE_TCGA.feather')
     argparser.add_argument('--data_path', type=str, default='./../../data/')
-    argparser.add_argument('--dataset', type=str, default='prism')
+    argparser.add_argument('--dataset', type=str, default='gdsc')
     argparser.add_argument('--gene_selection_mode', type=str, default='all_genes')
     argparser.add_argument('--num_parallel_tree', type=int, default=5)
     argparser.add_argument('--gpuID', type=int, default=0)
@@ -212,15 +219,21 @@ if __name__ == '__main__':
 
     args = argparser.parse_args()
     args.save_output = not args.disable_saving
+
+    args_dict = vars(args)
     
-    sanity_checks(**vars(args))
+    sanity_checks(**args_dict)
 
     if args.search_mode == 'full_asynch':
+
+        if 'drugID' in args_dict:
+            del args_dict['drugID']
+            
         search_database_paths = Path(f'./../../results/{args.dataset}/search_database')
-        run_full_asynch_search(args, search_database_paths)
+        run_full_asynch_search(args_dict, search_database_paths)
 
     elif args.search_mode == 'single_drug':
-        data = search_and_inference_drug(**vars(args))
+        data = search_and_inference_drug(**args_dict)
 
 
 

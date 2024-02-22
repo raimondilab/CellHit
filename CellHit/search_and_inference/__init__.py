@@ -1,2 +1,2 @@
 from .hp_search import *
-from. inference import *
+from .inference import *
