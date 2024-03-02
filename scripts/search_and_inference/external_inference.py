@@ -130,8 +130,8 @@ if __name__ == '__main__':
         if 'drugID' in args_dict:
             del args_dict['drugID']
 
-        search_database_paths = Path(f'./../../results/{args.dataset}/inference_database')
-        run_full_asynch_inference(args_dict, search_database_paths)
+        inference_database_paths = Path(f'./../../results/{args.dataset}/inference_database')
+        run_full_asynch_inference(args_dict, inference_database_paths)
     
     elif args.inference_mode == 'single_drug':
         external_inference(**args_dict)
