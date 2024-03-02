@@ -89,6 +89,13 @@ def obtain_metadata(dataset='gdsc',path='./data',drug_threshold=10,**kwargs):
     if dataset == 'prism':
         return obtain_prism_lfc(path,drug_threshold,**kwargs)
     
+
+def get_gdsc_drugs_metadata(data_path='./data'):
+    data_path = Path(data_path)
+    data = pd.read_csv(data_path/'metadata'/'GDSC_drugs.csv')
+    data = data.rename(columns={'DRUG_ID':'DrugID','DRUG_NAME':'Drug','PATHWAY_NAME':'MOA','HGCN_TARGETS':'repurposing_target'})
+    return data
+
     
 def get_prism_lfc_drugs_metadata(data_path='./data'):
     data_path = Path(data_path)
