@@ -3,6 +3,9 @@ import networkx as nx
 from pathlib import Path
 import requests
 from tqdm.auto import tqdm
+import pubchempy as pcp
+
+from .pubchem import get_pubchem_id
 
 def get_reactome_layers(reactome_data_path, layer_number):
 
@@ -117,7 +120,7 @@ def get_pathway_drugs(path_id,path_name):
 
         return out
     
-def get_pathways_drugs(pathways):
+def get_pathways_drugs(pathways,annote_pubchem=True):
     
     pathway_drugs = []
     
@@ -125,5 +128,20 @@ def get_pathways_drugs(pathways):
         pathway_drugs.append(get_pathway_drugs(path_id,path_name))
 
     pathways_with_drugs = pd.concat(pathway_drugs)
+
+    if annote_pubchem:
+
+        def process_drug(drug):
+            if drug['database'] == 'PubChem Compound':
+                return drug['id'], 'Compound'
+            
+            else:
+                query = get_pubchem_id(drug['name'])
+
+                if query:
+                    return query[0], query[1]
+                
+        pathways_with_drugs[['PubChemID','PubChemType']] = pathways_with_drugs.apply(process_drug,axis=1,result_type='expand')
+
         
     return pathways_with_drugs
