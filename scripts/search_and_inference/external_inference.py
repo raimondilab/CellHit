@@ -23,21 +23,29 @@ def external_inference(drugID,
                        external_dataset=None,
                        results_path=None,
                        models_path=None,
+                       return_stds=False,
                        **kwargs):
 
     #obtain the best parameters from the search object
     with open(models_path/f'{int(drugID)}.pkl', 'rb') as f:
         best_params = pickle.load(f)['best_params']
+        best_params['device'] = f"cuda:{kwargs['gpu_id']}"
 
-    data_dict = prepare_data(use_external_datasets=True,
+    data_dict = prepare_data(drugID=drugID,
+                             dataset=dataset,
+                             use_external_datasets=True,
+                             external_dataset=external_dataset,
                              gene_selection_mode='moa_primed',
-                             **args)
+                             **kwargs)
     
     results = inference(best_params=best_params,
                         refit=True, internal_inference=False, 
                         gene_selection_mode='moa_primed',
                         return_shaps=True, 
-                        return_model=True,  **data_dict)
+                        return_model=True,  
+                        return_stds=return_stds,
+                        fix_seed=True,
+                        **data_dict)
     
     #path adjustments
     full_inference = 'full_inference' + f'_{external_dataset}' if external_dataset is not None else 'full_inference'
@@ -49,6 +57,15 @@ def external_inference(drugID,
     predictions_df['DrugID'] = [drugID]*len(results['predictions'])
     predictions_df['Index'] = data_dict['external_indexes']
     predictions_df['Predictions'] = results['predictions']
+    #unstandardize the predictions
+    mean = data_dict['loader'].get_drug_mean(drugID)
+    std = data_dict['loader'].get_drug_std(drugID)
+
+    if return_stds:
+        predictions_df['Stds'] = results['std']
+        predictions_df['Stds'] = predictions_df['Stds']*std
+
+    predictions_df['Predictions'] = predictions_df['Predictions']*std + mean
     predictions_df['Source'] = data_dict['loader'].get_indexes_sources(data_dict['external_indexes'].tolist())
     predictions_df.to_csv(Path(results_path) / dataset / 'search_and_inference' / 'moa_primed' / full_inference / f'{drugID}.csv',index=False)
 
@@ -59,7 +76,15 @@ def external_inference(drugID,
     shap_df['Source'] = data_dict['loader'].get_indexes_sources(data_dict['external_indexes'].tolist())
     shap_df = pd.concat([shap_df, pd.DataFrame(results['shap_values'].values, columns=results['shap_values'].feature_names)], axis=1)
     shap_df = pd.DataFrame(results['shap_values'].values, columns=results['shap_values'].feature_names)
-    shap_df.to_csv(Path(results_path) / dataset / 'search_and_inference' / 'moa_primed' / full_inference_shaps / f'{drugID}.csv',index=False)
+    shap_df['Index'] = data_dict['external_indexes']
+    shap_df = shap_df.set_index('Index')
+    shap_df.to_csv(Path(results_path) / dataset / 'search_and_inference' / 'moa_primed' / full_inference_shaps / f'{drugID}.csv')#,index=False)
+
+    if kwargs['return_shaps']:
+        full_inference_shaps_raw = 'full_inference_shaps_raw' + f'_{external_dataset}' if external_dataset is not None else 'full_inference_shaps_raw'
+        
+        with open(Path(results_path) / dataset / 'search_and_inference' / 'moa_primed' / full_inference_shaps_raw / f'{drugID}.pkl', 'wb') as f:
+            pickle.dump(results['shap_values'], f)
 
 
 def run_full_asynch_inference(args,inference_database_path):
@@ -101,11 +126,14 @@ if __name__ == '__main__':
 
     argparser = argparse.ArgumentParser(description='Inference for CellHit')
     argparser.add_argument('--dataset', type=str, default='gdsc')
-    argparser.add_argument('--drugID', type=int, default=1909)
+    argparser.add_argument('--drugID', type=int, default=1617)
     argparser.add_argument('--random_state', type=int, default=0)
+    argparser.add_argument('--return_stds', type=bool, default=True)
+    argparser.add_argument('--return_shaps', type=bool, default=True)
+    argparser.add_argument('--cv_iterations', type=int, default=15)
     argparser.add_argument('--celligner_output_path', type=str, default='./../../data/transcriptomics/celligner_CCLE_TCGA')
     argparser.add_argument('--use_dumped_loaders', default=False, action='store_true')
-    argparser.add_argument('--external_dataset', type=str, default='GBM')
+    argparser.add_argument('--external_dataset', type=str, default='PDAC')
     argparser.add_argument('--data_path', type=str, default='./../../data/')
     argparser.add_argument('--results_path', type=str, default='./../../results/')
     argparser.add_argument('--gpu_id', type=int, default=0)
