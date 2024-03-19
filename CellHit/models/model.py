@@ -14,7 +14,7 @@ class CustomXGBoost():
         """
         self.base_params = base_params
 
-    def fit(self, train_X, train_Y, valid_X, valid_Y):
+    def fit(self, train_X, train_Y, valid_X, valid_Y, fix_seed=False):
 
         dtrain = xgb.DMatrix(train_X, train_Y)
         dval = xgb.DMatrix(valid_X, valid_Y)
@@ -49,19 +49,25 @@ class EnsembleXGBoost():
         self.models = []
         self.base_params = base_params
 
-    def fit(self, data_subset):
+    def fit(self, data_subset,fix_seed=False):
         """
         Fit multiple XGBRegressor models based on the training-validation splits.
         
         Parameters:
         data_subset (list): List of tuples containing training, validation and test data.
         """
-        for data in data_subset:
+        for idx,data in enumerate(data_subset):
             
             dtrain = xgb.DMatrix(data['train_X'], data['train_Y'])
             dval = xgb.DMatrix(data['valid_X'], data['valid_Y'])
+
+            if fix_seed:
+                self.base_params['seed'] = idx
                 
-            booster = xgb.train(self.base_params, dtrain, evals=[(dval, 'eval')], num_boost_round=self.base_params['n_estimators'], early_stopping_rounds=self.base_params['early_stopping_rounds'], verbose_eval=False)
+            booster = xgb.train(self.base_params, dtrain, evals=[(dval, 'eval')], 
+                                num_boost_round=self.base_params['n_estimators'], 
+                                early_stopping_rounds=self.base_params['early_stopping_rounds'], 
+                                verbose_eval=False)
                 
             self.models.append(booster)
 
@@ -70,7 +76,7 @@ class EnsembleXGBoost():
             #self.models.append(model)
             
 
-    def predict(self,test_X,return_shaps=False):
+    def predict(self,test_X,return_shaps=False,return_stds=False):
         """
         Make predictions based on the ensemble of models and average them.
         
@@ -109,12 +115,27 @@ class EnsembleXGBoost():
             explanation = shap.Explanation(values=shap_values,
                                 base_values=shap_base_values,
                                 data=test_X.values,
-                                feature_names=feature_names)
+                                feature_names=feature_names,
+                                instance_names=list(test_X.index))
             
             #return np.mean(preds, axis=0),explanation
-            return {'predictions':np.mean(preds, axis=0), 'shap_values':explanation}
+
+            #output = {}
+            #output['predictions'] = np.mean(preds, axis=0)  
+            #output['shap_values'] = explanation
+
+            #return output
         
-        return {'predictions':np.mean(preds, axis=0)}
+        output = {}
+        output['predictions'] = np.mean(preds, axis=0)
+
+        if return_shaps:
+            output['shap_values'] = explanation
+
+        if return_stds:
+            output['std'] = np.std(preds, axis=0)
+        
+        return output
     
     def get_important_features(self):
         return np.mean([model.feature_importances_ for model in self.models], axis=0)

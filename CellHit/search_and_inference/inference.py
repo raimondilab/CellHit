@@ -18,6 +18,8 @@ def inference(model = None,
               internal_inference=True,
               return_shaps=False,
               return_model=False,
+              return_stds=False,
+              fix_seed=False,
               gene_selection_mode='all_genes',**kwargs):
     
     #this uses an already trained model
@@ -35,17 +37,17 @@ def inference(model = None,
 
     elif (refit) and (gene_selection_mode == 'moa_primed'):
         assert (cv_data is not None)
-        model = knowledge_primed_inference_refit(cv_data,best_params)
+        model = knowledge_primed_inference_refit(cv_data,best_params,fix_seed=fix_seed)
 
     out_dict = {}
 
     #make predictions
     if internal_inference:
         #out_dict['predictions'] = model.predict(test_X, return_shaps=return_shaps)
-        out_dict = {**out_dict, **model.predict(test_X, return_shaps=return_shaps)}
+        out_dict = {**out_dict, **model.predict(test_X, return_shaps=return_shaps, return_stds=return_stds)}
     else:
         #out_dict['predictions'] = model.predict(external_X, return_shaps=return_shaps)
-        out_dict = {**out_dict, **model.predict(external_X, return_shaps=return_shaps)}
+        out_dict = {**out_dict, **model.predict(external_X, return_shaps=return_shaps, return_stds=return_stds)}
 
     #return the model if requested
     if return_model:
@@ -55,13 +57,13 @@ def inference(model = None,
 
 
 
-def all_genes_inference_refit(train_X,train_Y,valid_X,valid_Y,best_params,random_state=0):
+def all_genes_inference_refit(train_X,train_Y,valid_X,valid_Y,best_params):
     model = CustomXGBoost(base_params=best_params)
     model.fit(train_X, train_Y, valid_X, valid_Y)
     return model
 
-def knowledge_primed_inference_refit(cv_data,best_params):
+def knowledge_primed_inference_refit(cv_data,best_params,fix_seed=False):
     model = EnsembleXGBoost(base_params=best_params)
-    model.fit(cv_data)
+    model.fit(cv_data,fix_seed=fix_seed)
     return model
 

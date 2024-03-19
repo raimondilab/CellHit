@@ -13,9 +13,9 @@ def corr_metric(y_true, y_pred):
     score = np.corrcoef(y_true, y_pred)[0, 1]
     return score
 
-def mse_metric(y_true, y_pred):
-    score = -mean_squared_error(y_true, y_pred)
-    return score
+#def mse_metric(y_true, y_pred):
+#    score = -mean_squared_error(y_true, y_pred)
+#    return score
 
 
 class AutoXGBRegressor:
