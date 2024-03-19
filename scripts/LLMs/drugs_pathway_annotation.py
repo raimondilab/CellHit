@@ -139,7 +139,7 @@ if __name__ == "__main__":
     reactome_pathways['Genes'] = reactome_pathways['Genes'].apply(lambda x: eval(x))
     
     target_in_pathway_dict = target_in_pathway_criterion(metadata, reactome_pathways)
-    ligand_annotation_dict = ligand_annotation_criterion(metadata, reactome_drugs,reactome_pathways,args.dataset,data_path)
+    ligand_annotation_dict = ligand_annotation_criterion(reactome_drugs,reactome_pathways,args.dataset,data_path)
     LLM_selection_dict = LLMs_selection_criterion(metadata, reactome_pathways, pathway_selection_path, args.self_consistency_threshold)
 
     if args.dataset == 'gdsc':
@@ -148,11 +148,14 @@ if __name__ == "__main__":
             f.write('\n'.join(most_common_pathway_genes))
 
     with open(data_path/'MOA_data'/f'{args.dataset}_target_drugID_to_genes.json','w') as f:
+        target_in_pathway_dict = {str(k):list(v) for k,v in target_in_pathway_dict.items()}
         json.dump(target_in_pathway_dict,f)
 
     with open(data_path/'MOA_data'/f'{args.dataset}_ligand_drugID_to_genes.json','w') as f:
+        ligand_annotation_dict = {str(k):list(v) for k,v in ligand_annotation_dict.items()}
         json.dump(ligand_annotation_dict,f)
 
     with open(data_path/'MOA_data'/f'{args.dataset}_LLM_drugID_to_genes.json','w') as f:
+        LLM_selection_dict = {str(k):list(v) for k,v in LLM_selection_dict.items()}
         json.dump(LLM_selection_dict,f)
 
