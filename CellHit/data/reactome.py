@@ -4,6 +4,9 @@ from pathlib import Path
 import requests
 from tqdm.auto import tqdm
 import pubchempy as pcp
+import time
+from tqdm import tqdm
+
 
 from .pubchem import get_pubchem_id
 
@@ -38,7 +41,8 @@ def get_reactome_layers(reactome_data_path, layer_number):
         if not incoming:
             layers[node] = 0
         else:
-            layers[node] = max(layers[pred] for pred in incoming) + 1
+            #layers[node] = max(layers[pred] for pred in incoming) + 1
+            layers[node] = min(layers[pred] for pred in incoming) + 1
 
     # Create DataFrame with PathwayID, PathwayName, and Layer
     pathways_with_layers = pd.DataFrame([(pid, pname, layers[pid]) for pid, pname in human_paths[['PathwayID', 'PathwayName']].values if pid in layers], columns=['PathwayID', 'PathwayName', 'Layer'])
@@ -71,7 +75,10 @@ def get_pathways_genes(pathways):
 
     pathways_with_genes = pathways.copy()
     pathways_with_genes['Genes'] = pathway_genes
-        
+
+    #strip withespaces from PathwayName
+    pathways_with_genes['PathwayName'] = pathways_with_genes['PathwayName'].apply(lambda x: x.strip())
+    
     return pathways_with_genes
 
 def get_genes_pathways(pathways):
@@ -138,10 +145,14 @@ def get_pathways_drugs(pathways,annote_pubchem=True):
             else:
                 query = get_pubchem_id(drug['name'])
 
+                #wait a couple of seconds
+                time.sleep(0.2)
+
                 if query:
                     return query[0], query[1]
                 
-        pathways_with_drugs[['PubChemID','PubChemType']] = pathways_with_drugs.apply(process_drug,axis=1,result_type='expand')
+        tqdm.pandas()
+        pathways_with_drugs[['PubChemID','PubChemType']] = pathways_with_drugs.progress_apply(process_drug,axis=1,result_type='expand')
 
         
     return pathways_with_drugs

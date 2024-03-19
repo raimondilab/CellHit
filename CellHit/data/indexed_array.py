@@ -26,3 +26,6 @@ class IndexedArray:
             return self.array[[self.key_to_index[str(name)] for name in key]]
         else:
             raise TypeError('Invalid argument type.')
+        
+    def get_all_keys(self):
+        return list(self.key_to_index.keys())

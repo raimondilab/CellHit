@@ -131,7 +131,8 @@ class DatasetLoader():
     
         if use_external:
             #otain external data (source not CCLE)
-            external_ids = list(self.source_mapper[self.source_mapper['Source']!='CCLE']['index'].values)
+            #external_ids = list(self.source_mapper[self.source_mapper['Source']!='CCLE']['index'].values)
+            external_ids = self.Xs.get_all_keys()
             external_X = self.Xs[external_ids]
             external_X = pd.DataFrame(external_X,columns=self.genes,index=external_ids)
             #out_values += [external_X]
@@ -298,7 +299,8 @@ def prepare_data(drugID, dataset, random_state,
         if use_external_datasets:
             #out['external_X'] = d['external_X'][genes]
             #conatenate everything for external inference
-            out['external_X'] = pd.concat([d['external_X'][genes],d['test_X'][genes],d['train_X'][genes],d['valid_X'][genes]])
+            #out['external_X'] = pd.concat([d['external_X'][genes],d['test_X'][genes],d['train_X'][genes],d['valid_X'][genes]])
+            out['external_X'] =d['external_X'][genes]
             out['external_indexes'] = out['external_X'].index
         else:
             out['test_X'] = d['test_X'][genes]
