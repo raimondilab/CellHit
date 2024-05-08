@@ -58,7 +58,7 @@ python generate_drug_summaries.py
 python refine_descriptions.py
 ```
 
-- **2.4 pathway_selector.py**: This scripts uses a constrained LLM to select, starting from the generated textual description, which are the Reactome pathways most likely to be involved in determining the efficacy of a drug. The scripts allows for varying different parameters such as the number `pathway_number` to select, the number of self-consistency checks `self_k` to perform , the dataset on which the selection should be performed and whether computations should be done for a single drug or for automatically for multiple drugs (possibly coordinating different asynchronous processes). Here's how to use the script:
+- **2.4 pathway_selector.py**: This script uses a constrained LLM to select, starting from the generated textual description, which are the Reactome pathways most likely to be involved in determining the efficacy of a drug. The scripts allows for varying different parameters such as the number `pathway_number` to select, the number of self-consistency checks `self_k` to perform , the dataset on which the selection should be performed and whether computations should be done for a single drug or for automatically for multiple drugs (possibly coordinating different asynchronous processes). Here's how to use the script:
 
 ```bash
 #Basic usage - running the procedure on a single drug on prism
@@ -87,4 +87,80 @@ python drug_pathways_annotation.py
 python drug_pathways_annotation.py --self_consistency_threshold 3
 ```
 
+**NOTE**: scripts 2.2, 2.3 and 2,4 require GPU acceleration, with the first two consuming ~30GB of VRAM and the third one ~38 GB of VRAM
+
 For completness we also report scripts `GPT4_description_prompt.txt` and `GPT4_pathway_prompt.txt` to perform the same procedure leveraging openAI propritary API.
+
+
+# 3. Search and inference
+
+- **3.1 search_and_inference.py**: This script performs a drug specific hyperparameter optimization using the Optuna library. The scripts allows for varying different parameters such as the number of hyperparameter optimization trials `n_trials`, the `gene_selection_mode` that allows to train all_genes and MOA models from the same script, whether computations should be done for a single drug or for automatically for multiple drugs (possibly coordinating different asynchronous processes). The script also runs inference of the best model on CCLE and TCGA. Here's how to use the script:
+
+```bash
+#Basic usage - running the procedure on a single drug on prism
+python search_and_inference.py --drugID <your_drug_id, ex: 1909> --selection_mode single_drug --dataset prism #prism default dataset
+
+#Basic usage - running the procedure on a single drug on gdsc
+python search_and_inference.py --drugID <your_drug_id, ex: 1909> --selection_mode single_drug --dataset gdsc
+
+#Change the number of optimization trials n_trials
+python search_and_inference.py --drugID <your_drug_id, ex: 1909> --selection_mode single_drug --n_trials 100 #default is 300
+
+#Run for all the drugs in the dataset (first process that builds the coordination SQAlchemy object)
+python search_and_inference.py --build_search_db --dataset prism  --selection_mode asynch
+
+#Run for all the drugs in the dataset (automatically leverages the SQL object created by the command above)
+python search_and_inference.py --dataset prism  --selection_mode asynch
+```
+
+- **3.2 external_inference.py**: This script is used to do training and inference of the best model for each drug on the GBM and PDAC external datasets. Allows to perform computations for a single drug or for automatically for multiple drugs (possibly coordinating different asynchronous processes)
+
+```bash
+#Basic usage - running the procedure on a single drug on prism
+python external_inference.py --drugID <your_drug_id, ex: 1909> --selection_mode single_drug --dataset prism #prism default dataset
+
+#Basic usage - running the procedure on a single drug on gdsc
+python external_inference.py --drugID <your_drug_id, ex: 1909> --selection_mode single_drug --dataset gdsc
+
+#Run for all the drugs in the dataset (first process that builds the coordination SQAlchemy object)
+python external_inference.py --build_inference_db --dataset prism  --selection_mode asynch
+
+#Run for all the drugs in the dataset (automatically leverages the SQL object created by the command above)
+python external_inference.py --dataset prism  --selection_mode asynch
+```
+
+- **3.3 results_completer.py**: This script packs all of the forecasts on external datasets (TCGA, GBM, PDAC) together with record-wise SHAP values and patients metadata into one final big table. Here's how to use the script:
+
+```bash
+#Basic usage - inference for PRISM drugs only on TCGA
+python results_completer.py  --dataset prism --external_dataset None
+
+#Basic usage - inference for GDSC drugs only on TCGA
+python results_completer.py  --dataset gdsc --external_dataset None
+
+#Inference for GDSC drugs only on TCGA and GBM
+python results_completer.py  --dataset gdsc --external_dataset GBM
+
+#Inference for GDSC drugs only on TCGA and PDAC
+python results_completer.py  --dataset gdsc --external_dataset GBM
+```
+
+# 4. Importance
+
+**compute_importances.py**:  This script is used to compute interpretability scores (both SHAP and Permutation Importance) for the trained best models. The scripts allows for varying different parameters such as the number of permutations `n_permutations` used to asses permutation importance. The `importance_mode`specifies whether computations should be done for a single drug or for automatically for multiple drugs (possibly coordinating different asynchronous processes). The script takes advantage of GPU acceleratin to speed-up computations and it may be necessary to tweak `chunk_size` to fit gpu card VRAM size. Here's how to use the script:
+
+```bash
+#Basic usage - running the procedure on a single drug on prism
+python compute_importance.py --drugID <your_drug_id, ex: 1909> --importance_mode single_drug --dataset prism 
+
+#Basic usage - running the procedure on a single drug on gdsc
+python compute_importance.py --drugID <your_drug_id, ex: 1909> --importance_mode single_drug --dataset prism 
+
+#Single drug, changing the number of permutation iterations
+python compute_importance.py --drugID <your_drug_id, ex: 1909> --importance_mode single_drug --dataset prism --n_permutations 10
+
+#Run for all the drugs in the dataset (first process that builds the coordination SQAlchemy object)
+python compute_importance.py --build_importance_db --dataset prism  --selection_mode asynch
+
+#Run for all the drugs in the dataset (automatically leverages the SQL object created by the command above)
+python compute_importance.py --dataset prism  --selection_mode asynch
