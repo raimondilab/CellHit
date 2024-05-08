@@ -12,7 +12,7 @@ The code is organized into three main directories, each tailored to facilitate s
 
 - [**scripts:**](https://github.com/mr-fcharles/CellHit/tree/master/scripts) This folder contains various Python scripts that manage tasks ranging from data pre-processing to model training. An additional Markdown file is included in this folder, providing detailed descriptions and usage instructions for each script.
 
-- [**AsyncDistribJobs:**]((https://github.com/mr-fcharles/CellHit/tree/master/AsyncDistribJobs)) This directory houses an auxiliary custom library crafted to efficiently manage asynchronous parallel jobs on HPC environments.
+- [**AsyncDistribJobs:**](https://github.com/mr-fcharles/CellHit/tree/master/AsyncDistribJobs) This directory houses an auxiliary custom library crafted to efficiently manage asynchronous parallel jobs on HPC environments.
 
 # 1. Development Environment Setup
 
@@ -38,7 +38,8 @@ pip install biopython==1.82 \
 			torch==2.1.2+cu118 \
 			torchaudio==2.1.2+cu118 \
 			torchvision==0.16.2+cu118 \
-			numba==0.58.1
+			numba==0.58.1 \
+            openpyxl==3.1.2
 ```
 
 ## LLM Libraries Installation
@@ -110,6 +111,19 @@ Make sure to follow these instructions sequentially to avoid any issues with dep
 ```bash
 git clone https://github.com/raimondilab/CellHit.git
 ```
+
+# 2. Getting the data
+
+Most of the data required to replicate the results is in the data folder. However, some files were too large for direct upload to GitHub, particularly 
+
+For **transcriptomics** data for CCLE and TCGA. To access this data, clone the repository and create a `transcriptomics` folder within the `data` folder, alongside `metadata` and `reactome`. Then download:
+
+- [OmicsExpressionProteinCodingGenesTPMLogp1.csv](https://depmap.org/portal/download/all/)
+- [TumorCompendium_v11_PolyA_hugo_log2tpm_58581genes_2020-04-09.tsv](https://xenabrowser.net/datapages/?dataset=TumorCompendium_v11_PolyA_hugo_log2tpm_58581genes_2020-04-09.tsv&host=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
+
+If you wish to bypass the celligner steps, a pre-aligned version of these transcriptomics datasets is available [here](https://drive.google.com/file/d/1fJZaoqUvqa93S7SzQ7NNvDkSsnwpffEh/view?usp=sharing).
+
+For **MOA data** you can download `prism_LLM_drugID_to_genes.json` from [here](https://drive.google.com/file/d/1KI4VBgF__txb6LLmeFYGZ6CusuAsqiGl/view?usp=sharing) and place it the `MOA_data` inside the `data` folder
 
 ## Troubleshooting and Support
 
