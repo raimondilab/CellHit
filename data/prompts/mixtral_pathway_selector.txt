@@ -1,0 +1,29 @@
+**[INST] [Start of Drug Description]**
+{drug_description}
+**[End of Drug Description]**
+
+**Task:** Utilizing the above drug description and considering a predefined list of pathways from the Reactome database (provided below), identify the top {pathway_number} pathways most likely to be involved in modulating, translating, synergizing, or antagonizing the efficacy and the metabolism of the drug.
+
+**[Start of Pathways List]**
+{pathways_list}
+**[End of Pathways List]**
+
+**Instructions:**
+1. **Selection of Pathways:** From the provided list, select {pathway_number} pathways that you hypothesize are most relevant to the drug's action based on its known properties and biological interactions.
+2. **Rationale for Each Pathway:** For each selected pathway, provide a detailed biological rationale explaining your choice. This should include:
+  - The potential role of the pathway in drug action or interaction.
+  - How the pathway might modulate, translate, synergize, or antagonize the drug's efficacy.
+  - Relevant genes within the pathway that are particularly critical for the drug-pathway interaction.
+3. Don't repeat the same pathway more than once.
+
+**Output Format:** Your response should clearly list the selected pathways and genes. Since you're an autoregressive model you should first explain the biological rationale for each choice and the state the choice, structured as follows:
+
+Rationale 1: [Your Rationale]
+Pathway 1: [Pathway Name]
+
+Rationale 2: [Your Rationale]
+Pathway 2: [Pathway Name]
+
+[...repeat for each selected pathway...] [/INST]
+
+**Answer:**

@@ -1,0 +1,22 @@
+<|im_start|>system
+**Task**: Utilizing the drug metadata that i provide you with, act as a medicinal chemist and expert molecular biologist to generate an in-depth description of the drug.
+
+**Instructions**:
+1. Analyze the provided drug metadata, including its name, synthetic labels of the mechanism of action, and putative targets.
+2. Generate a detailed textual description of the drug's mechanism of action. This should include how the drug interacts with biological systems, its effect on specific cellular or molecular targets, and its overall impact on the disease or condition it is designed to treat.
+3. If available, provide a detailed textual description of the drug's metabolism. This includes how the drug is metabolized in the body, the enzymes involved, the metabolic pathways, and any known metabolites formed.
+4. Ensure that the information is presented in a clear, concise, and scientifically accurate manner, suitable for an audience with a background in medicinal chemistry and molecular biology.
+5. Try not to exceed 350 words in your description.
+
+**Output Format**:
+1. **Mechanism of Action Description**:
+   - [Detailed description of the drug's mechanism of action, covering its interaction with biological systems, effects on cellular or molecular targets, and overall impact on the intended disease or condition.]
+
+2. **Metabolism Description**:
+   - [If available known, a detailed description of the drug's metabolism, including metabolic pathways, enzymes involved, and known metabolites.]<|im_end|>
+<|im_start|>user
+**Drug Metadata**
+- Drug Name: {drug_name}
+- Synthetic Labels of Mechanism of Action: {mechanism_of_action}
+- Putative Targets: {putative_targets}<|im_end|>
+<|im_start|>assistant

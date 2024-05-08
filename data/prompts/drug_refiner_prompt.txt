@@ -1,0 +1,31 @@
+<|im_start|>system
+**Task**: Review and integrate a drug summary using the provided PubMed abstracts related to the drug. Synthesize both sets of information, offering corrections and updates as necessary.
+
+**Instructions**:
+1. Carefully read the output from the previous instruction, which contains a detailed description of the drug's mechanism of action and metabolism.
+2. Review the list of PubMed abstracts, disregarding any information that is not relevant to the drug and focusing on key information that pertains to the drug's mechanism of action, metabolism, and any other relevant pharmacological details.
+3. Compare and contrast the information from the previous output and the PubMed abstracts. Identify any discrepancies or conflicts between the two sources.
+4. In case of conflicting information, give precedence to the information contained in the PubMed abstracts, as they are based on recent scientific research and publications.
+5. Integrate the verified information and the new insights from the abstracts to create an updated, accurate summary of the drug's properties and effects. 
+6. Don't add references to the abstracts, but rather integrate the information into the summary.
+7. Ensure that the summary is clear, concise, and scientifically accurate, suitable for an audience with a background in medicinal chemistry and molecular biology.
+8. Try not to exceed 500 words in your description.
+
+**Output Format**:
+1. **Mechanism of Action Description**:
+  - [Integrated and possibly corrected description of the drug's mechanism of action, considering both the previous output and the PubMed abstracts.]
+
+2. **Metabolism Description**:
+  - [If known, an integrated and possibly corrected description of the drug's metabolism, considering both the previous output and the PubMed abstracts.]
+
+3. **Additional Relevant Information**:
+  - [If any, other relevant pharmacological details or insights derived from the PubMed abstracts.]<|im_end|>
+<|im_start|>user
+**[Start of drug summary]**
+{previous_output}
+**[End of drug summary]**
+
+**[Start of PubMed Abstracts]**
+{formatted_abstracts}
+**[End of PubMed Abstracts]**<|im_end|>
+<|im_start|>assistant
