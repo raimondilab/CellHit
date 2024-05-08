@@ -1,5 +1,7 @@
 # Introduction
 
+![Workflow](learning_workflow.png)
+
 This repository contains the complete codebase required to reproduce the analysis presented in the paper [Learning and actioning general principles of cancer cell drug sensitivity](https://www.biorxiv.org/content/10.1101/2024.03.28.586783v2.article-metrics).
 
 ## Repository Structure
@@ -8,9 +10,9 @@ The code is organized into three main directories, each tailored to facilitate s
 
 - [**CellHit:**](https://github.com/mr-fcharles/CellHit/tree/master/CellHit) This is a custom library that encapsulates all the functions used throughout the analysis. The library is designed for reusability in further analyses, making it a versatile tool for similar research.
 
-- **scripts:** This folder contains various Python scripts that manage tasks ranging from data pre-processing to model training. An additional Markdown file is included in this folder, providing detailed descriptions and usage instructions for each script.
+- [**scripts:**](https://github.com/mr-fcharles/CellHit/tree/master/scripts) This folder contains various Python scripts that manage tasks ranging from data pre-processing to model training. An additional Markdown file is included in this folder, providing detailed descriptions and usage instructions for each script.
 
-- **AsyncDistribJobs:** This directory houses an auxiliary custom library crafted to efficiently manage asynchronous parallel jobs on a High-Performance Computing (HPC) environment.
+- [**AsyncDistribJobs:**]((https://github.com/mr-fcharles/CellHit/tree/master/AsyncDistribJobs)) This directory houses an auxiliary custom library crafted to efficiently manage asynchronous parallel jobs on HPC environments.
 
 # 1. Development Environment Setup
 
