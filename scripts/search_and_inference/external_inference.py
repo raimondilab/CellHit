@@ -151,7 +151,7 @@ if __name__ == '__main__':
     argparser.add_argument('--tabs_path', type=str, default='./../../tables/tabs/')
     argparser.add_argument('--gpu_id', type=int, default=0)
 
-    argparser.add_argument('--inference_mode', type=str, default='full_asynch')
+    argparser.add_argument('--inference_mode', type=str, default='asynch')
     argparser.add_argument('--build_inference_db', default=False, action='store_true')
 
     args = argparser.parse_args()
@@ -167,7 +167,7 @@ if __name__ == '__main__':
         args_dict['celligner_output_path'] = Path(args.celligner_output_path+'.feather')
 
 
-    if args.inference_mode == 'full_asynch':
+    if args.inference_mode == 'asynch':
 
         if 'drugID' in args_dict:
             del args_dict['drugID']

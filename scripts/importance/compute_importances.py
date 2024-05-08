@@ -127,7 +127,7 @@ if __name__ == '__main__':
     parser.add_argument('--chunk_size', type=int, default=200000, help='Chunk size for the permutation importance')
 
     #parser.add_argument('--importance_database_path', type=str, help='Path to the importance database')
-    parser.add_argument('--importance_mode', type=str, default='full_async', help='Mode of importance computation')
+    parser.add_argument('--importance_mode', type=str, default='async', help='Mode of importance computation')
     parser.add_argument('--build_importance_db', action='store_true', help='Build a new importance database')
 
     args = parser.parse_args()
@@ -139,10 +139,10 @@ if __name__ == '__main__':
     args_dict['celligner_output_path'] = Path(args.celligner_output_path)
 
 
-    if args.importance_mode == 'single':
+    if args.importance_mode == 'single_drug':
         compute_importance(**args_dict)
 
-    elif args.importance_mode == 'full_async':
+    elif args.importance_mode == 'async':
 
         #if drugID is not None, delete it from the args_dict
         if 'drugID' in args_dict:
