@@ -125,6 +125,24 @@ If you wish to bypass the celligner steps, a pre-aligned version of these transc
 
 For **MOA data** you can download `prism_LLM_drugID_to_genes.json` from [here](https://drive.google.com/file/d/1KI4VBgF__txb6LLmeFYGZ6CusuAsqiGl/view?usp=sharing) and place it the `MOA_data` inside the `data` folder
 
+
+# 3. Getting LLMs weights
+
+For the anlysis we used a [GPTQ quantized version](https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ) of Mixtral-8x7B-Instruct-v0.1 from [Mistral.AI](https://mistral.ai). The scripts search for this model in you home folder. To obtain the weights first install `huggingface-cli` and login with the following commands:
+
+```bash
+#instal
+pip install -U "huggingface_hub[cli]"
+
+#login
+huggingface-cli login
+```
+To login you need a User Access Token from your Settings page (more on this on [huggingface official documentation](https://huggingface.co/docs/hub/security-tokens)). Once logged-in you can obtain the weights of the used LLM with the following command
+
+```bash
+huggingface-cli download TheBloke/Mixtral-8x7B-Instruct-v0.1-GPTQ --revision gptq-4bit-32g-actorder_True --local-dir <your_home_folder>
+```
+
 ## Troubleshooting and Support
 
 If you encounter any issues while setting up or using this environment, please do not hesitate to reach out for help or clarification:
