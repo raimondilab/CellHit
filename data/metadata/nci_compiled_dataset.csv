@@ -1,0 +1,235 @@
+PubChemId,DrugName,DrugType,DrugAliases,DrugIndicationsExtended,DrugIndications
+C_126941,Methotrexate Sodium,Compound,None found,"['Breast invasive carcinoma', 'Head and Neck squamous cell carcinoma', 'Lymphoid Neoplasm Diffuse Large B-cell Lymphoma']","['BRCA', 'HNSC', 'DLBC']"
+C_6442177,Everolimus,Compound,"Afinitor, Afinitor Disperz, Votubia, Zortress","['Breast invasive carcinoma', 'Kidney renal clear cell carcinoma', 'Lung adenocarcinoma', 'Lung squamous cell carcinoma', 'Pancreatic adenocarcinoma']","['BRCA', 'KIRC', 'LUAD', 'LUSC', 'PAAD']"
+C_49806720,Alectinib,Compound,None found,['Lung adenocarcinoma'],['LUAD']
+S_381128138,Loncastuximab Tesirine-lpyl,Substance,N/A,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_136170999,FOLFIRI,Compound,N/A,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+C_68165256,Brigatinib,Compound,N/A,['Lung adenocarcinoma'],['LUAD']
+C_4284,OFF,Compound,None found,['Pancreatic adenocarcinoma'],['PAAD']
+C_67171867,Darolutamide,Compound,Nubeqa,['Prostate adenocarcinoma'],['PRAD']
+C_2578,Carmustine,Compound,BiCNU,"['Brain Lower Grade Glioma', 'Glioblastoma multiforme']","['LGG', 'GBM']"
+C_3397,Flutamide,Compound,N/A,['Prostate adenocarcinoma'],['PRAD']
+C_2723601,Thioguanine,Compound,THY-oh-GWAH-neen,['Acute Myeloid Leukemia'],['LAML']
+C_122640033,Glasdegib Maleate,Compound,None found,['Acute Myeloid Leukemia'],['LAML']
+C_10348973,Relugolix,Compound,None found,['Prostate adenocarcinoma'],['PRAD']
+C_76970819,Gilteritinib Fumarate,Compound,N/A,['Acute Myeloid Leukemia'],['LAML']
+C_13342,Vinblastine sulfate,Compound,Not provided,"['Breast invasive carcinoma', 'Testicular Germ Cell Tumors']","['BRCA', 'TGCT']"
+C_67479909,Elacestrant Dihydrochloride,Compound,Orserdu,['Breast invasive carcinoma'],['BRCA']
+C_62770,Daunorubicin Hydrochloride,Compound,N/A,['Acute Myeloid Leukemia'],['LAML']
+S_242651787,Durvalumab,Substance,Imfinzi,"['Cholangiocarcinoma', 'Liver hepatocellular carcinoma', 'Lung adenocarcinoma', 'Lung squamous cell carcinoma']","['CHOL', 'LIHC', 'LUAD', 'LUSC']"
+S_46506950,Denileukin Diftitox,Substance,DEH-nih-LOO-kin DIF-tih-tox,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_481101715,Recombinant Interferon Alfa-2b,Substance,Intron A,['Skin Cutaneous Melanoma'],['SKCM']
+C_9821849,Abiraterone Acetate,Compound,"Yonsa, Zytiga",['Prostate adenocarcinoma'],['PRAD']
+C_51039094,Tucatinib,Compound,None found,"['Breast invasive carcinoma', 'Colon adenocarcinoma', 'Rectum adenocarcinoma']","['BRCA', 'COAD', 'READ']"
+S_329976994,Panitumumab,Substance,N/A,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+S_404720301,Dostarlimab-gxly,Substance,Jemperli,['Uterine Corpus Endometrial Carcinoma'],['UCEC']
+C_15951529,Enzalutamide,Compound,N/A,['Prostate adenocarcinoma'],['PRAD']
+C_118955396,Olutasidenib,Compound,None found,['Acute Myeloid Leukemia'],['LAML']
+C_60198,Exemestane,Compound,N/A,"['Breast invasive carcinoma', 'Uterine Corpus Endometrial Carcinoma']","['BRCA', 'UCEC']"
+C_2141,Amifostine,Compound,None found,"['Head and Neck squamous cell carcinoma', 'Ovarian serous cystadenocarcinoma']","['HNSC', 'OV']"
+C_25184035,Quizartinib Dihydrochloride,Compound,N/A,['Acute Myeloid Leukemia'],['LAML']
+C_3062316,Dasatinib,Compound,N/A,['Chronic Myelogenous Leukemia'],['LCML']
+S_49965746,EPOCH,Substance,Not provided,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_454216,Valrubicin,Compound,None found,['Bladder Urothelial Carcinoma'],['BLCA']
+C_426756,Carboplatin,Compound,N/A,['Ovarian serous cystadenocarcinoma'],['OV']
+C_9829523,Midostaurin,Compound,N/A,['Acute Myeloid Leukemia'],['LAML']
+S_50064740,VIP,Substance,Not provided,['Testicular Germ Cell Tumors'],['TGCT']
+C_77082,Bendamustine Hydrochloride,Compound,N/A,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_5328940,Bosutinib,Compound,None found,['Chronic Myelogenous Leukemia'],['LCML']
+S_50069677,Pertuzumab,Substance,per-TOO-zoo-mab,['Breast invasive carcinoma'],['BRCA']
+C_16052011,Goserelin Acetate,Compound,N/A,"['Breast invasive carcinoma', 'Prostate adenocarcinoma']","['BRCA', 'PRAD']"
+C_133082086,Asciminib Hydrochloride,Compound,N/A,['Chronic Myelogenous Leukemia'],['LCML']
+C_24958200,Niraparib Tosylate Monohydrate,Compound,Niraparib,['Ovarian serous cystadenocarcinoma'],['OV']
+S_178103950,Tebentafusp-tebn,Substance,N/A,['Uveal Melanoma'],['UVM']
+S_249565671,Atezolizumab,Substance,None found,"['Liver hepatocellular carcinoma', 'Lung adenocarcinoma', 'Sarcoma', 'Skin Cutaneous Melanoma']","['LIHC', 'LUAD', 'SARC', 'SKCM']"
+C_25141092,Entrectinib,Compound,N/A,['Lung adenocarcinoma'],['LUAD']
+C_61038,BEP,Compound,Not provided,"['Ovarian serous cystadenocarcinoma', 'Testicular Germ Cell Tumors']","['OV', 'TGCT']"
+S_51950750,PEB,Substance,Not provided,"['Ovarian serous cystadenocarcinoma', 'Testicular Germ Cell Tumors']","['OV', 'TGCT']"
+C_3690,Ifosfamide,Compound,None found,['Testicular Germ Cell Tumors'],['TGCT']
+C_5865,Prednisone,Compound,None found,"['Acute Myeloid Leukemia', 'Chronic Myelogenous Leukemia']","['LAML', 'LCML']"
+C_2733525,Tamoxifen Citrate,Compound,N/A,"['Breast invasive carcinoma', 'Uterine Corpus Endometrial Carcinoma']","['BRCA', 'UCEC']"
+S_135353969,Ado-Trastuzumab Emtansine,Substance,None found,['Breast invasive carcinoma'],['BRCA']
+S_124490314,Ziv-Aflibercept,Substance,None found,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+S_135343059,Talimogene Laherparepvec,Substance,N/A,['Skin Cutaneous Melanoma'],['SKCM']
+C_36314,Paclitaxel,Compound,None found,"['Breast invasive carcinoma', 'Lung adenocarcinoma', 'Lung squamous cell carcinoma', 'Ovarian serous cystadenocarcinoma']","['BRCA', 'LUAD', 'LUSC', 'OV']"
+S_381127565,MVAC,Substance,-,['Bladder Urothelial Carcinoma'],['BLCA']
+S_46506691,Palifermin,Substance,N/A,['Head and Neck squamous cell carcinoma'],['HNSC']
+C_5702198,Cisplatin,Compound,None found,"['Bladder Urothelial Carcinoma', 'Ovarian serous cystadenocarcinoma', 'Testicular Germ Cell Tumors']","['BLCA', 'OV', 'TGCT']"
+C_24872560,Apalutamide,Compound,N/A,['Prostate adenocarcinoma'],['PRAD']
+C_11650937,XELIRI,Compound,N/A,"['Colon adenocarcinoma', 'Esophageal carcinoma', 'Rectum adenocarcinoma', 'Stomach adenocarcinoma']","['COAD', 'ESCA', 'READ', 'STAD']"
+S_483929525,Niraparib Tosylate Monohydrate and Abiraterone Acetate,Substance,N/A,"['Ovarian serous cystadenocarcinoma', 'Prostate adenocarcinoma']","['OV', 'PRAD']"
+C_14888,Arsenic Trioxide,Compound,None found,['Acute Myeloid Leukemia'],['LAML']
+S_252827393,Avelumab,Substance,N/A,"['Bladder Urothelial Carcinoma', 'Kidney renal clear cell carcinoma', 'Skin Cutaneous Melanoma']","['BLCA', 'KIRC', 'SKCM']"
+S_473153838,Mirvetuximab Soravtansine-gynx,Substance,N/A,['Ovarian serous cystadenocarcinoma'],['OV']
+C_6918289,Temsirolimus,Compound,None found,['Kidney renal clear cell carcinoma'],['KIRC']
+S_329976986,Ibritumomab Tiuxetan,Substance,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_71761627,Tazemetostat Hydrobromide,Compound,N/A,['Sarcoma'],['SARC']
+S_223370409,Polatuzumab Vedotin-piiq,Substance,Polivy,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_387061103,Nivolumab,Substance,Opdivo,"['Bladder Urothelial Carcinoma', 'Colon adenocarcinoma', 'Esophageal carcinoma', 'Head and Neck squamous cell carcinoma', 'Kidney renal clear cell carcinoma', 'Lung adenocarcinoma', 'Lung squamous cell carcinoma', 'Mesothelioma', 'Rectum adenocarcinoma', 'Skin Cutaneous Melanoma', 'Stomach adenocarcinoma']","['BLCA', 'COAD', 'ESCA', 'HNSC', 'KIRC', 'LUAD', 'LUSC', 'MESO', 'READ', 'SKCM', 'STAD']"
+C_129073603,Pralsetinib,Compound,N/A,"['Lung adenocarcinoma', 'Thyroid carcinoma']","['LUAD', 'THCA']"
+C_60699,Topotecan Hydrochloride,Compound,N/A,"['Cervical squamous cell carcinoma and endocervical adenocarcinoma', 'Ovarian serous cystadenocarcinoma']","['CESC', 'OV']"
+S_384585505,Fam-Trastuzumab Deruxtecan-nxki,Substance,Not provided,"['Breast invasive carcinoma', 'Lung adenocarcinoma', 'Stomach adenocarcinoma']","['BRCA', 'LUAD', 'STAD']"
+C_25227436,Capivasertib,Compound,None found,['Breast invasive carcinoma'],['BRCA']
+C_11626560,Crizotinib,Compound,None found,['Lung adenocarcinoma'],['LUAD']
+C_54900,Raloxifene Hydrochloride,Compound,None found,['Breast invasive carcinoma'],['BRCA']
+C_135565884,Zanubrutinib,Compound,Brukinsa,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_347911476,Axicabtagene Ciloleucel,Substance,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_16136245,Degarelix,Compound,N/A,['Prostate adenocarcinoma'],['PRAD']
+S_160698442,Tremelimumab-actl,Substance,None found,['Liver hepatocellular carcinoma'],['LIHC']
+S_254741488,Trifluridine and Tipiracil Hydrochloride,Substance,None found,"['Colon adenocarcinoma', 'Rectum adenocarcinoma', 'Stomach adenocarcinoma']","['COAD', 'READ', 'STAD']"
+C_25102846,Cabozantinib-S-Malate,Compound,Cabozantinib,"['Kidney renal clear cell carcinoma', 'Liver hepatocellular carcinoma', 'Thyroid carcinoma']","['KIRC', 'LIHC', 'THCA']"
+C_56649450,Alpelisib,Compound,None found,['Breast invasive carcinoma'],['BRCA']
+S_329976960,Rituximab,Substance,None found,"['Acute Myeloid Leukemia', 'Lymphoid Neoplasm Diffuse Large B-cell Lymphoma']","['LAML', 'DLBC']"
+C_2708,Chlorambucil,Compound,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_67307512,Neratinib Maleate,Compound,Nerlynx,['Breast invasive carcinoma'],['BRCA']
+S_135332744,Obinutuzumab,Substance,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_9444,Azacitidine,Compound,None found,['Acute Myeloid Leukemia'],['LAML']
+C_108150,Trabectedin,Compound,Yondelis,"['Ovarian serous cystadenocarcinoma', 'Sarcoma']","['OV', 'SARC']"
+S_135335694,AC-T,Substance,N/A,['Breast invasive carcinoma'],['BRCA']
+C_9887053,Oxaliplatin,Compound,None found,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+C_134436906,Selpercatinib,Compound,N/A,['Thyroid carcinoma'],['THCA']
+C_71621331,Futibatinib,Compound,N/A,['Cholangiocarcinoma'],['CHOL']
+S_10105,Aldesleukin,Substance,interleukin-2 (IL-2),['Skin Cutaneous Melanoma'],['SKCM']
+C_123631,Gefitinib,Compound,N/A,['Lung adenocarcinoma'],['LUAD']
+S_103771534,Ofatumumab,Substance,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_135263542,JEB,Substance,Not provided,"['Ovarian serous cystadenocarcinoma', 'Testicular Germ Cell Tumors']","['OV', 'TGCT']"
+C_135413520,Pemetrexed Disodium,Compound,"Alimta, Pemfexy","['Lung adenocarcinoma', 'Lung squamous cell carcinoma', 'Mesothelioma']","['LUAD', 'LUSC', 'MESO']"
+C_123596,Imatinib Mesylate,Compound,None found,['Chronic Myelogenous Leukemia'],['LCML']
+S_483123306,Glofitamab-gxbm,Substance,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_46505767,Gemtuzumab Ozogamicin,Substance,None found,['Acute Myeloid Leukemia'],['LAML']
+C_67462786,Erdafitinib,Compound,Balversa,['Bladder Urothelial Carcinoma'],['BLCA']
+S_135355234,FOLFIRI-BEVACIZUMAB,Substance,N/A,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+C_148124,Docetaxel,Compound,None found,"['Breast invasive carcinoma', 'Head and Neck squamous cell carcinoma', 'Lung adenocarcinoma', 'Lung squamous cell carcinoma', 'Pancreatic adenocarcinoma', 'Prostate adenocarcinoma', 'Stomach adenocarcinoma']","['BRCA', 'HNSC', 'LUAD', 'LUSC', 'PAAD', 'PRAD', 'STAD']"
+C_57379345,Ceritinib,Compound,N/A,['Lung adenocarcinoma'],['LUAD']
+C_6918223,Dexrazoxane Hydrochloride,Compound,N/A,['Breast invasive carcinoma'],['BRCA']
+C_49846579,Venetoclax,Compound,None found,['Acute Myeloid Leukemia'],['LAML']
+C_71481097,Selinexor,Compound,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_481101831,Rituximab and hyaluronidase human,Substance,Not provided,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_387061105,Pembrolizumab,Substance,Keytruda,"['Bladder Urothelial Carcinoma', 'Breast invasive carcinoma', 'Cervical squamous cell carcinoma and endocervical adenocarcinoma', 'Esophageal carcinoma', 'Head and Neck squamous cell carcinoma', 'Liver hepatocellular carcinoma', 'Lung adenocarcinoma', 'Lung squamous cell carcinoma', 'Skin Cutaneous Melanoma', 'Stomach adenocarcinoma', 'Uterine Corpus Endometrial Carcinoma']","['BLCA', 'BRCA', 'CESC', 'ESCA', 'HNSC', 'LIHC', 'LUAD', 'LUSC', 'SKCM', 'STAD', 'UCEC']"
+S_249565933,Sacituzumab govitecan-hziy,Substance,Trodelvy,"['Bladder Urothelial Carcinoma', 'Breast invasive carcinoma']","['BLCA', 'BRCA']"
+C_5746,Mitomycin,Compound,MY-toh-MY-sin,"['Pancreatic adenocarcinoma', 'Stomach adenocarcinoma']","['PAAD', 'STAD']"
+S_242651775,Tisagenlecleucel,Substance,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_135286412,R-CHOP,Substance,Not specified,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_71496458,Osimertinib Mesylate,Compound,Tagrisso,['Lung adenocarcinoma'],['LUAD']
+C_86705695,Pemigatinib,Compound,Pemazyre,['Cholangiocarcinoma'],['CHOL']
+S_46504473,Bevacizumab,Substance,N/A,"['Cervical squamous cell carcinoma and endocervical adenocarcinoma', 'Colon adenocarcinoma', 'Glioblastoma multiforme', 'Liver hepatocellular carcinoma', 'Lung adenocarcinoma', 'Lung squamous cell carcinoma', 'Ovarian serous cystadenocarcinoma', 'Rectum adenocarcinoma']","['CESC', 'COAD', 'GBM', 'LIHC', 'LUAD', 'LUSC', 'OV', 'READ']"
+C_6456015,Sunitinib Malate,Compound,None found,"['Kidney renal clear cell carcinoma', 'Pancreatic adenocarcinoma', 'Stomach adenocarcinoma']","['KIRC', 'PAAD', 'STAD']"
+C_135398748,PCV,Compound,Not provided,"['Brain Lower Grade Glioma', 'Glioblastoma multiforme']","['LGG', 'GBM']"
+S_329976988,Ipilimumab,Substance,N/A,"['Colon adenocarcinoma', 'Esophageal carcinoma', 'Liver hepatocellular carcinoma', 'Mesothelioma', 'Rectum adenocarcinoma', 'Skin Cutaneous Melanoma']","['COAD', 'ESCA', 'LIHC', 'MESO', 'READ', 'SKCM']"
+C_11683,Megestrol Acetate,Compound,N/A,"['Breast invasive carcinoma', 'Uterine Corpus Endometrial Carcinoma']","['BRCA', 'UCEC']"
+C_657180,Leuprolide Acetate,Compound,N/A,['Prostate adenocarcinoma'],['PRAD']
+C_2907,Cyclophosphamide,Compound,None found,"['Acute Myeloid Leukemia', 'Breast invasive carcinoma', 'Chronic Myelogenous Leukemia', 'Lymphoid Neoplasm Diffuse Large B-cell Lymphoma', 'Ovarian serous cystadenocarcinoma']","['LAML', 'BRCA', 'LCML', 'DLBC', 'OV']"
+C_36462,Etoposide,Compound,None found,['Testicular Germ Cell Tumors'],['TGCT']
+C_4493,Nilutamide,Compound,Nilandron,['Prostate adenocarcinoma'],['PRAD']
+C_71657455,Ivosidenib,Compound,N/A,"['Acute Myeloid Leukemia', 'Cholangiocarcinoma']","['LAML', 'CHOL']"
+S_404720052,Lisocabtagene maraleucel,Substance,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_404720052,Lisocabtagene Maraleucel,Substance,None found,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_135267604,GEMCITABINE-CISPLATIN,Substance,None found,"['Bladder Urothelial Carcinoma', 'Cervical squamous cell carcinoma and endocervical adenocarcinoma', 'Cholangiocarcinoma', 'Mesothelioma', 'Ovarian serous cystadenocarcinoma', 'Pancreatic adenocarcinoma']","['BLCA', 'CESC', 'CHOL', 'MESO', 'OV', 'PAAD']"
+C_50922675,Encorafenib,Compound,N/A,"['Colon adenocarcinoma', 'Rectum adenocarcinoma', 'Skin Cutaneous Melanoma']","['COAD', 'READ', 'SKCM']"
+S_440234981,Lutetium Lu 177 vipivotide tetraxetan,Substance,Pluvicto,['Prostate adenocarcinoma'],['PRAD']
+C_9931954,Rucaparib Camsylate,Compound,Rubraca,"['Ovarian serous cystadenocarcinoma', 'Prostate adenocarcinoma']","['OV', 'PRAD']"
+S_482025801,Nadofaragene Firadenovec-vncg,Substance,"Adstiladrin, Instiladrin",['Bladder Urothelial Carcinoma'],['BLCA']
+C_3081361,Vandetanib,Compound,None found,['Thyroid carcinoma'],['THCA']
+C_46220502,Abemaciclib,Compound,Verzenio,['Breast invasive carcinoma'],['BRCA']
+S_104253155,Sipuleucel-T,Substance,Provenge,['Prostate adenocarcinoma'],['PRAD']
+C_60838,Irinotecan Hydrochloride,Compound,N/A,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+C_65015,Plerixafor,Compound,N/A,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_168314656,Lutetium Lu 177-dotatate,Compound,Lutathera,['Pheochromocytoma and Paraganglioma'],['PCPG']
+C_23662354,Mesna,Compound,Mesnex,['Bladder Urothelial Carcinoma'],['BLCA']
+C_285033,Omacetaxine Mepesuccinate,Compound,None found,['Chronic Myelogenous Leukemia'],['LCML']
+C_117947097,Belzutifan,Compound,N/A,"['Pheochromocytoma and Paraganglioma', 'Uterine Corpus Endometrial Carcinoma']","['PCPG', 'UCEC']"
+C_42611257,Vemurafenib,Compound,N/A,"['Skin Cutaneous Melanoma', 'Uveal Melanoma']","['SKCM', 'UVM']"
+S_536215,Rasburicase,Substance,N/A,"['Acute Myeloid Leukemia', 'Chronic Myelogenous Leukemia']","['LAML', 'LCML']"
+C_5330286,Palbociclib,Compound,None found,['Breast invasive carcinoma'],['BRCA']
+S_381127892,VeIP,Substance,Not provided,"['Ovarian serous cystadenocarcinoma', 'Testicular Germ Cell Tumors']","['OV', 'TGCT']"
+C_46908927,Ponatinib Hydrochloride,Compound,N/A,['Chronic Myelogenous Leukemia'],['LCML']
+C_11525740,Pazopanib Hydrochloride,Compound,None found,"['Kidney renal clear cell carcinoma', 'Sarcoma']","['KIRC', 'SARC']"
+C_135398738,Dacarbazine,Compound,None found,['Skin Cutaneous Melanoma'],['SKCM']
+C_26924,Talc,Compound,"Sclerosol Intrapleural Aerosol, Sterile Talc Powder, Steritalc",['Mesothelioma'],['MESO']
+S_135311732,CARBOPLATIN-TAXOL,Substance,None found,"['Cervical squamous cell carcinoma and endocervical adenocarcinoma', 'Ovarian serous cystadenocarcinoma', 'Thymoma', 'Uterine Corpus Endometrial Carcinoma']","['CESC', 'OV', 'THYM', 'UCEC']"
+S_242651789,Enfortumab vedotin-ejfv,Substance,N/A,['Bladder Urothelial Carcinoma'],['BLCA']
+C_23965,AC,Compound,Not provided,['Breast invasive carcinoma'],['BRCA']
+C_2375,Bicalutamide,Compound,None found,['Prostate adenocarcinoma'],['PRAD']
+C_60838,Irinotecan Hydrochloride Liposome,Compound,N/A,"['Colon adenocarcinoma', 'Pancreatic adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'PAAD', 'READ']"
+C_11167602,Regorafenib,Compound,None found,"['Colon adenocarcinoma', 'Liver hepatocellular carcinoma', 'Rectum adenocarcinoma']","['COAD', 'LIHC', 'READ']"
+C_3657,Hydroxyurea,Compound,"Droxia, Hydrea","['Chronic Myelogenous Leukemia', 'Head and Neck squamous cell carcinoma']","['LCML', 'HNSC']"
+C_135403647,Leucovorin Calcium,Compound,N/A,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+C_10184653,Afatinib Dimaleate,Compound,N/A,"['Lung adenocarcinoma', 'Lung squamous cell carcinoma']","['LUAD', 'LUSC']"
+C_71301229,XELOX,Compound,None found,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+S_483926588,Radium 223 Dichloride,Substance,N/A,['Prostate adenocarcinoma'],['PRAD']
+C_11237762,Lenvatinib Mesylate,Compound,None found,"['Kidney renal clear cell carcinoma', 'Liver hepatocellular carcinoma', 'Thyroid carcinoma', 'Uterine Corpus Endometrial Carcinoma']","['KIRC', 'LIHC', 'THCA', 'UCEC']"
+C_6445540,Ixabepilone,Compound,N/A,['Breast invasive carcinoma'],['BRCA']
+S_164130400,Margetuximab-cmkb,Substance,N/A,['Breast invasive carcinoma'],['BRCA']
+C_2478,Busulfan,Compound,None found,['Chronic Myelogenous Leukemia'],['LCML']
+C_44480399,Fruquintinib,Compound,None found,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+C_3902,Letrozole,Compound,Femara,"['Breast invasive carcinoma', 'Uterine Corpus Endometrial Carcinoma']","['BRCA', 'UCEC']"
+C_136171075,FOLFIRINOX,Compound,N/A,"['Colon adenocarcinoma', 'Pancreatic adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'PAAD', 'READ']"
+S_384585536,Trastuzumab and hyaluronidase-oysk,Substance,Herceptin Hylecta,['Breast invasive carcinoma'],['BRCA']
+C_123608,Aminolevulinic Acid Hydrochloride,Compound,uh-MEE-noh-LEH-vyoo-LIH-nik A-sid HY-droh-KLOR-ide,['Bladder Urothelial Carcinoma'],['BLCA']
+C_3950,Lomustine,Compound,None found,"['Brain Lower Grade Glioma', 'Glioblastoma multiforme']","['LGG', 'GBM']"
+S_387060193,Ramucirumab,Substance,N/A,"['Colon adenocarcinoma', 'Liver hepatocellular carcinoma', 'Lung adenocarcinoma', 'Lung squamous cell carcinoma', 'Rectum adenocarcinoma', 'Stomach adenocarcinoma']","['COAD', 'LIHC', 'LUAD', 'LUSC', 'READ', 'STAD']"
+C_6450551,Axitinib,Compound,N/A,['Kidney renal clear cell carcinoma'],['KIRC']
+C_60953,Capecitabine,Compound,None found,"['Breast invasive carcinoma', 'Colon adenocarcinoma', 'Esophageal carcinoma', 'Pancreatic adenocarcinoma', 'Rectum adenocarcinoma', 'Stomach adenocarcinoma']","['BRCA', 'COAD', 'ESCA', 'PAAD', 'READ', 'STAD']"
+C_5394,Temozolomide,Compound,N/A,['Glioblastoma multiforme'],['GBM']
+C_6918092,Etoposide Phosphate,Compound,N/A,['Testicular Germ Cell Tumors'],['TGCT']
+C_176871,Erlotinib Hydrochloride,Compound,N/A,"['Lung adenocarcinoma', 'Lung squamous cell carcinoma', 'Pancreatic adenocarcinoma']","['LUAD', 'LUSC', 'PAAD']"
+S_50056519,TAC,Substance,,['Breast invasive carcinoma'],['BRCA']
+C_4212,Mitoxantrone Hydrochloride,Compound,MY-toh-ZAN-trone HY-droh-KLOR-ide,['Prostate adenocarcinoma'],['PRAD']
+C_644241,Nilotinib,Compound,Nilotinib Hydrochloride Monohydrate,['Chronic Myelogenous Leukemia'],['LCML']
+C_62882,Propranolol Hydrochloride,Compound,None found,['Pheochromocytoma and Paraganglioma'],['PCPG']
+S_485206110,Toripalimab-tpzi,Substance,None found,['Head and Neck squamous cell carcinoma'],['HNSC']
+C_9854073,Cabazitaxel,Compound,N/A,['Prostate adenocarcinoma'],['PRAD']
+C_122201352,Capmatinib Hydrochloride,Compound,Tabrecta,['Lung adenocarcinoma'],['LUAD']
+C_60749,Gemcitabine Hydrochloride,Compound,N/A,"['Breast invasive carcinoma', 'Ovarian serous cystadenocarcinoma', 'Pancreatic adenocarcinoma']","['BRCA', 'OV', 'PAAD']"
+C_3005573,Toremifene,Compound,None found,"['Breast invasive carcinoma', 'Prostate adenocarcinoma']","['BRCA', 'PRAD']"
+C_216239,Sorafenib Tosylate,Compound,N/A,"['Kidney renal clear cell carcinoma', 'Liver hepatocellular carcinoma', 'Thyroid carcinoma']","['KIRC', 'LIHC', 'THCA']"
+S_7887466,FEC,Substance,CEF,['Breast invasive carcinoma'],['BRCA']
+C_135659064,FOLFOX,Compound,N/A,"['Colon adenocarcinoma', 'Rectum adenocarcinoma']","['COAD', 'READ']"
+S_479821089,Mosunetuzumab-axgb,Substance,Lunsumio,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_135565082,Talazoparib Tosylate,Compound,Talzenna,"['Breast invasive carcinoma', 'Ovarian serous cystadenocarcinoma', 'Prostate adenocarcinoma']","['BRCA', 'OV', 'PRAD']"
+C_17755248,Eribulin Mesylate,Compound,N/A,"['Breast invasive carcinoma', 'Sarcoma']","['BRCA', 'SARC']"
+C_443939,Doxorubicin Hydrochloride Liposome,Compound,N/A,['Ovarian serous cystadenocarcinoma'],['OV']
+S_104253154,Denosumab,Substance,N/A,"['Breast invasive carcinoma', 'Prostate adenocarcinoma']","['BRCA', 'PRAD']"
+C_46700774,Tepotinib Hydrochloride,Compound,N/A,['Lung adenocarcinoma'],['LUAD']
+C_104741,Fulvestrant,Compound,None found,['Breast invasive carcinoma'],['BRCA']
+C_5453,Thiotepa,Compound,None found,"['Bladder Urothelial Carcinoma', 'Breast invasive carcinoma', 'Ovarian serous cystadenocarcinoma']","['BLCA', 'BRCA', 'OV']"
+C_443939,Doxorubicin Hydrochloride,Compound,None found,"['Acute Myeloid Leukemia', 'Breast invasive carcinoma', 'Ovarian serous cystadenocarcinoma', 'Sarcoma', 'Stomach adenocarcinoma', 'Thyroid carcinoma']","['LAML', 'BRCA', 'OV', 'SARC', 'STAD', 'THCA']"
+C_208908,Lapatinib Ditosylate,Compound,N/A,['Breast invasive carcinoma'],['BRCA']
+C_5360373,Bleomycin Sulfate,Compound,None found,"['Cervical squamous cell carcinoma and endocervical adenocarcinoma', 'Head and Neck squamous cell carcinoma', 'Lung squamous cell carcinoma', 'Testicular Germ Cell Tumors']","['CESC', 'HNSC', 'LUSC', 'TGCT']"
+C_137278711,Sotorasib,Compound,Lumakras,['Lung adenocarcinoma'],['LUAD']
+C_4369534,CMF,Compound,Not provided,['Breast invasive carcinoma'],['BRCA']
+C_90480031,Enasidenib Mesylate,Compound,Idhifa,['Acute Myeloid Leukemia'],['LAML']
+C_11547978,Tivozanib Hydrochloride,Compound,None found,['Kidney renal clear cell carcinoma'],['KIRC']
+S_381127365,Tafasitamab-cxix,Substance,Monjuvi,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_5743,Dexamethasone,Compound,N/A,"['Acute Myeloid Leukemia', 'Chronic Myelogenous Leukemia', 'Lymphoid Neoplasm Diffuse Large B-cell Lymphoma']","['LAML', 'LCML', 'DLBC']"
+S_387065587,Amivantamab-vmjw,Substance,N/A,['Lung adenocarcinoma'],['LUAD']
+S_440816811,Epcoritamab-bysp,Substance,N/A,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+S_46505833,Filgrastim,Substance,"Granix, Neupogen, Nivestym, Releuko, Zarxio",['Acute Myeloid Leukemia'],['LAML']
+C_460612,Melphalan,Compound,None found,['Ovarian serous cystadenocarcinoma'],['OV']
+C_73351,Pamidronate Disodium,Compound,Aredia,['Breast invasive carcinoma'],['BRCA']
+C_44631912,Ribociclib,Compound,N/A,['Breast invasive carcinoma'],['BRCA']
+C_2187,Anastrozole,Compound,Arimidex,"['Breast invasive carcinoma', 'Uterine Corpus Endometrial Carcinoma']","['BRCA', 'UCEC']"
+S_445933985,Cetuximab,Substance,Erbitux,"['Colon adenocarcinoma', 'Head and Neck squamous cell carcinoma', 'Rectum adenocarcinoma']","['COAD', 'HNSC', 'READ']"
+C_9927978,Melphalan Hydrochloride,Compound,None found,['Uveal Melanoma'],['UVM']
+C_44462760,Dabrafenib Mesylate,Compound,Tafinlar,"['Brain Lower Grade Glioma', 'Skin Cutaneous Melanoma']","['LGG', 'SKCM']"
+S_329976959,Trastuzumab,Substance,None found,"['Breast invasive carcinoma', 'Stomach adenocarcinoma']","['BRCA', 'STAD']"
+S_481101763,Nivolumab and Relatlimab-rmbw,Substance,"Nivolumab, Relatlimab",['Skin Cutaneous Melanoma'],['SKCM']
+S_404720344,Tisotumab vedotin-tftv,Substance,None found,['Cervical squamous cell carcinoma and endocervical adenocarcinoma'],['CESC']
+C_457193,Dactinomycin,Compound,None found,"['Sarcoma', 'Testicular Germ Cell Tumors']","['SARC', 'TGCT']"
+C_56669626,Infigratinib phosphate,Compound,Truseltiq,['Cholangiocarcinoma'],['CHOL']
+C_6253,Cytarabine,Compound,None found,"['Acute Myeloid Leukemia', 'Chronic Myelogenous Leukemia']","['LAML', 'LCML']"
+C_11707110,Trametinib Dimethyl Sulfoxide,Compound,None found,"['Brain Lower Grade Glioma', 'Skin Cutaneous Melanoma']","['LGG', 'SKCM']"
+C_3385,Fluorouracil Injection,Compound,5-FU,"['Breast invasive carcinoma', 'Colon adenocarcinoma', 'Head and Neck squamous cell carcinoma', 'Pancreatic adenocarcinoma', 'Rectum adenocarcinoma', 'Stomach adenocarcinoma']","['BRCA', 'COAD', 'HNSC', 'PAAD', 'READ', 'STAD']"
+S_135263756,Necitumumab,Substance,None found,['Lung squamous cell carcinoma'],['LUSC']
+C_7904,VAC,Compound,N/A,['Testicular Germ Cell Tumors'],['TGCT']
+C_41867,Epirubicin Hydrochloride,Compound,None found,['Breast invasive carcinoma'],['BRCA']
+C_135565923,Repotrectinib,Compound,N/A,['Lung adenocarcinoma'],['LUAD']
+C_71491931,Cobimetinib Fumarate,Compound,Cotellic,['Skin Cutaneous Melanoma'],['SKCM']
+C_445283,TPF,Compound,None found,"['Head and Neck squamous cell carcinoma', 'Stomach adenocarcinoma']","['HNSC', 'STAD']"
+C_636362,Idarubicin Hydrochloride,Compound,"Idamycin, Idamycin PFS",['Acute Myeloid Leukemia'],['LAML']
+C_5959,CAF,Compound,None found,['Breast invasive carcinoma'],['BRCA']
+C_1014,CHOP,Compound,Not provided,['Lymphoid Neoplasm Diffuse Large B-cell Lymphoma'],['DLBC']
+C_190,ADE,Compound,Not specified,['Acute Myeloid Leukemia'],['LAML']
+C_10288191,Binimetinib,Compound,N/A,['Skin Cutaneous Melanoma'],['SKCM']
+S_135346711,FU-LV,Substance,Not provided,"['Colon adenocarcinoma', 'Esophageal carcinoma', 'Rectum adenocarcinoma', 'Stomach adenocarcinoma']","['COAD', 'ESCA', 'READ', 'STAD']"
+C_23725625,Olaparib,Compound,Lynparza,"['Breast invasive carcinoma', 'Ovarian serous cystadenocarcinoma', 'Pancreatic adenocarcinoma', 'Prostate adenocarcinoma']","['BRCA', 'OV', 'PAAD', 'PRAD']"
