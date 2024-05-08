@@ -10,7 +10,7 @@ The code is organized into three main directories, each tailored to facilitate s
 
 - **scripts:** This folder contains various Python scripts that manage tasks ranging from data pre-processing to model training. An additional Markdown file is included in this folder, providing detailed descriptions and usage instructions for each script.
 
-- **AsyncDistribJobs:** This directory houses an auxiliary custom library crafted to efficiently manage asynchronous parallel jobs on a High-Performance Computing (HPC) environment. It is crucial for handling the computational demands of large-scale data analysis.
+- **AsyncDistribJobs:** This directory houses an auxiliary custom library crafted to efficiently manage asynchronous parallel jobs on a High-Performance Computing (HPC) environment.
 
 # 1. Development Environment Setup
 
@@ -53,9 +53,7 @@ pip install guidance==0.1.8 \
              peft==0.7.1
 ```
 
-## Special Library Installation and Upgrades
-
-Some libraries need to be installed from specific sources or need to be re-installed to ensure compatibility with CUDA 11.8:
+Installing vLLM with CUDA 11.8 requieres a specific procedure:
 
 ```bash
 # Install vLLM with CUDA 11.8
