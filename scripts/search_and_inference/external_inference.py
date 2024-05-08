@@ -48,8 +48,8 @@ def external_inference(drugID,
                         **data_dict)
     
     #path adjustments
-    full_inference = 'full_inference' + f'_{external_dataset}' if external_dataset is not None else 'full_inference'
-    full_inference_shaps = 'full_inference_shaps' + f'_{external_dataset}' if external_dataset is not None else 'full_inference_shaps'
+    full_inference = 'full_inference' + f'_{external_dataset}' if external_dataset != 'None' else 'full_inference'
+    full_inference_shaps = 'full_inference_shaps' + f'_{external_dataset}' if external_dataset != 'None' else 'full_inference_shaps'
     
     #create the dataframe of the predictions
     predictions_df = pd.DataFrame()
@@ -81,7 +81,7 @@ def external_inference(drugID,
     shap_df.to_csv(Path(results_path) / dataset / 'search_and_inference' / 'moa_primed' / full_inference_shaps / f'{drugID}.csv')#,index=False)
 
     if kwargs['return_shaps']:
-        full_inference_shaps_raw = 'full_inference_shaps_raw' + f'_{external_dataset}' if external_dataset is not None else 'full_inference_shaps_raw'
+        full_inference_shaps_raw = 'full_inference_shaps_raw' + f'_{external_dataset}' if external_dataset != 'None' else 'full_inference_shaps_raw'
         
         with open(Path(results_path) / dataset / 'search_and_inference' / 'moa_primed' / full_inference_shaps_raw / f'{drugID}.pkl', 'wb') as f:
             pickle.dump(results['shap_values'], f)
@@ -111,6 +111,18 @@ def run_full_asynch_inference(args,inference_database_path):
         
         drugs_ids = loader.get_drugs_ids()
 
+        #if dataset is PRISM, inference only on drugs with corr > 0.2
+        if args['dataset'] == 'prism':
+            perfs = pd.read_csv(args['tabs_path']/'drugs_performances_PRISM.tsv',sep='\t')[['DrugID','MOA Corr']]
+            drugs_ids = perfs[perfs['MOA Corr'] >= 0.2]['DrugID'].tolist()
+
+            #TODO: REMEMBER TO REMOVE THIS
+            #remove the ones already present in the direcoe
+            processed = [i.stem for i in Path('/home/fcarli/CellHit/results/prism/search_and_inference/moa_primed/full_inference').iterdir() if i.suffix == '.csv']
+            processed = set([int(i) for i in processed])
+
+            drugs_ids = [i for i in drugs_ids if i not in processed]
+
         #for drugID in drugs_ids:
         #    add_job(payload={'drugID': int(drugID)},cid=f'{drugID}')
 
@@ -126,16 +138,17 @@ if __name__ == '__main__':
 
     argparser = argparse.ArgumentParser(description='Inference for CellHit')
     argparser.add_argument('--dataset', type=str, default='gdsc')
-    argparser.add_argument('--drugID', type=int, default=1617)
+    argparser.add_argument('--drugID', type=int, default=14)
     argparser.add_argument('--random_state', type=int, default=0)
     argparser.add_argument('--return_stds', type=bool, default=True)
     argparser.add_argument('--return_shaps', type=bool, default=True)
     argparser.add_argument('--cv_iterations', type=int, default=15)
     argparser.add_argument('--celligner_output_path', type=str, default='./../../data/transcriptomics/celligner_CCLE_TCGA')
     argparser.add_argument('--use_dumped_loaders', default=False, action='store_true')
-    argparser.add_argument('--external_dataset', type=str, default='PDAC')
+    argparser.add_argument('--external_dataset', type=str, default='PDAC',choices=['PDAC','GBM','None'])
     argparser.add_argument('--data_path', type=str, default='./../../data/')
     argparser.add_argument('--results_path', type=str, default='./../../results/')
+    argparser.add_argument('--tabs_path', type=str, default='./../../tables/tabs/')
     argparser.add_argument('--gpu_id', type=int, default=0)
 
     argparser.add_argument('--inference_mode', type=str, default='full_asynch')
@@ -146,8 +159,9 @@ if __name__ == '__main__':
     args_dict = vars(args)
     args_dict['models_path'] = Path(args.results_path) / args.dataset /'search_and_inference' / 'moa_primed' / 'models'
     args_dict['data_path'] = Path(args.data_path)
+    args_dict['tabs_path'] = Path(args.tabs_path)
 
-    if args.external_dataset is not None:
+    if args.external_dataset != 'None':
         args_dict['celligner_output_path'] = Path(args.celligner_output_path + f'_{args.external_dataset}.feather')
     else:
         args_dict['celligner_output_path'] = Path(args.celligner_output_path+'.feather')
