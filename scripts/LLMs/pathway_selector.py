@@ -149,7 +149,7 @@ if __name__ == '__main__':
 
     if args['selection_mode'] == 'asynch':
         run_full_asynch_selection(args,args['select_database_path'])
-    else:
+    elif args['selection_mode'] == 'single_drug':
         select_drug(**args)
 
     

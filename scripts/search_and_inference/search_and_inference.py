@@ -224,7 +224,7 @@ if __name__ == '__main__':
     
     sanity_checks(**args_dict)
 
-    if args.search_mode == 'full_asynch':
+    if args.search_mode == 'asynch':
 
         if 'drugID' in args_dict:
             del args_dict['drugID']
