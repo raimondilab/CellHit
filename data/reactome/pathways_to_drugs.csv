@@ -1,0 +1,1353 @@
+PathwayID,PathwayName,name,alternativeNames,id,database,PubChemID,PubChemType
+R-HSA-382556,ABC-family proteins mediated transport,colchicine,"colchicine,Colcrys&reg;",2367,Guide to Pharmacology,6167,Compound
+R-HSA-382556,ABC-family proteins mediated transport,bisantrene,bisantrene,5351322,PubChem Compound,5351322,Compound
+R-HSA-382556,ABC-family proteins mediated transport,gramicidin D,gramicidin D,45267103,PubChem Compound,45267103,Compound
+R-HSA-382556,ABC-family proteins mediated transport,melphalan,"melphalan,Alkeran&reg;,CB-3025,L-phenylalanine mustard (L-PAM),L-sarcolysine,melfalan,Sarcolysin&reg;",7620,Guide to Pharmacology,460612,Compound
+R-HSA-382556,ABC-family proteins mediated transport,vincristine,"vincristine,22-oxovincaleukoblastine,kyocristine,leurocristine sulfate,NSC-67574,Oncovin&reg;",6785,Guide to Pharmacology,5978,Compound
+R-HSA-382556,ABC-family proteins mediated transport,dexamethasone,"dexamethasone,Decadron&reg;,desametasone,fluormethylprednisolone",2768,Guide to Pharmacology,5743,Compound
+R-HSA-382556,ABC-family proteins mediated transport,teniposide,"teniposide,isosulfan blue,VM-26,Vumon&reg;",6843,Guide to Pharmacology,452548,Compound
+R-HSA-382556,ABC-family proteins mediated transport,temozolomide,"temozolomide,CCRG-81045,M-39831,Temodal&reg;,Temodar&reg;",7301,Guide to Pharmacology,5394,Compound
+R-HSA-382556,ABC-family proteins mediated transport,vinblastine,"vinblastine,29060-LE,Velban&reg;,Velbe&reg;,vincaleucoblastin,vincaleukoblastine",6851,Guide to Pharmacology,13342,Compound
+R-HSA-382556,ABC-family proteins mediated transport,Dactinomycin,Dactinomycin,457193,PubChem Compound,457193,Compound
+R-HSA-382556,ABC-family proteins mediated transport,prednisolone,"prednisolone,DELTA.1-Cortisol,Orapred&reg;,Pediapred&reg;",2866,Guide to Pharmacology,5755,Compound
+R-HSA-382556,ABC-family proteins mediated transport,doxorubicin,"doxorubicin,Adriamycin&reg;,Caelyx&reg; (liposomal doxorubicin),Doxil&reg;,doxorubicin hydrochloride",7069,Guide to Pharmacology,31703,Compound
+R-HSA-382556,ABC-family proteins mediated transport,methylprednisolone,"methylprednisolone,Medrol&reg;,U-67590A",7088,Guide to Pharmacology,6741,Compound
+R-HSA-382556,ABC-family proteins mediated transport,budesonide,"budesonide,Entocort&reg;,Jorveza&reg;,Pulmicort&reg;,S-1320,Uceris&reg;",7434,Guide to Pharmacology,5281004,Compound
+R-HSA-382556,ABC-family proteins mediated transport,paclitaxel,"paclitaxel,7-epipaclitaxel,Abraxane&reg; (albumin-bound suspension),Taxol&reg;",2770,Guide to Pharmacology,36314,Compound
+R-HSA-382556,ABC-family proteins mediated transport,daunorubicin,"daunorubicin,Cerubidine&reg;,daunomycin,FI-6339,NDC-0082-4155,RP-13057",7063,Guide to Pharmacology,30323,Compound
+R-HSA-382556,ABC-family proteins mediated transport,etoposide,"etoposide,Etopophos&reg;,(-)-etoposide,Toposar&reg;,trans-etoposide,VePesid&reg;,VP-16,VP 16-213",6815,Guide to Pharmacology,36462,Compound
+R-HSA-382556,ABC-family proteins mediated transport,docetaxel,"docetaxel,Docecad&reg;,docetaxel anhydrous,EmDOC,Taxotere&reg;",6809,Guide to Pharmacology,148124,Compound
+R-HSA-382556,ABC-family proteins mediated transport,azithromycin,azithromycin,6510,Guide to Pharmacology,447043,Compound
+R-HSA-382556,ABC-family proteins mediated transport,erythromycin,"erythromycin,E-Mycin&reg;,Erythrocin&reg;,erythromycin-A",1456,Guide to Pharmacology,12560,Compound
+R-HSA-382556,ABC-family proteins mediated transport,prednisone,"prednisone,Lodotra&reg;,Sterapred&reg;",7096,Guide to Pharmacology,5865,Compound
+R-HSA-382556,ABC-family proteins mediated transport,imatinib,"imatinib,CGP 57148,Gleevec&reg;,Glivec&reg;,STI571",5687,Guide to Pharmacology,5291,Compound
+R-HSA-382556,ABC-family proteins mediated transport,irinotecan,"irinotecan,biotecan,Campto&reg;,Camptosar&reg;,CPT-11,(+)-irinotecan,irinotecan hydrochloride,Onivyde&reg;",6823,Guide to Pharmacology,60838,Compound
+R-HSA-2161522,Abacavir ADME,carbovir diphosphate,carbovir diphosphate,135564825,PubChem Compound,135564825,Compound
+R-HSA-2161522,Abacavir ADME,carbovir triphosphate,carbovir triphosphate,135499583,PubChem Compound,135499583,Compound
+R-HSA-2161522,Abacavir ADME,carbovir,carbovir,135403630,PubChem Compound,135403630,Compound
+R-HSA-2161522,Abacavir ADME,carbovir monophosphate,carbovir monophosphate,135565291,PubChem Compound,135565291,Compound
+R-HSA-2161522,Abacavir ADME,abacavir,"abacavir,1592U89,Ziagen&reg;",11152,Guide to Pharmacology,441300,Compound
+R-HSA-2161522,Abacavir ADME,abacavir monophosphate,abacavir monophosphate,469588,PubChem Compound,469588,Compound
+R-HSA-1280218,Adaptive Immune System,cyclosporin A,"cyclosporin A,ciclosporin,cyclosporine,cyclosporine A,Ikervis&reg; (opthalmic solution),Neoral&reg;,Sandimmun&reg;,Verkazia&reg; (opthalmic solution)",1024,Guide to Pharmacology,5284373,Compound
+R-HSA-1280218,Adaptive Immune System,tacrolimus,"tacrolimus,FK506,fujimycin,Prograf&reg;,Protopic&reg;",6784,Guide to Pharmacology,445643,Compound
+R-HSA-1280218,Adaptive Immune System,zanubrutinib,"zanubrutinib,BGB3111,BGB-3111,Brukinsa&reg;,compound 27b [US9447106]",9861,Guide to Pharmacology,135565884,Compound
+R-HSA-1280218,Adaptive Immune System,tirabrutinib,"tirabrutinib,GS-4059,ONO4059,ONO-4059",9265,Guide to Pharmacology,54755438,Compound
+R-HSA-1280218,Adaptive Immune System,spebrutinib,"spebrutinib,AVL 292,AVL-292,cc-292",7837,Guide to Pharmacology,59174488,Compound
+R-HSA-1280218,Adaptive Immune System,ibrutinib,"ibrutinib,Imbruvica&reg;,PCI-32765",6912,Guide to Pharmacology,24821094,Compound
+R-HSA-1280218,Adaptive Immune System,acalabrutinib,"acalabrutinib,ACP-196,Calquence&reg;,Example 6 [US20140155385 A1]",8912,Guide to Pharmacology,71226662,Compound
+R-HSA-1280218,Adaptive Immune System,natalizumab,"natalizumab,AN100226,anti-alpha4 integrin,anti-VLA4,Tysabri&reg;",6591,Guide to Pharmacology,472677714,Substance
+R-HSA-1280218,Adaptive Immune System,nivolumab,"nivolumab,BMS-936558,MDX-1106,ONO-4538,Opdivo&reg;",7335,Guide to Pharmacology,387061103,Substance
+R-HSA-1280218,Adaptive Immune System,cemiplimab,"cemiplimab,cemiplimab-rwlc,Libtayo&reg;,REGN-2810,REGN2810,SAR-439684,SAR439684",10090,Guide to Pharmacology,381118800,Substance
+R-HSA-1280218,Adaptive Immune System,camrelizumab,"camrelizumab,INCSHR1210,SHR-1210",9758,Guide to Pharmacology,354702231,Substance
+R-HSA-109581,Apoptosis,ABT-737,"ABT-737,ABT737,ABT 737,compound 2 [PMID 17256834]",8320,Guide to Pharmacology,11228183,Compound
+R-HSA-109581,Apoptosis,navitoclax,"navitoclax,ABT 263,ABT-263",8319,Guide to Pharmacology,24978538,Compound
+R-HSA-109581,Apoptosis,venetoclax,"venetoclax,ABT-199,GDC-0199,Venclexta&reg;,Venclyxto&reg;",8318,Guide to Pharmacology,49846579,Compound
+R-HSA-9749641,Aspirin ADME,aspirin,"aspirin,Acetophen&reg;,acetylsalicylic acid,Aspirin&reg;,ASA,acetylsalicylate",4139,Guide to Pharmacology,2244,Compound
+R-HSA-9754706,Atorvastatin ADME,atorvastatin lactone,atorvastatin lactone,2957,Guide to Pharmacology,6483036,Compound
+R-HSA-9754706,Atorvastatin ADME,o-hydroxyatorvastatin,o-hydroxyatorvastatin,6705,Guide to Pharmacology,9808225,Compound
+R-HSA-9754706,Atorvastatin ADME,p-hydroxyatorvastatin,p-hydroxyatorvastatin,7359,Guide to Pharmacology,9851106,Compound
+R-HSA-9754706,Atorvastatin ADME,atorvastatin,"atorvastatin,Lipitor&reg;",2949,Guide to Pharmacology,60823,Compound
+R-HSA-9748787,Azathioprine ADME,mercaptopurine,"mercaptopurine,6-mercaptopurine,Purinethol&reg;,Xaluprine&reg;",7226,Guide to Pharmacology,667490,Compound
+R-HSA-9748787,Azathioprine ADME,azathioprine,"azathioprine,Azasan&reg;,BW-57-322,Imuran&reg;",7120,Guide to Pharmacology,2265,Compound
+R-HSA-73884,Base Excision Repair,procarbazine,"procarbazine,Matulane&reg;,Ro-4-6467/1,Ro-4646711",7278,Guide to Pharmacology,4915,Compound
+R-HSA-73884,Base Excision Repair,temozolomide,"temozolomide,CCRG-81045,M-39831,Temodal&reg;,Temodar&reg;",7301,Guide to Pharmacology,5394,Compound
+R-HSA-73884,Base Excision Repair,streptozocin,"streptozocin,streptozotocin",29327,PubChem Compound,29327,Compound
+R-HSA-73884,Base Excision Repair,dacarbazine,"dacarbazine,DTIC-Dome&reg;",9075,Guide to Pharmacology,135398738,Compound
+R-HSA-211859,Biological oxidations,paracetamol,"paracetamol,acetaminophen,Panadol&reg;,Tylenol&reg;",5239,Guide to Pharmacology,1983,Compound
+R-HSA-211859,Biological oxidations,tamoxifen,"tamoxifen,ICI-46474,Nolvadex&reg;,Soltamox&reg;",1016,Guide to Pharmacology,2733526,Compound
+R-HSA-211859,Biological oxidations,troleandomycin,"troleandomycin,oleandocetin,Tao&reg;,triacetyloleandomycin",10209,Guide to Pharmacology,202225,Compound
+R-HSA-211859,Biological oxidations,ritonavir,"ritonavir,A-84538,ABBOTT-84538,ABT 538,ABT-538,Norvir&reg;",8804,Guide to Pharmacology,392622,Compound
+R-HSA-211859,Biological oxidations,nefazodone,"nefazodone,BMY-13754,MJ-13754-1,Nefadar&reg;",7247,Guide to Pharmacology,4449,Compound
+R-HSA-211859,Biological oxidations,verapamil,"verapamil,Ansyr&reg;,CP-165331 /  CP-16533-1,Securon&reg;",2406,Guide to Pharmacology,2520,Compound
+R-HSA-211859,Biological oxidations,cobicistat,"cobicistat,GS-9350",7535,Guide to Pharmacology,25151504,Compound
+R-HSA-211859,Biological oxidations,ketoconazole,"ketoconazole,Nizoral&reg;,R-41400",2568,Guide to Pharmacology,456201,Compound
+R-HSA-211859,Biological oxidations,dextromethorphan,"dextromethorphan,d-methorphan",6953,Guide to Pharmacology,5360696,Compound
+R-HSA-211859,Biological oxidations,dextrorphan,dextrorphan,9052,Guide to Pharmacology,5360697,Compound
+R-HSA-211859,Biological oxidations,tolbutamide,"tolbutamide,Orinase&reg;,tolbutamide sodium",6848,Guide to Pharmacology,5505,Compound
+R-HSA-211859,Biological oxidations,safinamide,"safinamide,EMD 1195686,EMD-1195686,Xadago&reg;",8291,Guide to Pharmacology,131682,Compound
+R-HSA-211859,Biological oxidations,moclobemide,"moclobemide,GNF-Pf-695,Manerix&reg;",7428,Guide to Pharmacology,4235,Compound
+R-HSA-211859,Biological oxidations,rasagiline,"rasagiline,Azilect&reg;,TVP-1012",6641,Guide to Pharmacology,3052776,Compound
+R-HSA-211859,Biological oxidations,tranylcypromine,"tranylcypromine,Parnate&reg;,tranylcypromine sulphate",5281,Guide to Pharmacology,19493,Compound
+R-HSA-211859,Biological oxidations,selegiline,"selegiline,Eldepryl&reg;,L-deprenalin,Otrasel&reg;,Selegene&reg;,Zelapar&reg;",6639,Guide to Pharmacology,26757,Compound
+R-HSA-211859,Biological oxidations,toloxatone,toloxatone,34521,PubChem Compound,34521,Compound
+R-HSA-211859,Biological oxidations,pirlindole,"pirlindole,Pyrazidol &reg;",6638,Guide to Pharmacology,68802,Compound
+R-HSA-211859,Biological oxidations,bifemelane,bifemelane,11742,Guide to Pharmacology,2377,Compound
+R-HSA-211859,Biological oxidations,isocarboxazid,"isocarboxazid,Marplan&reg;",7204,Guide to Pharmacology,3759,Compound
+R-HSA-211859,Biological oxidations,olmesartan,"olmesartan,Benicar&reg;,CS-866,Olmetec&reg;",591,Guide to Pharmacology,158781,Compound
+R-HSA-211859,Biological oxidations,doxorubicin,"doxorubicin,Adriamycin&reg;,Caelyx&reg; (liposomal doxorubicin),Doxil&reg;,doxorubicin hydrochloride",7069,Guide to Pharmacology,31703,Compound
+R-HSA-5576891,Cardiac conduction,ouabain,ouabain,4826,Guide to Pharmacology,439501,Compound
+R-HSA-5576891,Cardiac conduction,deslanoside,"deslanoside,Cedilanide&reg;,desacetyl-lanatoside C",6806,Guide to Pharmacology,28620,Compound
+R-HSA-5576891,Cardiac conduction,digoxin,"digoxin,Lanoxin&reg;",4726,Guide to Pharmacology,2724385,Compound
+R-HSA-5576891,Cardiac conduction,acetyldigitoxin,"acetyldigitoxin,acetyldiginatin,Acylanid&reg;,alpha-acetyldigitoxin",6794,Guide to Pharmacology,5284512,Compound
+R-HSA-5576891,Cardiac conduction,digitoxin,"digitoxin,digitoxoside,unidigin",6782,Guide to Pharmacology,441207,Compound
+R-HSA-5576891,Cardiac conduction,nicorandil,"nicorandil,Ikorel&reg;,SG-75",2411,Guide to Pharmacology,47528,Compound
+R-HSA-5576891,Cardiac conduction,sacubitrilat,"sacubitrilat,LBQ657,LBQ-657",7858,Guide to Pharmacology,10430040,Compound
+R-HSA-5576891,Cardiac conduction,sacubitril,"sacubitril,AHU377,Entresto&reg;,Neparvis&reg;",7857,Guide to Pharmacology,9811834,Compound
+R-HSA-5576891,Cardiac conduction,nisoldipine,"nisoldipine,Sular&reg;",2524,Guide to Pharmacology,4499,Compound
+R-HSA-5576891,Cardiac conduction,aranidipine,aranidipine,11744,Guide to Pharmacology,2225,Compound
+R-HSA-5576891,Cardiac conduction,nilvadipine,"nilvadipine,Escor&reg;,FR34235,FR-34235",10160,Guide to Pharmacology,4494,Compound
+R-HSA-5576891,Cardiac conduction,verapamil,"verapamil,Ansyr&reg;,CP-165331 /  CP-16533-1,Securon&reg;",2406,Guide to Pharmacology,2520,Compound
+R-HSA-5576891,Cardiac conduction,nitrendipine,nitrendipine,2334,Guide to Pharmacology,4507,Compound
+R-HSA-5576891,Cardiac conduction,azelnidipine,azelnidipine,65948,PubChem Compound,65948,Compound
+R-HSA-5576891,Cardiac conduction,clevidipine,"clevidipine,Cleviprex&reg;",7468,Guide to Pharmacology,153994,Compound
+R-HSA-5576891,Cardiac conduction,diltiazem,"diltiazem,Cardizem&reg;,(+)-cis-diltiazem,CRD-401,D-(cis)-diltiazem,Dilacor-XR&reg;,RG-83606",2298,Guide to Pharmacology,39186,Compound
+R-HSA-5576891,Cardiac conduction,amlodipine,"amlodipine,amlodipine besylate,amlodipine maleate,Norvasc&reg;,UK-4834011",6981,Guide to Pharmacology,2162,Compound
+R-HSA-5576891,Cardiac conduction,lercanidipine,lercanidipine,65866,PubChem Compound,65866,Compound
+R-HSA-5576891,Cardiac conduction,nimodipine,"nimodipine,BAY-E-9736,Nimotop&reg;",2523,Guide to Pharmacology,4497,Compound
+R-HSA-5576891,Cardiac conduction,manidipine,manidipine,11739,Guide to Pharmacology,4008,Compound
+R-HSA-5576891,Cardiac conduction,isradipine,"isradipine,DynaCirc&reg;,(&plusmn;)-isradipine,PN-200-110,Prescal&reg;",4488,Guide to Pharmacology,3784,Compound
+R-HSA-5576891,Cardiac conduction,(-)-(<i>R</i>)-efonidipine,(-)-(<i>R</i>)-efonidipine,2519,Guide to Pharmacology,,
+R-HSA-5576891,Cardiac conduction,nifedipine,"nifedipine,Adalat&reg;,BAY-A-1040,Procardia&reg;",2514,Guide to Pharmacology,4485,Compound
+R-HSA-5576891,Cardiac conduction,felodipine,"felodipine,felodipine,Plandil&reg;,Renedil&reg;",4190,Guide to Pharmacology,3333,Compound
+R-HSA-5576891,Cardiac conduction,benidipine,"benidipine,Coniel&reg;",10159,Guide to Pharmacology,656668,Compound
+R-HSA-5576891,Cardiac conduction,lacidipine,lacidipine,11740,Guide to Pharmacology,5311217,Compound
+R-HSA-5576891,Cardiac conduction,cilnidipine,"cilnidipine,FRC-8653",7767,Guide to Pharmacology,5282138,Compound
+R-HSA-5576891,Cardiac conduction,barnidipine,barnidipine,443869,PubChem Compound,443869,Compound
+R-HSA-5576891,Cardiac conduction,levamlodipine,levamlodipine,9822750,PubChem Compound,9822750,Compound
+R-HSA-5576891,Cardiac conduction,nicardipine,"nicardipine,Cardene&reg;,(R,S)-nicardipine",2559,Guide to Pharmacology,4474,Compound
+R-HSA-5576891,Cardiac conduction,dexniguldipine,"dexniguldipine,(R)-niguldipine,(R)-(-)-niguldipine",463,Guide to Pharmacology,6918097,Compound
+R-HSA-5576891,Cardiac conduction,dronedarone,"dronedarone,Multaq&reg;,SR-33598B",7465,Guide to Pharmacology,208898,Compound
+R-HSA-5576891,Cardiac conduction,amiodarone,"amiodarone,amiodarone hydrochloride,Cordarone&reg;",2566,Guide to Pharmacology,2157,Compound
+R-HSA-5576891,Cardiac conduction,ibutilide,"ibutilide,Corvert&reg;,U-70226E",7200,Guide to Pharmacology,60753,Compound
+R-HSA-5576891,Cardiac conduction,dofetilide,"dofetilide,Tikosyn&reg;,UK-68798",2604,Guide to Pharmacology,71329,Compound
+R-HSA-5576891,Cardiac conduction,E4031,"E4031,E 4031,E-4031",2605,Guide to Pharmacology,3185,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",PF-06873600,"PF-06873600,example 10 [WO2018033815],PF06873600",10426,Guide to Pharmacology,134247638,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",dalpiciclib,"dalpiciclib,Example 1 [WO2014183520A1],SHR6390,SHR-6390",11189,Guide to Pharmacology,86279927,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",ribociclib,ribociclib,7383,Guide to Pharmacology,44631912,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",fascaplysin,fascaplysin,5969,Guide to Pharmacology,73292,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",voruciclib,"voruciclib,P1446A,P1446A-05",9923,Guide to Pharmacology,67409219,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",abemaciclib,"abemaciclib,CS-1230,HY-16297A,LY2835219,LY 2835219,Verzenio&reg;,Verzenios&reg;",7382,Guide to Pharmacology,46220502,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",dinaciclib,"dinaciclib,SCH727965",7379,Guide to Pharmacology,46926350,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",palbociclib,"palbociclib,Ibrance&reg;,PD0332991,PD-0332991",7380,Guide to Pharmacology,5330286,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",riviciclib,"riviciclib,P276-00",7934,Guide to Pharmacology,23643976,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",trilaciclib,"trilaciclib,Cosela&reg;,G1T28",9626,Guide to Pharmacology,68029831,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",lerociclib,"lerociclib,example GG [US9464092B2],G1T38,G1T-38",10313,Guide to Pharmacology,86269224,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",Cdk4 inhibitor,"Cdk4 inhibitor,indolocarbazole deriv. 4(d),K00024",5950,Guide to Pharmacology,5330797,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",milciclib,"milciclib,PHA848125,PHA 848125,PHA-848125",7938,Guide to Pharmacology,16718576,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",Ro-0506220,Ro-0506220,9933545,PubChem Compound,9933545,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",alvocidib,"alvocidib,flavopiridol,HL 275,HMR 1275,L 868275,L 86-8275,MDL-107826A,NSC-649890",5680,Guide to Pharmacology,5287969,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",R547,"R547,R-547,Ro 4584820",5707,Guide to Pharmacology,6918852,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",Ro-0505124,"Ro-0505124,RO0505124",8203,Guide to Pharmacology,9911652,Compound
+R-HSA-69278,"Cell Cycle, Mitotic",RGB-286638,"RGB-286638,RGB286638,RGB 286638",7744,Guide to Pharmacology,11285001,Compound
+R-HSA-202733,Cell surface interactions at the vascular wall,natalizumab,"natalizumab,AN100226,anti-alpha4 integrin,anti-VLA4,Tysabri&reg;",6591,Guide to Pharmacology,472677714,Substance
+R-HSA-2262752,Cellular responses to stress,monomethyl fumarate,"monomethyl fumarate,methyl hydrogen fumarate",5786,Guide to Pharmacology,5369209,Compound
+R-HSA-2262752,Cellular responses to stress,sulforaphane,sulforaphane,6569,Guide to Pharmacology,5350,Compound
+R-HSA-2262752,Cellular responses to stress,dimethyl fumarate,"dimethyl fumarate,BG00012,BG-12,fumaric acid,Tecfidera&reg;",7045,Guide to Pharmacology,637568,Compound
+R-HSA-2262752,Cellular responses to stress,cortisol,"cortisol,Acticort&reg;,Plenadren&reg;",2868,Guide to Pharmacology,5754,Compound
+R-HSA-2262752,Cellular responses to stress,fluocinolone acetonide,"fluocinolone acetonide,Capex&reg;,Iluvien&reg;,Synalar&reg;",7077,Guide to Pharmacology,6215,Compound
+R-HSA-2262752,Cellular responses to stress,difluprednate,"difluprednate,DFBA,Durezol&reg;,W-6309",7474,Guide to Pharmacology,443936,Compound
+R-HSA-2262752,Cellular responses to stress,fluorometholone,"fluorometholone,Flarex&reg;,FML&reg;",7079,Guide to Pharmacology,9878,Compound
+R-HSA-2262752,Cellular responses to stress,triamcinolone,"triamcinolone,fluoxiprednisolone,Kenalog&reg;,Nasacort&reg;",2870,Guide to Pharmacology,31307,Compound
+R-HSA-2262752,Cellular responses to stress,desoximetasone,"desoximetasone,A-41-304,HOE-304,R-2113,Topicort&reg;",7067,Guide to Pharmacology,5311067,Compound
+R-HSA-2262752,Cellular responses to stress,dexamethasone,"dexamethasone,Decadron&reg;,desametasone,fluormethylprednisolone",2768,Guide to Pharmacology,5743,Compound
+R-HSA-2262752,Cellular responses to stress,prednisolone,"prednisolone,DELTA.1-Cortisol,Orapred&reg;,Pediapred&reg;",2866,Guide to Pharmacology,5755,Compound
+R-HSA-2262752,Cellular responses to stress,flunisolide,"flunisolide,AeroBid&reg;,RS-3999",7076,Guide to Pharmacology,82153,Compound
+R-HSA-2262752,Cellular responses to stress,fluticasone propionate,"fluticasone propionate,Advair Diskus&reg;,ArmonAir RespiClick<sup>TM</sup>,CCI-18781,Flovent&reg;",7080,Guide to Pharmacology,444036,Compound
+R-HSA-2262752,Cellular responses to stress,prednisone,"prednisone,Lodotra&reg;,Sterapred&reg;",7096,Guide to Pharmacology,5865,Compound
+R-HSA-2262752,Cellular responses to stress,beclometasone,"beclometasone,beclomethasone,SCH-18020W",7059,Guide to Pharmacology,20469,Compound
+R-HSA-2262752,Cellular responses to stress,fluocinonide,"fluocinonide,Fluonex&reg;,Lidex&reg;",7078,Guide to Pharmacology,9642,Compound
+R-HSA-2262752,Cellular responses to stress,clobetasol propionate,"clobetasol propionate,CCI-4725,Clobex&reg;,Dermovate&reg;,GR 2/925,Temovate&reg;",7062,Guide to Pharmacology,32798,Compound
+R-HSA-2262752,Cellular responses to stress,mometasone,"mometasone,Elocon&reg; (topical),Nasonex&reg;",9029,Guide to Pharmacology,441335,Compound
+R-HSA-2262752,Cellular responses to stress,diflorasone diacetate,"diflorasone diacetate,Psorcon&reg;,U-34865",7068,Guide to Pharmacology,71414,Compound
+R-HSA-2262752,Cellular responses to stress,rimexolone,"rimexolone,ORG-6216,Vexol&reg;",7099,Guide to Pharmacology,5311412,Compound
+R-HSA-2262752,Cellular responses to stress,budesonide,"budesonide,Entocort&reg;,Jorveza&reg;,Pulmicort&reg;,S-1320,Uceris&reg;",7434,Guide to Pharmacology,5281004,Compound
+R-HSA-2262752,Cellular responses to stress,triamcinolone acetonide,"triamcinolone acetonide,Zilretta&reg;",2867,Guide to Pharmacology,6436,Compound
+R-HSA-2262752,Cellular responses to stress,betamethasone,"betamethasone,SCH-4831",7061,Guide to Pharmacology,9782,Compound
+R-HSA-2262752,Cellular responses to stress,methylprednisolone,"methylprednisolone,Medrol&reg;,U-67590A",7088,Guide to Pharmacology,6741,Compound
+R-HSA-2262752,Cellular responses to stress,deflazacort,"deflazacort,Emflaza&reg;,MDL 458",9477,Guide to Pharmacology,189821,Compound
+R-HSA-2262752,Cellular responses to stress,ciclesonide,"ciclesonide,Alvesco&reg;,Omnaris&reg;,RPR-251526",7469,Guide to Pharmacology,6918155,Compound
+R-HSA-2262752,Cellular responses to stress,fludrocortisone,"fludrocortisone,9&alpha;-Flourocortisol,Florinef&reg;",2873,Guide to Pharmacology,31378,Compound
+R-HSA-2262752,Cellular responses to stress,nandrolone,"nandrolone,19-norandrostenolone,Deca-Durabolin&reg; (decanoate ester),Durabolin&reg; (phenylpropionate ester)",6949,Guide to Pharmacology,9904,Compound
+R-HSA-2262752,Cellular responses to stress,oxandrolone,"oxandrolone,Anavar&reg;,SC-11585",7092,Guide to Pharmacology,5878,Compound
+R-HSA-2262752,Cellular responses to stress,dromostanolone propionate,"dromostanolone propionate,drostanolone,Masteron&reg;",6947,Guide to Pharmacology,224004,Compound
+R-HSA-2262752,Cellular responses to stress,oxymetholone,oxymetholone,5281034,PubChem Compound,5281034,Compound
+R-HSA-2262752,Cellular responses to stress,methyltestosterone,"methyltestosterone,17-methyltestosterone",6945,Guide to Pharmacology,6010,Compound
+R-HSA-2262752,Cellular responses to stress,testosterone cypionate,testosterone cypionate,9463,ChEBI,441404,Compound
+R-HSA-2262752,Cellular responses to stress,testosterone undecanoate,testosterone undecanoate,135741,ChEBI,65157,Compound
+R-HSA-2262752,Cellular responses to stress,nandrolone decanoate,nandrolone decanoate,9677,PubChem Compound,9677,Compound
+R-HSA-2262752,Cellular responses to stress,danazol,"danazol,Danocrine&reg;",6942,Guide to Pharmacology,28417,Compound
+R-HSA-2262752,Cellular responses to stress,stanozolol,"stanozolol,Stromba&reg;,Tevabolin&reg;,WIN14833,WIN-14833,Winstrol&reg;",10369,Guide to Pharmacology,25249,Compound
+R-HSA-2262752,Cellular responses to stress,testosterone propionate,testosterone propionate,7100,Guide to Pharmacology,5995,Compound
+R-HSA-2262752,Cellular responses to stress,fluoxymesterone,"fluoxymesterone,Halotestin&reg;",2861,Guide to Pharmacology,6446,Compound
+R-HSA-2262752,Cellular responses to stress,Apararenone,Apararenone,28663572,ChemSpider,316908487,Substance
+R-HSA-2262752,Cellular responses to stress,Esaxerenone,Esaxerenone,28666733,ChemSpider,25052023,Compound
+R-HSA-2262752,Cellular responses to stress,Finerenone,Finerenone,28669387,ChemSpider,60150535,Compound
+R-HSA-2262752,Cellular responses to stress,drospirenone,"drospirenone,dihydrospirorenone,Slynd&reg;,Yasmin&reg;,ZK30595",2874,Guide to Pharmacology,68873,Compound
+R-HSA-2262752,Cellular responses to stress,eplerenone,"eplerenone,Inspra&reg;,SC-66110",2876,Guide to Pharmacology,443872,Compound
+R-HSA-2262752,Cellular responses to stress,spironolactone,"spironolactone,Aldactone&reg;,spiractin,spirotone",2875,Guide to Pharmacology,5833,Compound
+R-HSA-2262752,Cellular responses to stress,nimodipine,"nimodipine,BAY-E-9736,Nimotop&reg;",2523,Guide to Pharmacology,4497,Compound
+R-HSA-2262752,Cellular responses to stress,mifepristone,"mifepristone,Mifeprex&reg;,RU-486,RU486 ",2805,Guide to Pharmacology,55245,Compound
+R-HSA-2262752,Cellular responses to stress,ulipristal acetate,"ulipristal acetate,CDB-2914,EllaOne&reg;,VA2914",7460,Guide to Pharmacology,130904,Compound
+R-HSA-2262752,Cellular responses to stress,enzalutamide,enzalutamide,6812,Guide to Pharmacology,15951529,Compound
+R-HSA-2262752,Cellular responses to stress,apalutamide,"apalutamide,ARN509,ARN-509,Erleada&reg;,JNJ-56021927",9043,Guide to Pharmacology,24872560,Compound
+R-HSA-2262752,Cellular responses to stress,darolutamide,"darolutamide,BAY1841788,BAY-1841788),example 56 [US9657003],Nubeqa&reg;,ODM201,ODM-201",10439,Guide to Pharmacology,67171867,Compound
+R-HSA-2262752,Cellular responses to stress,cyproterone acetate,cyproterone acetate,2865,Guide to Pharmacology,9880,Compound
+R-HSA-2262752,Cellular responses to stress,nilutamide,"nilutamide,Nilandron&reg;",2864,Guide to Pharmacology,4493,Compound
+R-HSA-2262752,Cellular responses to stress,clascoterone,"clascoterone,CB-0301,CB-03-01,cortexolone 17&alpha;-propionate,Winlevi&reg;",11215,Guide to Pharmacology,11750009,Compound
+R-HSA-2262752,Cellular responses to stress,flutamide,"flutamide,Eulexin&reg;,SCH-13521",6943,Guide to Pharmacology,3397,Compound
+R-HSA-2262752,Cellular responses to stress,bicalutamide,"bicalutamide,Calutide&reg;,Casodex&reg;",2863,Guide to Pharmacology,2375,Compound
+R-HSA-2262752,Cellular responses to stress,dydrogesterone,"dydrogesterone,Duphaston&reg;",2878,Guide to Pharmacology,9051,Compound
+R-HSA-2262752,Cellular responses to stress,medroxyprogesterone,"medroxyprogesterone,hydroxymethylprogesterone,MPA",2879,Guide to Pharmacology,10631,Compound
+R-HSA-2262752,Cellular responses to stress,norethisterone,"norethisterone,Micronor&reg;,norethindrone,Noriday&reg;",2880,Guide to Pharmacology,6230,Compound
+R-HSA-2262752,Cellular responses to stress,levonorgestrel,"levonorgestrel,l-norgestrel,Norplant&reg;",2881,Guide to Pharmacology,13109,Compound
+R-HSA-3247509,Chromatin modifying enzymes,panobinostat,"panobinostat,Farydak&reg;,LBH-589,LBH589",7489,Guide to Pharmacology,6918837,Compound
+R-HSA-3247509,Chromatin modifying enzymes,valproic acid,"valproic acid,A-44090,Depakote&reg;,Epilim&reg;,valproate sodium",7009,Guide to Pharmacology,3121,Compound
+R-HSA-3247509,Chromatin modifying enzymes,romidepsin,"romidepsin,FK228,FR901228,Istodax&reg;",7006,Guide to Pharmacology,5352062,Compound
+R-HSA-3247509,Chromatin modifying enzymes,vorinostat,"vorinostat,SAHA,suberoylanilide hydroxamic acid,Zolinza&reg;",6852,Guide to Pharmacology,5311,Compound
+R-HSA-3247509,Chromatin modifying enzymes,belinostat,"belinostat,Beleodaq&reg;,PXD-101,PXD101",7496,Guide to Pharmacology,6918638,Compound
+R-HSA-9793528,Ciprofloxacin ADME,ciprofloxacin HCl,"ciprofloxacin HCl,ciprofloxacin hydrochloride",310388,ChEBI,62999,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,heparin,"heparin,HepFlush&reg;",4214,Guide to Pharmacology,53790558,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,sunitinib,"sunitinib,SU11248,Sutent&reg;",5713,Guide to Pharmacology,5329102,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,luteolin,luteolin,5215,Guide to Pharmacology,5280445,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,ruxolitinib,"ruxolitinib,<i>(R)</i>-ruxolitinib,INC424,INCB 18424,INCB018424,Jakafi&reg;,Jakavi&reg;",5688,Guide to Pharmacology,25126798,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,tofacitinib,"tofacitinib,CP-690,550,CP-690550,tasocitinib,Xeljanz&reg;",5677,Guide to Pharmacology,9926791,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,delgocitinib,"delgocitinib,Corectim&reg;,ent-60,JTE052,JTE-052",9619,Guide to Pharmacology,50914062,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,baricitinib,"baricitinib,INCB-028050,INCB028050,LY-3009104,LY3009104,Olumiant&reg;",7792,Guide to Pharmacology,44205240,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,peginterferon alfa-2a,"peginterferon alfa-2a,Pegasys",47205819,PubChem Substance,46504860,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,peginterferon alfa-2b,"peginterferon alfa-2b,PegIntron&reg;,Sylatron&reg;,Pegylated interferon alfa-2b",7462,Guide to Pharmacology,535230,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,IFN-&beta;1a (recombinant human),"IFN-&beta;1a (recombinant human),Avonex&reg;,Rebif&reg;",8339,Guide to Pharmacology,,
+R-HSA-1280215,Cytokine Signaling in Immune system,IFN-&alpha;2,"IFN-&alpha;2,IFN-alpha-2,interferon alpha-2,Roferon A&reg;",4960,Guide to Pharmacology,,
+R-HSA-1280215,Cytokine Signaling in Immune system,peginterferon beta-1a,"peginterferon beta-1a,interferon beta 1-alpha,PEG-INF-&beta;-1a,Plegridy&reg;",7637,Guide to Pharmacology,160687621,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,IFN-&beta;1b (recombinant human),"IFN-&beta;1b (recombinant human),Betaferon&reg;,Betaseron&reg;,Extavia&reg;,IFNb1b",8340,Guide to Pharmacology,,
+R-HSA-1280215,Cytokine Signaling in Immune system,IFN-&alpha;2b (recombinant human),"IFN-&alpha;2b (recombinant human),intronA,Intron A&reg;",8338,Guide to Pharmacology,,
+R-HSA-1280215,Cytokine Signaling in Immune system,emapalumab,"emapalumab,emapalumab-lzsg,Gamifant&reg;,NI0501,NI-0501",9295,Guide to Pharmacology,318164814,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,fontolizumab,"fontolizumab,HuZAF",9847,Guide to Pharmacology,135326524,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,semaxanib,"semaxanib,SU5416,SU 5416,VEGF receptor 2 kinase inhibitor III",5056,Guide to Pharmacology,5329098,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,lestaurtinib,"lestaurtinib,CEP-701,KT-5555,SP924",5672,Guide to Pharmacology,126565,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,midostaurin,"midostaurin,CGP 41231,CGP 41251,N-benzoylstaurosporine,PKC412,Rydapt&reg;",5702,Guide to Pharmacology,9829523,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,gilteritinib,"gilteritinib,ASP2215,ASP-2215,Xospata&reg;",8708,Guide to Pharmacology,49803313,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,KW-2449,"KW-2449,KW 2449",5691,Guide to Pharmacology,11427553,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,linifanib,"linifanib,ABT 869,ABT-869",5657,Guide to Pharmacology,11485656,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,TTT-3002,"TTT-3002,TTT3002",11134,Guide to Pharmacology,92136143,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,crenolanib,"crenolanib,ARO-002,CP 868596,CP-868596,CP-868,596",7882,Guide to Pharmacology,10366136,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,tamatinib,"tamatinib,R 406,R-406,R406 free base",5706,Guide to Pharmacology,11213558,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,pexidartinib,"pexidartinib,PLX3397,PLX-3397,Turalio&reg;",8710,Guide to Pharmacology,25151352,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,cabozantinib,"cabozantinib,BMS907351,Cabometyx&reg;,Cometriq&reg;,XL184,XL-184",5887,Guide to Pharmacology,25102847,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,ponatinib,"ponatinib,AP24534,Iclusig&reg;",5890,Guide to Pharmacology,24826799,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,sorafenib,"sorafenib,BAY 43-9006,Nexavar",5711,Guide to Pharmacology,216239,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,tandutinib,"tandutinib,CT53518,MLN518,MLN-518",5695,Guide to Pharmacology,3038522,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,quizartinib,"quizartinib,AC 010220,AC220,AC 220",5658,Guide to Pharmacology,24889392,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,infliximab,"infliximab,cA2,Inflectra&reg;,Remicade&reg;,Remsima&reg;,SB2,TA-650",5004,Guide to Pharmacology,46505602,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,adalimumab,"adalimumab,D2E7,Humira&reg;",4860,Guide to Pharmacology,329976965,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,certolizumab pegol,"certolizumab pegol,CDP870,Cimzia&reg;,PHA 738144",6774,Guide to Pharmacology,103771529,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,golimumab,"golimumab,CNTO148,CNTO-148,Simponi&reg;",6776,Guide to Pharmacology,103771531,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,etanercept,"etanercept,Enbrel&reg;,Rhu Tnfr:Fc,TNFR-Fc,TNR 001",6789,Guide to Pharmacology,10099,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,acalabrutinib,"acalabrutinib,ACP-196,Calquence&reg;,Example 6 [US20140155385 A1]",8912,Guide to Pharmacology,71226662,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,ibrutinib,"ibrutinib,Imbruvica&reg;,PCI-32765",6912,Guide to Pharmacology,24821094,Compound
+R-HSA-1280215,Cytokine Signaling in Immune system,tocilizumab,"tocilizumab,Actemra&reg;,R-1569,RG-1569,RHPM-1,RoActemra&reg;",6881,Guide to Pharmacology,485726264,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,satralizumab,"satralizumab,Enspryng&reg;,RG6168,RG-6168,SA237,SA-237,sapelizumab (deprecated INN),satralizumab-mwge",9093,Guide to Pharmacology,481155532,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,sarilumab,"sarilumab,Kevzara&reg;,REGN88,SAR153191",7999,Guide to Pharmacology,160687628,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,isunakinra,"isunakinra,EBI-005",9704,Guide to Pharmacology,249748720,Substance
+R-HSA-1280215,Cytokine Signaling in Immune system,anakinra,"anakinra,antril,Kineret&reg;",6972,Guide to Pharmacology,405454581,Substance
+R-HSA-73942,DNA Damage Reversal,procarbazine,"procarbazine,Matulane&reg;,Ro-4-6467/1,Ro-4646711",7278,Guide to Pharmacology,4915,Compound
+R-HSA-73942,DNA Damage Reversal,temozolomide,"temozolomide,CCRG-81045,M-39831,Temodal&reg;,Temodar&reg;",7301,Guide to Pharmacology,5394,Compound
+R-HSA-73942,DNA Damage Reversal,streptozocin,"streptozocin,streptozotocin",29327,PubChem Compound,29327,Compound
+R-HSA-73942,DNA Damage Reversal,dacarbazine,"dacarbazine,DTIC-Dome&reg;",9075,Guide to Pharmacology,135398738,Compound
+R-HSA-73887,Death Receptor Signaling,infliximab,"infliximab,cA2,Inflectra&reg;,Remicade&reg;,Remsima&reg;,SB2,TA-650",5004,Guide to Pharmacology,46505602,Substance
+R-HSA-73887,Death Receptor Signaling,adalimumab,"adalimumab,D2E7,Humira&reg;",4860,Guide to Pharmacology,329976965,Substance
+R-HSA-73887,Death Receptor Signaling,certolizumab pegol,"certolizumab pegol,CDP870,Cimzia&reg;,PHA 738144",6774,Guide to Pharmacology,103771529,Substance
+R-HSA-73887,Death Receptor Signaling,golimumab,"golimumab,CNTO148,CNTO-148,Simponi&reg;",6776,Guide to Pharmacology,103771531,Substance
+R-HSA-73887,Death Receptor Signaling,etanercept,"etanercept,Enbrel&reg;,Rhu Tnfr:Fc,TNFR-Fc,TNR 001",6789,Guide to Pharmacology,10099,Substance
+R-HSA-9671793,Diseases of hemostasis,caplacizumab,"caplacizumab,ALX-0081,anti-vWF Nanobody,Cablivi&reg;,caplacizumab-yhdp",9123,Guide to Pharmacology,160671749,Substance
+R-HSA-9645723,Diseases of programmed cell death,decitabine,decitabine,6805,Guide to Pharmacology,451668,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,midostaurin,"midostaurin,CGP 41231,CGP 41251,N-benzoylstaurosporine,PKC412,Rydapt&reg;",5702,Guide to Pharmacology,9829523,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,dovitinib,"dovitinib,Chir 258,CHIR-258,TKI 258,TKI-258",5962,Guide to Pharmacology,135398510,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,PD173074,"PD173074,PD 173074,PD-173074",5037,Guide to Pharmacology,1401,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,SU5402,SU5402,5289418,PubChem Compound,5289418,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,BGJ-398,"BGJ-398,BGJ398,BGJ 398,NVP-BGJ398",7877,Guide to Pharmacology,53235510,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,lucitanib,"lucitanib,E3810,E-3810 amine",7649,Guide to Pharmacology,25031915,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,brivanib alaninate,"brivanib alaninate,BMS582664,BMS-582664",8097,Guide to Pharmacology,11154925,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,brivanib,"brivanib,BMS 540215,BMS-540215",5671,Guide to Pharmacology,11234052,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,AZD4547,"AZD4547,AZD-4547,KB-74810",7707,Guide to Pharmacology,51039095,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,cediranib,"cediranib,AZD2171,AZD 2171,ZD 2171",5664,Guide to Pharmacology,9933475,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,nintedanib,"nintedanib,BIBF1120,BIBF-1120,Ofev&reg;,Vargatef&reg;",5936,Guide to Pharmacology,135423438,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,masitinib,"masitinib,AB1010,AB-1010,Masican&reg; (proposed trade name)",5656,Guide to Pharmacology,10074640,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,lenvatinib,"lenvatinib,E 7080,ER-203492-00,Kisplyx&reg;,Lenvima&reg;",7426,Guide to Pharmacology,9823820,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,FP-1039,"FP-1039,FGFR1:Fc,FP1039,GSK3052230,GSK-3052230,HGS1036",11581,Guide to Pharmacology,381608699,Substance
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,pazopanib,"pazopanib,GW 786034,indazolylpyrimidine 13,Votrient&reg;",5698,Guide to Pharmacology,10113978,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,GP369,GP369,156377,ChEBI,,
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,ripretinib,"ripretinib,DCC2618,DCC-2618",9175,Guide to Pharmacology,71584930,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,avapritinib,"avapritinib,BLU285,BLU-285",10368,Guide to Pharmacology,118023034,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,imatinib,"imatinib,CGP 57148,Gleevec&reg;,Glivec&reg;,STI571",5687,Guide to Pharmacology,5291,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,axitinib,"axitinib,AG013736,AG 013736,AG-013736,Inlyta&reg;",5659,Guide to Pharmacology,6450551,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,cabozantinib,"cabozantinib,BMS907351,Cabometyx&reg;,Cometriq&reg;,XL184,XL-184",5887,Guide to Pharmacology,25102847,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,sorafenib,"sorafenib,BAY 43-9006,Nexavar",5711,Guide to Pharmacology,216239,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,ponatinib,"ponatinib,AP24534,Iclusig&reg;",5890,Guide to Pharmacology,24826799,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,nilotinib,"nilotinib,AMN107,AMN 107,Tasigna&reg;",5697,Guide to Pharmacology,644241,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,dasatinib,"dasatinib,BMS 345825,BMS 354825,BMS 35482513,Sprycel&reg;",5678,Guide to Pharmacology,3062316,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,regorafenib,"regorafenib,BAY 73-4506,Stivarga&reg;",5891,Guide to Pharmacology,11167602,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,sunitinib,"sunitinib,SU11248,Sutent&reg;",5713,Guide to Pharmacology,5329102,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,XAV939,XAV939,2726824,PubChem Compound,2726824,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,LGK974,"LGK974,LGK-974,WNT974,WNT-974",11167,Guide to Pharmacology,46926973,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,semaxanib,"semaxanib,SU5416,SU 5416,VEGF receptor 2 kinase inhibitor III",5056,Guide to Pharmacology,5329098,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,lestaurtinib,"lestaurtinib,CEP-701,KT-5555,SP924",5672,Guide to Pharmacology,126565,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,gilteritinib,"gilteritinib,ASP2215,ASP-2215,Xospata&reg;",8708,Guide to Pharmacology,49803313,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,KW-2449,"KW-2449,KW 2449",5691,Guide to Pharmacology,11427553,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,linifanib,"linifanib,ABT 869,ABT-869",5657,Guide to Pharmacology,11485656,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,TTT-3002,"TTT-3002,TTT3002",11134,Guide to Pharmacology,92136143,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,crenolanib,"crenolanib,ARO-002,CP 868596,CP-868596,CP-868,596",7882,Guide to Pharmacology,10366136,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,tamatinib,"tamatinib,R 406,R-406,R406 free base",5706,Guide to Pharmacology,11213558,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,pexidartinib,"pexidartinib,PLX3397,PLX-3397,Turalio&reg;",8710,Guide to Pharmacology,25151352,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,tandutinib,"tandutinib,CT53518,MLN518,MLN-518",5695,Guide to Pharmacology,3038522,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,quizartinib,"quizartinib,AC 010220,AC220,AC 220",5658,Guide to Pharmacology,24889392,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,trastuzumab,"trastuzumab,D5v8,Herceptin&reg;,R-597",5082,Guide to Pharmacology,329976959,Substance
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,pertuzumab,"pertuzumab,2C4,Omnitarg&reg; (obsolete trade name),Perjeta&reg;",5046,Guide to Pharmacology,50069677,Substance
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,afatinib,"afatinib,BIBW2992,Gilotrif&reg;",5667,Guide to Pharmacology,10184653,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,lapatinib,"lapatinib,FMM,GW572016,GW 572016,Tykerb&reg;,Tyverb&reg;",5692,Guide to Pharmacology,208908,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,neratinib,"neratinib,HKI 272,HKI-272",5686,Guide to Pharmacology,9915743,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,gefitinib,"gefitinib,Iressa&reg;,ZD1839,ZD 1839",4941,Guide to Pharmacology,123631,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,osimertinib,"osimertinib,AZD9291,AZD 9291,AZD-9291,mereletinib (obsolete INN),Tagrisso&reg;",7719,Guide to Pharmacology,71496458,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,AZ5104,"AZ5104,AZ-5104",11580,Guide to Pharmacology,71496460,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,sapitinib,"sapitinib,AZD8931,AZD-8931",7717,Guide to Pharmacology,11488320,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,CP-724714,"CP-724714,CP724714,CP 724714",7883,Guide to Pharmacology,9874913,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,AEE788,"AEE788,AEE 788,NVP-AEE788",7643,Guide to Pharmacology,10297043,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,canertinib,"canertinib,CI 1033,CI-1033,PD 183805 dihydrochloride",5675,Guide to Pharmacology,156414,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,tesevatinib,"tesevatinib,EXEL-7647,KD-019,XL647,XL-647",7944,Guide to Pharmacology,10458325,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,MK-2206,"MK-2206,MK 2206",7945,Guide to Pharmacology,24964624,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,triciribine,"triciribine,Akt inhibitor V,Akt/protein kinase B signaling inhibitor-2,API-2,NSC-154020,tricyclic nucleoside (TCN)",5920,Guide to Pharmacology,65399,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,perifosine,"perifosine,D 21266,KRX-0401,NSC 639966",7424,Guide to Pharmacology,148177,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,GSK1059615,GSK1059615,9826,Guide to Pharmacology,23582824,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,sonolisib,"sonolisib,PX866,PX-866",7941,Guide to Pharmacology,9849735,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,voxtalisib,"voxtalisib,SAR245409,SAR-245409,XL765",7964,Guide to Pharmacology,16123056,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,dactolisib,"dactolisib,BEZ235,NVP-BEZ235",7950,Guide to Pharmacology,11977753,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,BGT-226,"BGT-226,BGT226,BGT 226,BGT-226 free base,NPV-BGT226",7951,Guide to Pharmacology,11978790,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,pictilisib,"pictilisib,GDC0941,GDC-0941,GNE 0941,pictrelisib",5682,Guide to Pharmacology,17755052,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,pilaralisib,"pilaralisib,SAR-245408,XL147,XL-147",7963,Guide to Pharmacology,56599306,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,wortmannin,"wortmannin,antibiotic SL-2052,KY 12420",6060,Guide to Pharmacology,312145,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,buparlisib,"buparlisib,BKM120,BKM 120,BKM-120,NVP-BKM120",7878,Guide to Pharmacology,16654980,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,LY 294002,"LY 294002,LY294002,LY-294002,SF 1101",6004,Guide to Pharmacology,3973,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,SB590885,"SB590885,compound 33 [PMID: 16260133],SB 590885,SB-590885",9389,Guide to Pharmacology,135421339,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,lifirafenib,"lifirafenib,BGB-283,compound 2.2b",8958,Guide to Pharmacology,89670174,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,PLX-4720,"PLX-4720,PLX 4720",5703,Guide to Pharmacology,24180719,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,encorafenib,"encorafenib,Braftovi,LGX-818,LGX818",7908,Guide to Pharmacology,50922675,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,vemurafenib,"vemurafenib,PLX4032,RG7204,Zelboraf&reg;",5893,Guide to Pharmacology,42611257,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,dabrafenib,"dabrafenib,GSK2118436,GSK2118436A,Tafinlar&reg;",6494,Guide to Pharmacology,44462760,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,erlotinib,"erlotinib,NSC 718781,OSI 744,OSI-774,R 1415,Tarceva&reg;",4920,Guide to Pharmacology,176870,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,vandetanib,"vandetanib,Caprelsa&reg;,CH 331,ZD6474,ZD 6474,ZD-6474",5717,Guide to Pharmacology,3081361,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,WZ4002,WZ4002,9176,Guide to Pharmacology,44607530,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,pelitinib,"pelitinib,EKB-569",7644,Guide to Pharmacology,6445562,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,tanespimycin,"tanespimycin,17AAG,17-AAG,17-allylamino-17-demethoxygeldanamycin,17-N-allylamino-17-demethoxygeldanamycin",7751,Guide to Pharmacology,6505803,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,alvespimycin,"alvespimycin,17-DMAG",9828,Guide to Pharmacology,5288674,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,geldanamycin,geldanamycin,9829,Guide to Pharmacology,5288382,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,herbimycin A,herbimycin A,5984,Guide to Pharmacology,5311102,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,retaspimycin hydrochloride,"retaspimycin hydrochloride,17-AAG (hydrochloride),17-Allylamino-17-demethoxygeldanamycin (hydrochloride),IPI504,IPI-504",9827,Guide to Pharmacology,11685945,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,cetuximab,"cetuximab,C225,Erbitux&reg;,IMC-225,IMC-C225",6882,Guide to Pharmacology,445933985,Substance
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,NVP-TAE684,"NVP-TAE684,NVP-TAE 684,TAE684,TAE-684",5714,Guide to Pharmacology,16038120,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,brigatinib,"brigatinib,Alunbrig&reg;,AP26113,AP-26113,compound 11q [PMID: 27144831]",7741,Guide to Pharmacology,68165256,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,ceritinib,"ceritinib,compound 15b [PMID 23742252],LDK378,NVP-LDK378-NX,Zykadia&reg;",7397,Guide to Pharmacology,57379345,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,entrectinib,"entrectinib,NMS-E628,Rozlytrek&reg;,RXDX-101",8290,Guide to Pharmacology,25141092,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,crizotinib,"crizotinib,(<i>R</i>)-crizotinib,PF-02341066,PF2341066,PF 2341066,PF-2341066,Xalkori&reg;",4903,Guide to Pharmacology,11626560,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,lorlatinib,"lorlatinib,(10R)-7-amino-12-fluoro-2,10,16-trimethyl-15-oxo-10,15,16,17-tetrahydro-2H-4,8-methenopyrazolo[4,3-h][2,5,11]benzoxadiazacyclotetradecine-3-carbonitrile,Lorbrena&reg;,Lorviqua&reg;,PF06463922,PF-06463922",7476,Guide to Pharmacology,71731823,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,alectinib,"alectinib,AF802,Alecensa&reg;,CH5424802",7739,Guide to Pharmacology,49806720,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,AZD3463,"AZD3463,AZD-3463,CS-1382,HY-15609,KB-154896",7706,Guide to Pharmacology,56599293,Compound
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,ASP-3026,"ASP-3026,ASP3026,ASP 3026",7740,Guide to Pharmacology,25134326,Compound
+R-HSA-5619115,Disorders of transmembrane transporters,ivacaftor,"ivacaftor,Kalydeco&reg;,VX-770",4342,Guide to Pharmacology,16220172,Compound
+R-HSA-5619115,Disorders of transmembrane transporters,bamocaftor,"bamocaftor,compound 1 [WO2018064632A1],VX659,VX-659",10553,Guide to Pharmacology,134393443,Compound
+R-HSA-5619115,Disorders of transmembrane transporters,tezacaftor,"tezacaftor,example 315 [US20090131492A1],VX661,VX-661",10199,Guide to Pharmacology,46199646,Compound
+R-HSA-5619115,Disorders of transmembrane transporters,lumacaftor,"lumacaftor,VRT-826809,VX809,VX-809",7481,Guide to Pharmacology,16678941,Compound
+R-HSA-5619115,Disorders of transmembrane transporters,elexacaftor,"elexacaftor,Compound 1 [WO2018107100A1],VX-445",10552,Guide to Pharmacology,134587348,Compound
+R-HSA-5619115,Disorders of transmembrane transporters,chloroquine,"chloroquine,Aralen&reg;,chloraquine,Malaquin&reg;",5535,Guide to Pharmacology,2719,Compound
+R-HSA-5619115,Disorders of transmembrane transporters,quinidine,"quinidine,Quinaglute&reg;,Quinidex&reg;,quinidine hydrochloride",2342,Guide to Pharmacology,441074,Compound
+R-HSA-75205,Dissolution of Fibrin Clot,tranexamic acid,"tranexamic acid,CL-65336,Cyclo-F&reg;,Cyklokapron&reg;,Femstrual&reg;,trans AMCHA",6573,Guide to Pharmacology,5526,Compound
+R-HSA-75205,Dissolution of Fibrin Clot,6-aminocaproic acid,"6-aminocaproic acid,&epsilon;-aminocaproic acid,Amicar&reg;,EACA",6574,Guide to Pharmacology,564,Compound
+R-HSA-75205,Dissolution of Fibrin Clot,aprotinin,"aprotinin,basic protease inhibitor (BPI),BPTI,pancreatic trypsin inhibitor,Trasylol&reg;",6570,Guide to Pharmacology,22833874,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,methoxsalen,methoxsalen,4114,PubChem Compound,4114,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,trioxsalen,"trioxsalen,Trimethylpsoralen",5585,PubChem Compound,5585,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,bergapten,"bergapten,5-Methoxypsoralen",2355,PubChem Compound,2355,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,chlorambucil,"chlorambucil,chlorbutin,Leukeran&reg;",7143,Guide to Pharmacology,2708,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,uramustine,"uramustine,U-8344,Uracil Mustard&reg;",7621,Guide to Pharmacology,6194,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,cyclophosphamide,"cyclophosphamide,cytophosphane,Cytoxan&reg;,Endoxan&reg;",7154,Guide to Pharmacology,2907,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,melphalan,"melphalan,Alkeran&reg;,CB-3025,L-phenylalanine mustard (L-PAM),L-sarcolysine,melfalan,Sarcolysin&reg;",7620,Guide to Pharmacology,460612,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,ifosfamide,"ifosfamide,Holoxan&reg;,Ifex&reg;,MJF-9325,Z-4942",7201,Guide to Pharmacology,3690,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,mechlorethamine,"mechlorethamine,Ledaga&reg;,Mustargen&reg;,mustine,nitrogen mustard,nitrogen mustard N-oxide hydrochloride",7218,Guide to Pharmacology,4033,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,mitomycin C,"mitomycin C,mitomycin C,Mitosol&reg;,NSC-26980",7089,Guide to Pharmacology,5746,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,thiotepa,"thiotepa,Tepadina&reg;,Thioplex&reg;",7622,Guide to Pharmacology,5453,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,altretamine,"altretamine,Hexalen&reg;",7112,Guide to Pharmacology,2123,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,SGD-1882,SGD-1882,45257190,PubChem Compound,45257190,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,SG3199,SG3199,90132565,PubChem Compound,90132565,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,SG2000,"SG2000,SJG-136",393111,PubChem Compound,393111,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,oxaliplatin,"oxaliplatin,ACT-078,Eloxatin&reg;",7433,Guide to Pharmacology,9887053,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,carboplatin,"carboplatin,JM-8,Paraplatin&reg;",7624,Guide to Pharmacology,426756,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,cisplatin,"cisplatin,Platinol&reg;",5343,Guide to Pharmacology,5702198,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,satraplatin,"satraplatin,YHI-601,C6H13N.C4H6Cl2O4Pt.H3Nche,4023AH,AKOS015914237",6918220,PubChem Compound,6918220,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,"Platinum, amminedichloro(2-methylpyridine)-, (SP-4-3)-  (SP-4-3)-Amminedichloro(2-methylpyridine)platinium","Platinum, amminedichloro(2-methylpyridine)-, (SP-4-3)-  (SP-4-3)-Amminedichloro(2-methylpyridine)platinium,AMD 473,Picoplatin,ZD0473",177358,PubChem Compound,177358,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,lomustine,"lomustine,CCNU,CeeNU&reg;",7214,Guide to Pharmacology,3950,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,nimustine,"nimustine,ACNU",39214,PubChem Compound,39214,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,carmustine,"carmustine,BiCNU&reg;,Carustine&reg;",6800,Guide to Pharmacology,2578,Compound
+R-HSA-6783310,Fanconi Anemia Pathway,fotemustine,fotemustine,104799,PubChem Compound,104799,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),melagatran,"melagatran,H-319-68",6382,Guide to Pharmacology,183797,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),Dup-714,"Dup-714,acetylphenylalanyl-prolyl-boroarginine,Dup 714",8760,Guide to Pharmacology,122296,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),argatroban,"argatroban,DK-7419,Gn1600,GN-1600,MCI-9038,MD-805",6385,Guide to Pharmacology,92722,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),dabigatran,dabigatran,6380,Guide to Pharmacology,216210,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),lepirudin,"lepirudin,1-L-leucine-2-L-threonine-63-desulfohirudin,Refludan&reg;",6469,Guide to Pharmacology,118856773,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),bivalirudin,"bivalirudin,Angiomax&reg;",6470,Guide to Pharmacology,16129704,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),desirudin,"desirudin,CGP39393,CGP 39393,CGP-39393",6458,Guide to Pharmacology,16129703,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),betrixaban,"betrixaban,Bevyxxa&reg;,compound 11 [PMID: 19297154],PRT054021,PRT-054021",9602,Guide to Pharmacology,10275777,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),apixaban,"apixaban,BMS-562247,Eliquis&reg;",6390,Guide to Pharmacology,10182969,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),eribaxaban,"eribaxaban,PD-0348292",7408,Guide to Pharmacology,11634458,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),rivaroxaban,"rivaroxaban,BAY 59-7939,Xarelto&reg;",6388,Guide to Pharmacology,9875401,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),edoxaban,"edoxaban,DU-176,DU-176b,edoxaban tosylate,Lixiana&reg;,Savaysa&reg;",7575,Guide to Pharmacology,10280735,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),fondaparinux,"fondaparinux,Arixtra&reg;",6819,Guide to Pharmacology,5282448,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),enoxaparin,"enoxaparin,Clexane&reg;,enoxaparin sodium,Lovenox&reg;,PK-10169,RP-54563",6811,Guide to Pharmacology,772,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),heparin,"heparin,HepFlush&reg;",4214,Guide to Pharmacology,53790558,Substance
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),tinzaparin,"tinzaparin,Innohep&reg;,tinzaparin sodium",6846,Guide to Pharmacology,772,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),dalteparin,"dalteparin,dalteparin sodium,Fragmin&reg;",6803,Guide to Pharmacology,772,Compound
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),danaparoid,"danaparoid,ORG-10172,Orgaran&reg;",6804,Guide to Pharmacology,7979021,Substance
+R-HSA-5663205,Infectious disease,MI-1148,"MI-1148,4-guanidinomethyl-phenylacteyl-Arg-Tle-Arg-4-amidinobenzylamide,para-guanidinomethyl-Phac-R-Tle-R-Amba",8601,Guide to Pharmacology,91758390,Compound
+R-HSA-5663205,Infectious disease,decanoic acid,"decanoic acid,capric acid,decoic acid",5532,Guide to Pharmacology,2969,Compound
+R-HSA-5663205,Infectious disease,pirfenidone,"pirfenidone,AMR-69,Esbriet&reg;",7532,Guide to Pharmacology,40632,Compound
+R-HSA-5663205,Infectious disease,rifampicin,"rifampicin,Rifadin&reg;,rifampin",2765,Guide to Pharmacology,135398735,Compound
+R-HSA-5663205,Infectious disease,BAYu9773,"BAYu9773,BAY u9773,BAY-u 9773",3381,Guide to Pharmacology,5311015,Compound
+R-HSA-5663205,Infectious disease,iralukast,iralukast,5861,Guide to Pharmacology,6913104,Compound
+R-HSA-5663205,Infectious disease,verlukast,"verlukast,MK679,MK-679",6193,Guide to Pharmacology,6509849,Compound
+R-HSA-5663205,Infectious disease,MK-571,"MK-571,MK-0571,MK571,MK 571",10346,Guide to Pharmacology,5281888,Compound
+R-HSA-5663205,Infectious disease,pobilukast,"pobilukast,SKF 104353",3334,Guide to Pharmacology,60842,Compound
+R-HSA-5663205,Infectious disease,SR2640,"SR2640,SR 2640,SR-2640",3329,Guide to Pharmacology,128355,Compound
+R-HSA-5663205,Infectious disease,sulukast,sulukast,3327,Guide to Pharmacology,6436123,Compound
+R-HSA-5663205,Infectious disease,triple modulator 10,"triple modulator 10,triple modulator 10 [PMID: 29878767]",10002,Guide to Pharmacology,,
+R-HSA-5663205,Infectious disease,pranlukast,"pranlukast,ONO RS-411",3634,Guide to Pharmacology,4887,Compound
+R-HSA-5663205,Infectious disease,zafirlukast,"zafirlukast,Accolate&reg;,ICI-204219",3322,Guide to Pharmacology,5717,Compound
+R-HSA-5663205,Infectious disease,montelukast,"montelukast,Singulair&reg;",3340,Guide to Pharmacology,5281040,Compound
+R-HSA-5663205,Infectious disease,pomalidomide,"pomalidomide,CC-4047,IMID-3,Imnovid&reg;,Pomalyst&reg;",7348,Guide to Pharmacology,134780,Compound
+R-HSA-5663205,Infectious disease,lenalidomide,"lenalidomide,CC-5013,CDC-501,Revlimid&reg;",7331,Guide to Pharmacology,216326,Compound
+R-HSA-5663205,Infectious disease,thalidomide,"thalidomide,K-17",7327,Guide to Pharmacology,5426,Compound
+R-HSA-5663205,Infectious disease,iberdomide,"iberdomide,CC-220,compound 6 [PMID: 28425720]",9618,Guide to Pharmacology,67335295,Compound
+R-HSA-5663205,Infectious disease,avadomide,"avadomide,CC122,CC-122,Compound A [WO2014039960A1]",10522,Guide to Pharmacology,24967599,Compound
+R-HSA-5663205,Infectious disease,ruxolitinib,"ruxolitinib,<i>(R)</i>-ruxolitinib,INC424,INCB 18424,INCB018424,Jakafi&reg;,Jakavi&reg;",5688,Guide to Pharmacology,25126798,Compound
+R-HSA-5663205,Infectious disease,tofacitinib,"tofacitinib,CP-690,550,CP-690550,tasocitinib,Xeljanz&reg;",5677,Guide to Pharmacology,9926791,Compound
+R-HSA-5663205,Infectious disease,baricitinib,"baricitinib,INCB-028050,INCB028050,LY-3009104,LY3009104,Olumiant&reg;",7792,Guide to Pharmacology,44205240,Compound
+R-HSA-5663205,Infectious disease,chlorpromazine,"chlorpromazine,chlorpromazine HCl,Largactil&reg;,Thorazine&reg;",83,Guide to Pharmacology,2726,Compound
+R-HSA-5663205,Infectious disease,delgocitinib,"delgocitinib,Corectim&reg;,ent-60,JTE052,JTE-052",9619,Guide to Pharmacology,50914062,Compound
+R-HSA-5663205,Infectious disease,monomethyl fumarate,"monomethyl fumarate,methyl hydrogen fumarate",5786,Guide to Pharmacology,5369209,Compound
+R-HSA-5663205,Infectious disease,sulforaphane,sulforaphane,6569,Guide to Pharmacology,5350,Compound
+R-HSA-5663205,Infectious disease,dimethyl fumarate,"dimethyl fumarate,BG00012,BG-12,fumaric acid,Tecfidera&reg;",7045,Guide to Pharmacology,637568,Compound
+R-HSA-5663205,Infectious disease,fedratinib,"fedratinib,Inrebic&reg;,SAR302503,TG-101348,TG101348",5716,Guide to Pharmacology,16722836,Compound
+R-HSA-5663205,Infectious disease,entacapone,"entacapone,Comtan&reg;,Comtess&reg;,OR-611",6647,Guide to Pharmacology,5281081,Compound
+R-HSA-5663205,Infectious disease,tolcapone,"tolcapone,Ro 40-7592,Ro-407592,Tasmar&reg;",6646,Guide to Pharmacology,4659569,Compound
+R-HSA-5663205,Infectious disease,opicapone,"opicapone,BIA 9-1067,compound 37d [PMID: 20334432],Ongentys&reg;",8988,Guide to Pharmacology,135565903,Compound
+R-HSA-5663205,Infectious disease,ponatinib,"ponatinib,AP24534,Iclusig&reg;",5890,Guide to Pharmacology,24826799,Compound
+R-HSA-5663205,Infectious disease,zanubrutinib,"zanubrutinib,BGB3111,BGB-3111,Brukinsa&reg;,compound 27b [US9447106]",9861,Guide to Pharmacology,135565884,Compound
+R-HSA-5663205,Infectious disease,tirabrutinib,"tirabrutinib,GS-4059,ONO4059,ONO-4059",9265,Guide to Pharmacology,54755438,Compound
+R-HSA-5663205,Infectious disease,spebrutinib,"spebrutinib,AVL 292,AVL-292,cc-292",7837,Guide to Pharmacology,59174488,Compound
+R-HSA-5663205,Infectious disease,ibrutinib,"ibrutinib,Imbruvica&reg;,PCI-32765",6912,Guide to Pharmacology,24821094,Compound
+R-HSA-5663205,Infectious disease,acalabrutinib,"acalabrutinib,ACP-196,Calquence&reg;,Example 6 [US20140155385 A1]",8912,Guide to Pharmacology,71226662,Compound
+R-HSA-5663205,Infectious disease,tacrolimus,"tacrolimus,FK506,fujimycin,Prograf&reg;,Protopic&reg;",6784,Guide to Pharmacology,445643,Compound
+R-HSA-5663205,Infectious disease,ribavirin,"ribavirin,Copegus&reg;,Rebetol&reg;,ribofuranosyl carboxamide,Virazole&reg;,RBV",6842,Guide to Pharmacology,37542,Compound
+R-HSA-5663205,Infectious disease,thioguanine,"thioguanine,6-mercaptoguanine,6-thioguanine,Lanvis&reg;,Tabloid&reg;",6845,Guide to Pharmacology,2723601,Compound
+R-HSA-5663205,Infectious disease,mycophenolic acid,"mycophenolic acid,ERL-080,Myfortic&reg; (mycophenolate sodium)",6832,Guide to Pharmacology,446541,Compound
+R-HSA-5663205,Infectious disease,ozanimod,"ozanimod,RPC1063,RPC-1063,Zeposia&reg;",8709,Guide to Pharmacology,52938427,Compound
+R-HSA-5663205,Infectious disease,siponimod,"siponimod,BAF-312,BAF312,compound 32 [PMID: 24900670],Mayzent&reg;",9289,Guide to Pharmacology,44599207,Compound
+R-HSA-5663205,Infectious disease,fingolimod,"fingolimod,FTY-720,FTY720,Gilenya&reg;",2407,Guide to Pharmacology,107970,Compound
+R-HSA-5663205,Infectious disease,colchicine,"colchicine,Colcrys&reg;",2367,Guide to Pharmacology,6167,Compound
+R-HSA-5663205,Infectious disease,hydroxychloroquine,"hydroxychloroquine,Dolquine&reg;,Plaquenil&reg;",7198,Guide to Pharmacology,3652,Compound
+R-HSA-5663205,Infectious disease,sirolimus,"sirolimus,AY-22989,Rapamune&reg;,rapamycin,WY-090217",6031,Guide to Pharmacology,5284616,Compound
+R-HSA-5663205,Infectious disease,amlexanox,"amlexanox,AA-673,Amlexanox&reg;,Aphthasol&reg;,CHX-3673",7113,Guide to Pharmacology,2161,Compound
+R-HSA-5663205,Infectious disease,dextromethorphan,"dextromethorphan,d-methorphan",6953,Guide to Pharmacology,5360696,Compound
+R-HSA-5663205,Infectious disease,tocilizumab,"tocilizumab,Actemra&reg;,R-1569,RG-1569,RHPM-1,RoActemra&reg;",6881,Guide to Pharmacology,485726264,Substance
+R-HSA-5663205,Infectious disease,satralizumab,"satralizumab,Enspryng&reg;,RG6168,RG-6168,SA237,SA-237,sapelizumab (deprecated INN),satralizumab-mwge",9093,Guide to Pharmacology,481155532,Substance
+R-HSA-5663205,Infectious disease,sarilumab,"sarilumab,Kevzara&reg;,REGN88,SAR153191",7999,Guide to Pharmacology,160687628,Substance
+R-HSA-5663205,Infectious disease,cortisol,"cortisol,Acticort&reg;,Plenadren&reg;",2868,Guide to Pharmacology,5754,Compound
+R-HSA-5663205,Infectious disease,fluocinolone acetonide,"fluocinolone acetonide,Capex&reg;,Iluvien&reg;,Synalar&reg;",7077,Guide to Pharmacology,6215,Compound
+R-HSA-5663205,Infectious disease,difluprednate,"difluprednate,DFBA,Durezol&reg;,W-6309",7474,Guide to Pharmacology,443936,Compound
+R-HSA-5663205,Infectious disease,fluorometholone,"fluorometholone,Flarex&reg;,FML&reg;",7079,Guide to Pharmacology,9878,Compound
+R-HSA-5663205,Infectious disease,triamcinolone,"triamcinolone,fluoxiprednisolone,Kenalog&reg;,Nasacort&reg;",2870,Guide to Pharmacology,31307,Compound
+R-HSA-5663205,Infectious disease,desoximetasone,"desoximetasone,A-41-304,HOE-304,R-2113,Topicort&reg;",7067,Guide to Pharmacology,5311067,Compound
+R-HSA-5663205,Infectious disease,dexamethasone,"dexamethasone,Decadron&reg;,desametasone,fluormethylprednisolone",2768,Guide to Pharmacology,5743,Compound
+R-HSA-5663205,Infectious disease,prednisolone,"prednisolone,DELTA.1-Cortisol,Orapred&reg;,Pediapred&reg;",2866,Guide to Pharmacology,5755,Compound
+R-HSA-5663205,Infectious disease,flunisolide,"flunisolide,AeroBid&reg;,RS-3999",7076,Guide to Pharmacology,82153,Compound
+R-HSA-5663205,Infectious disease,fluticasone propionate,"fluticasone propionate,Advair Diskus&reg;,ArmonAir RespiClick<sup>TM</sup>,CCI-18781,Flovent&reg;",7080,Guide to Pharmacology,444036,Compound
+R-HSA-5663205,Infectious disease,prednisone,"prednisone,Lodotra&reg;,Sterapred&reg;",7096,Guide to Pharmacology,5865,Compound
+R-HSA-5663205,Infectious disease,beclometasone,"beclometasone,beclomethasone,SCH-18020W",7059,Guide to Pharmacology,20469,Compound
+R-HSA-5663205,Infectious disease,fluocinonide,"fluocinonide,Fluonex&reg;,Lidex&reg;",7078,Guide to Pharmacology,9642,Compound
+R-HSA-5663205,Infectious disease,clobetasol propionate,"clobetasol propionate,CCI-4725,Clobex&reg;,Dermovate&reg;,GR 2/925,Temovate&reg;",7062,Guide to Pharmacology,32798,Compound
+R-HSA-5663205,Infectious disease,mometasone,"mometasone,Elocon&reg; (topical),Nasonex&reg;",9029,Guide to Pharmacology,441335,Compound
+R-HSA-5663205,Infectious disease,diflorasone diacetate,"diflorasone diacetate,Psorcon&reg;,U-34865",7068,Guide to Pharmacology,71414,Compound
+R-HSA-5663205,Infectious disease,rimexolone,"rimexolone,ORG-6216,Vexol&reg;",7099,Guide to Pharmacology,5311412,Compound
+R-HSA-5663205,Infectious disease,budesonide,"budesonide,Entocort&reg;,Jorveza&reg;,Pulmicort&reg;,S-1320,Uceris&reg;",7434,Guide to Pharmacology,5281004,Compound
+R-HSA-5663205,Infectious disease,triamcinolone acetonide,"triamcinolone acetonide,Zilretta&reg;",2867,Guide to Pharmacology,6436,Compound
+R-HSA-5663205,Infectious disease,betamethasone,"betamethasone,SCH-4831",7061,Guide to Pharmacology,9782,Compound
+R-HSA-5663205,Infectious disease,methylprednisolone,"methylprednisolone,Medrol&reg;,U-67590A",7088,Guide to Pharmacology,6741,Compound
+R-HSA-5663205,Infectious disease,deflazacort,"deflazacort,Emflaza&reg;,MDL 458",9477,Guide to Pharmacology,189821,Compound
+R-HSA-5663205,Infectious disease,ciclesonide,"ciclesonide,Alvesco&reg;,Omnaris&reg;,RPR-251526",7469,Guide to Pharmacology,6918155,Compound
+R-HSA-5663205,Infectious disease,lonafarnib,"lonafarnib,SCH66336,SCH 66336,SCH-66336",8024,Guide to Pharmacology,148195,Compound
+R-HSA-5663205,Infectious disease,tipifarnib,"tipifarnib,R115777,R-115777",8025,Guide to Pharmacology,159324,Compound
+R-HSA-5663205,Infectious disease,BMS-214662,"BMS-214662,BMS214662,BMS 214662,BVM",8026,Guide to Pharmacology,448545,Compound
+R-HSA-5663205,Infectious disease,L-778123,L-778123,216453,PubChem Compound,216453,Compound
+R-HSA-5663205,Infectious disease,LB42908,"LB42908,LB 42908",8028,Guide to Pharmacology,397855,Compound
+R-HSA-5663205,Infectious disease,FTI 276,"FTI 276,FTI276,FTI-276",6531,Guide to Pharmacology,395754,Compound
+R-HSA-5663205,Infectious disease,"L-739,750","L-739,750,L 739750",8030,Guide to Pharmacology,5287548,Compound
+R-HSA-5663205,Infectious disease,peginterferon alfa-2a,"peginterferon alfa-2a,Pegasys",47205819,PubChem Substance,46504860,Substance
+R-HSA-5663205,Infectious disease,peginterferon alfa-2b,"peginterferon alfa-2b,PegIntron&reg;,Sylatron&reg;,Pegylated interferon alfa-2b",7462,Guide to Pharmacology,535230,Substance
+R-HSA-5663205,Infectious disease,IFN-&beta;1a (recombinant human),"IFN-&beta;1a (recombinant human),Avonex&reg;,Rebif&reg;",8339,Guide to Pharmacology,,
+R-HSA-5663205,Infectious disease,IFN-&alpha;2,"IFN-&alpha;2,IFN-alpha-2,interferon alpha-2,Roferon A&reg;",4960,Guide to Pharmacology,,
+R-HSA-5663205,Infectious disease,peginterferon beta-1a,"peginterferon beta-1a,interferon beta 1-alpha,PEG-INF-&beta;-1a,Plegridy&reg;",7637,Guide to Pharmacology,160687621,Substance
+R-HSA-5663205,Infectious disease,IFN-&beta;1b (recombinant human),"IFN-&beta;1b (recombinant human),Betaferon&reg;,Betaseron&reg;,Extavia&reg;,IFNb1b",8340,Guide to Pharmacology,,
+R-HSA-5663205,Infectious disease,IFN-&alpha;2b (recombinant human),"IFN-&alpha;2b (recombinant human),intronA,Intron A&reg;",8338,Guide to Pharmacology,,
+R-HSA-5663205,Infectious disease,abicipar pegol,"abicipar pegol,AGN-150998,MP0112",8371,Guide to Pharmacology,252166583,Substance
+R-HSA-5663205,Infectious disease,vanucizumab,"vanucizumab,RG7221,RG-7221,RO5520985",9132,Guide to Pharmacology,312468109,Substance
+R-HSA-5663205,Infectious disease,aflibercept,"aflibercept,AVE0005,Eylea&reg;,VEGF Trap,Zaltrap&reg;,ziv-aflibercept",6786,Guide to Pharmacology,134445687,Substance
+R-HSA-5663205,Infectious disease,bevacizumab,"bevacizumab,Avastin&reg;,rhuMAb-VEGF",6771,Guide to Pharmacology,46504473,Substance
+R-HSA-5663205,Infectious disease,pegaptanib,"pegaptanib,EYEOO1,Macugen&reg;,NX183,pegaptanib sodium",6836,Guide to Pharmacology,76374506,Compound
+R-HSA-5663205,Infectious disease,brolucizumab,"brolucizumab,Beovu&reg;,brolucizumab-dbll,ESBA1008,ESBA-1008,RTH258",8713,Guide to Pharmacology,252827371,Substance
+R-HSA-5663205,Infectious disease,ranibizumab,"ranibizumab,Fab-12 variant Y0317,Lucentis&reg;,muMAb VEGF A.4.6.1,rhuFab V2",6779,Guide to Pharmacology,46506960,Substance
+R-HSA-5663205,Infectious disease,netarsudil,"netarsudil,AR11324,AR-11324,ester 60 [PMID: 27072905],Rhokiinsa&reg;,Rhopressa&reg;",9322,Guide to Pharmacology,66599893,Compound
+R-HSA-5663205,Infectious disease,ripasudil,"ripasudil,Glanatec&reg;,K-115 (ripasudil hydrochloride dihydrate)",10423,Guide to Pharmacology,9863672,Compound
+R-HSA-5663205,Infectious disease,nivolumab,"nivolumab,BMS-936558,MDX-1106,ONO-4538,Opdivo&reg;",7335,Guide to Pharmacology,387061103,Substance
+R-HSA-5663205,Infectious disease,cemiplimab,"cemiplimab,cemiplimab-rwlc,Libtayo&reg;,REGN-2810,REGN2810,SAR-439684,SAR439684",10090,Guide to Pharmacology,381118800,Substance
+R-HSA-5663205,Infectious disease,camrelizumab,"camrelizumab,INCSHR1210,SHR-1210",9758,Guide to Pharmacology,354702231,Substance
+R-HSA-5663205,Infectious disease,natalizumab,"natalizumab,AN100226,anti-alpha4 integrin,anti-VLA4,Tysabri&reg;",6591,Guide to Pharmacology,472677714,Substance
+R-HSA-5663205,Infectious disease,isunakinra,"isunakinra,EBI-005",9704,Guide to Pharmacology,249748720,Substance
+R-HSA-5663205,Infectious disease,anakinra,"anakinra,antril,Kineret&reg;",6972,Guide to Pharmacology,405454581,Substance
+R-HSA-5663205,Infectious disease,chloroquine,"chloroquine,Aralen&reg;,chloraquine,Malaquin&reg;",5535,Guide to Pharmacology,2719,Compound
+R-HSA-5663205,Infectious disease,ouabain,ouabain,4826,Guide to Pharmacology,439501,Compound
+R-HSA-5663205,Infectious disease,deslanoside,"deslanoside,Cedilanide&reg;,desacetyl-lanatoside C",6806,Guide to Pharmacology,28620,Compound
+R-HSA-5663205,Infectious disease,digoxin,"digoxin,Lanoxin&reg;",4726,Guide to Pharmacology,2724385,Compound
+R-HSA-5663205,Infectious disease,acetyldigitoxin,"acetyldigitoxin,acetyldiginatin,Acylanid&reg;,alpha-acetyldigitoxin",6794,Guide to Pharmacology,5284512,Compound
+R-HSA-5663205,Infectious disease,digitoxin,"digitoxin,digitoxoside,unidigin",6782,Guide to Pharmacology,441207,Compound
+R-HSA-5663205,Infectious disease,fluvoxamine,"fluvoxamine,Luvox&reg;,U-23000",7189,Guide to Pharmacology,5324346,Compound
+R-HSA-5663205,Infectious disease,panobinostat,"panobinostat,Farydak&reg;,LBH-589,LBH589",7489,Guide to Pharmacology,6918837,Compound
+R-HSA-5663205,Infectious disease,valproic acid,"valproic acid,A-44090,Depakote&reg;,Epilim&reg;,valproate sodium",7009,Guide to Pharmacology,3121,Compound
+R-HSA-5663205,Infectious disease,romidepsin,"romidepsin,FK228,FR901228,Istodax&reg;",7006,Guide to Pharmacology,5352062,Compound
+R-HSA-5663205,Infectious disease,vorinostat,"vorinostat,SAHA,suberoylanilide hydroxamic acid,Zolinza&reg;",6852,Guide to Pharmacology,5311,Compound
+R-HSA-5663205,Infectious disease,belinostat,"belinostat,Beleodaq&reg;,PXD-101,PXD101",7496,Guide to Pharmacology,6918638,Compound
+R-HSA-5663205,Infectious disease,heparin,"heparin,HepFlush&reg;",4214,Guide to Pharmacology,53790558,Substance
+R-HSA-5663205,Infectious disease,MS023,MS023,8955,Guide to Pharmacology,92136227,Compound
+R-HSA-5663205,Infectious disease,GSK-3beta inhibitor VIII,"GSK-3beta inhibitor VIII,AR-A014418,GSK-3b inhibitor VIII",5979,Guide to Pharmacology,448014,Compound
+R-HSA-5663205,Infectious disease,alsterpaullone 2-cyanoethyl,"alsterpaullone 2-cyanoethyl,alsterpaullone derivative7",5926,Guide to Pharmacology,16760286,Compound
+R-HSA-5663205,Infectious disease,IM-12,IM-12,8017,Guide to Pharmacology,25209788,Compound
+R-HSA-5663205,Infectious disease,LY2090314,"LY2090314,LY-2090314",7958,Guide to Pharmacology,10029385,Compound
+R-HSA-5663205,Infectious disease,GSK-3 inhibitor XIII,"GSK-3 inhibitor XIII,K00244",5976,Guide to Pharmacology,26758808,Substance
+R-HSA-5663205,Infectious disease,GSK-3beta inhibitor II,"GSK-3beta inhibitor II,GSK-3b inhibitor II",5978,Guide to Pharmacology,6539732,Compound
+R-HSA-5663205,Infectious disease,isogranulatimide,"isogranulatimide,IZA,pyridone 6",5991,Guide to Pharmacology,135418335,Compound
+R-HSA-5663205,Infectious disease,AZD2858,"AZD2858,AZD 2858,AZD-2858,compound 18 [PMID: 22489897]",8478,Guide to Pharmacology,10138980,Compound
+R-HSA-5663205,Infectious disease,laduviglusib,"laduviglusib,CHIR-99021,CHIR99021,CHIR 99021,CT99021,CT-99021",8014,Guide to Pharmacology,9956119,Compound
+R-HSA-5663205,Infectious disease,indirubin-3'-monoxime,"indirubin-3'-monoxime,indirubin-3'-oxime",5989,Guide to Pharmacology,3707,Compound
+R-HSA-5663205,Infectious disease,CHIR-98014,"CHIR-98014,CHIR98014,CHIR 98014",8016,Guide to Pharmacology,53396311,Compound
+R-HSA-5663205,Infectious disease,1-azakenpaullone,"1-azakenpaullone,azakenpaullone",8018,Guide to Pharmacology,6538897,Compound
+R-HSA-5663205,Infectious disease,GSK-3beta inhibitor I,"GSK-3beta inhibitor I,TDZD-8",5977,Guide to Pharmacology,4124851,Compound
+R-HSA-5663205,Infectious disease,TWS119,"TWS119,GSK-3beta inhibitor XII,GSK inhibitor XII,TWS-119",5980,Guide to Pharmacology,9549289,Compound
+R-HSA-5663205,Infectious disease,SB-415286,"SB-415286,SB415286,SB 415286",8019,Guide to Pharmacology,4210951,Compound
+R-HSA-5663205,Infectious disease,SB 216763,"SB 216763,SB216763,SB-216763",8015,Guide to Pharmacology,176158,Compound
+R-HSA-5663205,Infectious disease,alsterpaullone,"alsterpaullone,9-nitropaullone,NSC-705701",5925,Guide to Pharmacology,5005498,Compound
+R-HSA-5663205,Infectious disease,AZD1080,"AZD1080,AZD 1080,AZD-1080,KB-160506",7819,Guide to Pharmacology,135564570,Compound
+R-HSA-5663205,Infectious disease,kenpaullone,"kenpaullone,9-bromopaullone",6000,Guide to Pharmacology,3820,Compound
+R-HSA-5663205,Infectious disease,Li<sup>+</sup>,"Li<sup>+</sup>,Li+,lithium ion",5212,Guide to Pharmacology,,
+R-HSA-5663205,Infectious disease,1-deoxynojirimycin,"1-deoxynojirimycin,AT-2220,duvoglustat,S-GI",4642,Guide to Pharmacology,29435,Compound
+R-HSA-5663205,Infectious disease,N-ethyl-1-deoxynojirimycin,N-ethyl-1-deoxynojirimycin,4586,Guide to Pharmacology,451512,Compound
+R-HSA-5663205,Infectious disease,miglitol,"miglitol,Glyset&reg;,N-hydroxylethyl-1-deoxynojirimycin",4842,Guide to Pharmacology,441314,Compound
+R-HSA-5663205,Infectious disease,miglustat,"miglustat,NB-DNJ,N-butyl-1-deoxynojirimycin,Zavesca&reg;",4841,Guide to Pharmacology,51634,Compound
+R-HSA-5663205,Infectious disease,1-deoxynojirimycin-1-sulfonic acid,1-deoxynojirimycin-1-sulfonic acid,4744,Guide to Pharmacology,11128501,Compound
+R-HSA-5663205,Infectious disease,LCB1,LCB1,11236,Guide to Pharmacology,154699466,Compound
+R-HSA-5663205,Infectious disease,bamlanivimab,"bamlanivimab,LY3819253,LY-3819253,LY-CoV555",11325,Guide to Pharmacology,434321760,Substance
+R-HSA-5663205,Infectious disease,mitoxantrone,"mitoxantrone,CL-232315,Novantrone&reg;",7242,Guide to Pharmacology,4212,Compound
+R-HSA-5663205,Infectious disease,LCB3,LCB3,11237,Guide to Pharmacology,434122297,Substance
+R-HSA-5663205,Infectious disease,alunacedase alfa,"alunacedase alfa,APN01,GSK2586881,GSK-2586881,rhsACE2",11320,Guide to Pharmacology,404719865,Substance
+R-HSA-5663205,Infectious disease,etesevimab,"etesevimab,CB-6,JS-016,LY3832479,LY-CoV016",11331,Guide to Pharmacology,434321766,Substance
+R-HSA-5663205,Infectious disease,relacatib,"relacatib,SB462795,SB-462795",7862,Guide to Pharmacology,6918602,Compound
+R-HSA-5663205,Infectious disease,isoniazid,isoniazid,3767,PubChem Compound,3767,Compound
+R-HSA-5663205,Infectious disease,clofazimine,"clofazimine,Lamprene&reg;",9184,Guide to Pharmacology,2794,Compound
+R-HSA-5663205,Infectious disease,aloxistatin,"aloxistatin,compound 2b [PMID: 8765519],E64d,E-64d,EP453,loxistatin",10714,Guide to Pharmacology,65663,Compound
+R-HSA-5663205,Infectious disease,teicoplanin,"teicoplanin,Antibiotic 8327A,MDL-507,Targocid&reg;,teichomycin,teicoplanin A2",10924,Guide to Pharmacology,133065662,Compound
+R-HSA-5663205,Infectious disease,otamixaban,otamixaban,10732,Guide to Pharmacology,5496659,Compound
+R-HSA-5663205,Infectious disease,I-432,I-432,10733,Guide to Pharmacology,146025595,Compound
+R-HSA-5663205,Infectious disease,camostat,"camostat,ONO-3403",6432,Guide to Pharmacology,2536,Compound
+R-HSA-5663205,Infectious disease,nafamostat,"nafamostat,FUT-175",4262,Guide to Pharmacology,4413,Compound
+R-HSA-5663205,Infectious disease,amantadine,"amantadine,ADS-5102,Gocovri&reg;,Symadine&reg;,Symmetrel&reg;",4128,Guide to Pharmacology,2130,Compound
+R-HSA-5663205,Infectious disease,ebselen,ebselen,10583,Guide to Pharmacology,3194,Compound
+R-HSA-5663205,Infectious disease,raltegravir,"raltegravir,Isentress&reg;,MK0518,MK-0518",11571,Guide to Pharmacology,54671008,Compound
+R-HSA-5663205,Infectious disease,vaniprevir,"vaniprevir,analog 35b [PMID: 20163176],MK7009,MK-7009,Vanihep&reg;",11570,Guide to Pharmacology,24765256,Compound
+R-HSA-5663205,Infectious disease,asunaprevir,"asunaprevir,BMS650032,BMS-650032,compound 24 [PMID: 24564672],Sunvepra&trade;",10882,Guide to Pharmacology,16076883,Compound
+R-HSA-5663205,Infectious disease,paritaprevir,"paritaprevir,ABT450,ABT-450,veruprevir (deprecated INN),Viekirax&reg; (ombitasvir + paritaprevir + ritonavir; EU)",11273,Guide to Pharmacology,45110509,Compound
+R-HSA-5663205,Infectious disease,simeprevir,"simeprevir,Olysio&reg;,simeprevir sodium,TMC435,TMC 435,TMC-435,TMC 435350",7367,Guide to Pharmacology,24873435,Compound
+R-HSA-5663205,Infectious disease,grazoprevir,"grazoprevir,analog 15 [PMID: 24900473],MK5172,MK-5172,Zepatier&reg; [elbasvir (NS5A inhibitor) + grazoprevir]",11573,Guide to Pharmacology,44603531,Compound
+R-HSA-5663205,Infectious disease,baicalin,baicalin,2981,ChEBI,64982,Compound
+R-HSA-5663205,Infectious disease,PF-00835231,"PF-00835231,compound 4 [Hoffman <i>et al</i>., 2020],PF00835231",11250,Guide to Pharmacology,11561899,Compound
+R-HSA-5663205,Infectious disease,nirmatrelvir,"nirmatrelvir,PF-07321332",11503,Guide to Pharmacology,155903259,Compound
+R-HSA-5663205,Infectious disease,compound 11r,"compound 11r,compound 11r [PMID: 32045235],Cinnamoyl-cyclopropylalanine-GlnLactam-CO-CO-NH-benzyl",10705,Guide to Pharmacology,,
+R-HSA-5663205,Infectious disease,telaprevir,"telaprevir,VX-950",7871,Guide to Pharmacology,3010818,Compound
+R-HSA-5663205,Infectious disease,narlaprevir,"narlaprevir,Arlansa&reg;,SCH900518,SCH 900518,SCH-900518",11572,Guide to Pharmacology,11857239,Compound
+R-HSA-5663205,Infectious disease,suramin,"suramin,CI-1003,suramine",1728,Guide to Pharmacology,5361,Compound
+R-HSA-5663205,Infectious disease,nelfinavir,"nelfinavir,AG1343,AG-1343,Viracept&reg;",11090,Guide to Pharmacology,64143,Compound
+R-HSA-5663205,Infectious disease,mefloquine,"mefloquine,GNF-Pf-5544,Lariam&reg;,Ro-21-5998-001,WR-142490",4252,Guide to Pharmacology,40692,Compound
+R-HSA-5663205,Infectious disease,compound 13b,compound 13b,10720,Guide to Pharmacology,349977081,Substance
+R-HSA-5663205,Infectious disease,baicalein,"baicalein,5,6,7-trihydroxyflavone",5144,Guide to Pharmacology,5281605,Compound
+R-HSA-5663205,Infectious disease,boceprevir,"boceprevir,EBP520,EBP-520,SCH503034,SCH-503034,Victrelis&reg;",7876,Guide to Pharmacology,10324367,Compound
+R-HSA-5663205,Infectious disease,molnupiravir,"molnupiravir,EIDD2801,EIDD-2801,MK4482,MK-4482",10737,Guide to Pharmacology,145996610,Compound
+R-HSA-5663205,Infectious disease,remdesivir,"remdesivir,compound 4b [PMID: 28124907],GS5734",10715,Guide to Pharmacology,121304016,Compound
+R-HSA-5663205,Infectious disease,loratadine,"loratadine,Claritin&reg;,SCH-29851",7216,Guide to Pharmacology,3957,Compound
+R-HSA-5663205,Infectious disease,eptifibatide,"eptifibatide,C68-22,Eptifibatide Accord (generic),Integrelin&reg;",6585,Guide to Pharmacology,448812,Compound
+R-HSA-5663205,Infectious disease,cefazolin,"cefazolin,Ancef&reg;,cephazolin,CEZ,Kefzol&reg;,SK&F-41558",10935,Guide to Pharmacology,33255,Compound
+R-HSA-5663205,Infectious disease,ticarcillin,"ticarcillin,BRL2288,BRL-2288,Ticar,Timentin&reg; (ticarcillin + clavulanate)",10928,Guide to Pharmacology,36921,Compound
+R-HSA-5663205,Infectious disease,meropenem,"meropenem,ICI 194,660,Merrem&reg;,SM-7338",10829,Guide to Pharmacology,441130,Compound
+R-HSA-5663205,Infectious disease,pheneticillin,pheneticillin,272833,PubChem Compound,272833,Compound
+R-HSA-5663205,Infectious disease,resveratrol,"resveratrol,3,4',5-stilbenetriol,3,5,4'-trihydroxystilbene,trans-resveratrol",8741,Guide to Pharmacology,445154,Compound
+R-HSA-5663205,Infectious disease,mepacrine,"mepacrine,Atabrine&reg;,quinacrine",10172,Guide to Pharmacology,237,Compound
+R-HSA-5663205,Infectious disease,latamoxef,latamoxef,47499,PubChem Compound,47499,Compound
+R-HSA-5663205,Infectious disease,cefuroxime,"cefuroxime,Ceftin&reg;,CXM,Kefurox&reg;,Zinacef&reg;",10900,Guide to Pharmacology,5479529,Compound
+R-HSA-5663205,Infectious disease,bacampicillin,bacampicillin,441397,PubChem Compound,441397,Compound
+R-HSA-5663205,Infectious disease,doxepin,"doxepin,Deptran&reg;,P-3693A,Sinequan&reg;",1225,Guide to Pharmacology,667477,Compound
+R-HSA-5663205,Infectious disease,desloratadine,"desloratadine,Clarinex&reg;,SCH-34117",7157,Guide to Pharmacology,124087,Compound
+R-HSA-5663205,Infectious disease,azelastine,"azelastine,A-5610,Astelin&reg;,E-0659,Rhinolast&reg;,W-2979M",7121,Guide to Pharmacology,2267,Compound
+R-HSA-5663205,Infectious disease,rotigaptide,"rotigaptide,Dipeptide 9f [PMID 19175320],GAP-134,ZP-123",9214,Guide to Pharmacology,9938933,Compound
+R-HSA-5663205,Infectious disease,cepharanthine,cepharanthine,10206,PubChem Compound,10206,Compound
+R-HSA-5663205,Infectious disease,cefoxitin,"cefoxitin,Cenomycin&reg;,CFX,Mefoxin&reg;,MK306,MK-306",10937,Guide to Pharmacology,441199,Compound
+R-HSA-5663205,Infectious disease,denopamine,"denopamine,TA 064,TA-064",534,Guide to Pharmacology,5311064,Compound
+R-HSA-5663205,Infectious disease,hydroxyzine,"hydroxyzine,Atarax&reg;,hydroxyzine hydrochloride,hydroxyzine pamoate,Vistaril&reg;",7199,Guide to Pharmacology,3658,Compound
+R-HSA-5663205,Infectious disease,Chloroquine(2+),Chloroquine(2+),24848403,COMPOUND,24848403,Compound
+R-HSA-5663205,Infectious disease,Hydroxychloroquine(2+),Hydroxychloroquine(2+),78435478,COMPOUND,78435478,Compound
+R-HSA-5663205,Infectious disease,tenofovir,"tenofovir,PMPA,(R)-PMPA,tenofovir (anhydrous)",10948,Guide to Pharmacology,464205,Compound
+R-HSA-5663205,Infectious disease,emtricitabine,"emtricitabine,524W91,BW-524W91,Coviracil&reg;,Emtriva&reg;",11244,Guide to Pharmacology,60877,Compound
+R-HSA-5663205,Infectious disease,carbovir triphosphate,carbovir triphosphate,135499583,PubChem Compound,135499583,Compound
+R-HSA-5663205,Infectious disease,darunavir,"darunavir,Prezista&reg;,TMC114,UIC-94017",11243,Guide to Pharmacology,213039,Compound
+R-HSA-5663205,Infectious disease,His-Leu-lopinavir,"His-Leu-lopinavir,His-Leu-LPV,Histidine-Leucine-Lopinavir",9502,Guide to Pharmacology,124221655,Compound
+R-HSA-5663205,Infectious disease,Lumicitabine,"Lumicitabine,ALS-8176",89658382,PubChem Compound,89658382,Compound
+R-HSA-5663205,Infectious disease,Asvasiran,"Asvasiran,ALN-RSV01",472406334,PubChem Substance,363714353,Substance
+R-HSA-5663205,Infectious disease,Gontivimab,"Gontivimab,ALX-0171",472419397,PubChem Substance,402425649,Substance
+R-HSA-5663205,Infectious disease,Nirsevimab,"Nirsevimab,Beyfortus",472418861,PubChem Substance,381128205,Substance
+R-HSA-5663205,Infectious disease,Sisunatovir,Sisunatovir,132016492,PubChem Compound,132016492,Compound
+R-HSA-5663205,Infectious disease,Ziresovir,Ziresovir,71262247,PubChem Compound,71262247,Compound
+R-HSA-5663205,Infectious disease,Palivizumab,"Palivizumab,Synagis",472423423,PubChem Substance,46506637,Substance
+R-HSA-5663205,Infectious disease,Rilematovir,Rilematovir,118892432,PubChem Compound,118892432,Compound
+R-HSA-168249,Innate Immune System,hydroxychloroquine,"hydroxychloroquine,Dolquine&reg;,Plaquenil&reg;",7198,Guide to Pharmacology,3652,Compound
+R-HSA-168249,Innate Immune System,imiquimod,"imiquimod,Aldara&reg;,R837,S-26308,Zyclara&reg;",5003,Guide to Pharmacology,57469,Compound
+R-HSA-168249,Innate Immune System,tesidolumab,"tesidolumab,LFG316,LFG-316",8711,Guide to Pharmacology,252827369,Substance
+R-HSA-168249,Innate Immune System,eculizumab,"eculizumab,h5G1.1,h5G1.1VHC,Soliris&reg;",6884,Guide to Pharmacology,46505429,Substance
+R-HSA-168249,Innate Immune System,ravulizumab,"ravulizumab,ALXN1210,ALXN-1210,ravulizumab-cwvz,Ultomiris&reg;",10168,Guide to Pharmacology,374364184,Substance
+R-HSA-168249,Innate Immune System,zilucoplan,"zilucoplan,RA101495",10404,Guide to Pharmacology,133083018,Compound
+R-HSA-168249,Innate Immune System,amlexanox,"amlexanox,AA-673,Amlexanox&reg;,Aphthasol&reg;,CHX-3673",7113,Guide to Pharmacology,2161,Compound
+R-HSA-168249,Innate Immune System,omalizumab,"omalizumab,IGE25,olizumab,R03DX05,RG-3648,rhumab-E25,Xolair&reg;",6890,Guide to Pharmacology,329976992,Substance
+R-HSA-163685,Integration of energy metabolism,mitiglinide,mitiglinide,121891,PubChem Compound,121891,Compound
+R-HSA-163685,Integration of energy metabolism,repaglinide,"repaglinide,(-)-repaglinide,AGEE-623ZW,Prandin&reg;",6841,Guide to Pharmacology,65981,Compound
+R-HSA-163685,Integration of energy metabolism,nateglinide,"nateglinide,AY-4166,nateglinide,SDZ-DJN-608,Starlix&reg;",6833,Guide to Pharmacology,5311309,Compound
+R-HSA-163685,Integration of energy metabolism,albiglutide,"albiglutide,Eperzan&reg;,GSK716155,Tanzeum&reg;",7386,Guide to Pharmacology,145994868,Compound
+R-HSA-163685,Integration of energy metabolism,liraglutide,"liraglutide,NN-2211,NN2211,Victoza&reg;",1133,Guide to Pharmacology,16134956,Compound
+R-HSA-163685,Integration of energy metabolism,lixisenatide,"lixisenatide,Adlyxin&reg;,AVE-0010,Lyxumia&reg;",7387,Guide to Pharmacology,90472060,Compound
+R-HSA-163685,Integration of energy metabolism,exendin-4,"exendin-4,AC 2993,AC002993,AC2993A,Bydureon&reg;,Byetta&reg;",1135,Guide to Pharmacology,45588096,Compound
+R-HSA-163685,Integration of energy metabolism,semaglutide,"semaglutide,NN-9535,NN9535,Ozempic&reg; (injectable semaglutide),Rybelsus&reg; (oral semaglutide)",9724,Guide to Pharmacology,56843331,Compound
+R-HSA-163685,Integration of energy metabolism,dulaglutide,"dulaglutide,GLP-1Fc,LY2189265,Trulicity&reg;",7638,Guide to Pharmacology,135360107,Substance
+R-HSA-163685,Integration of energy metabolism,glimepiride,"glimepiride,Amaryl&reg;,glimepride,HOE-490,Sugral&reg;",6820,Guide to Pharmacology,3476,Compound
+R-HSA-163685,Integration of energy metabolism,gliclazide,gliclazide,3475,PubChem Compound,3475,Compound
+R-HSA-163685,Integration of energy metabolism,glibenclamide,"glibenclamide,Amglidia&reg;,Diabeta&reg;,glyburide,Glynase&reg;",2414,Guide to Pharmacology,3488,Compound
+R-HSA-163685,Integration of energy metabolism,glipizide,"glipizide,CP-28720,Glucotrol&reg;,K-4024",6821,Guide to Pharmacology,3478,Compound
+R-HSA-163685,Integration of energy metabolism,tolbutamide,"tolbutamide,Orinase&reg;,tolbutamide sodium",6848,Guide to Pharmacology,5505,Compound
+R-HSA-163685,Integration of energy metabolism,chlorpropamide,"chlorpropamide,Diabenese&reg;,Glucamide&reg;",6801,Guide to Pharmacology,2727,Compound
+R-HSA-163685,Integration of energy metabolism,tolazamide,"tolazamide,tolazolamide,Tolinase&reg;",6847,Guide to Pharmacology,5503,Compound
+R-HSA-163685,Integration of energy metabolism,rosiglitazone,"rosiglitazone,Avandia&reg;,rosiglizole",1056,Guide to Pharmacology,77999,Compound
+R-HSA-216083,Integrin cell surface interactions,natalizumab,"natalizumab,AN100226,anti-alpha4 integrin,anti-VLA4,Tysabri&reg;",6591,Guide to Pharmacology,472677714,Substance
+R-HSA-8963676,Intestinal absorption,ezetimibe,"ezetimibe,SCH 58235,SCH-58235,Zetia&reg;",6816,Guide to Pharmacology,150311,Compound
+R-HSA-983712,Ion channel transport,diclofenac,"diclofenac,Cataflam&reg;,CGP-45840B,GP-45840,Voltaren&reg;,Voltarol&reg;",2714,Guide to Pharmacology,3033,Compound
+R-HSA-983712,Ion channel transport,amiloride,"amiloride,amiloride HCl,Midamor&reg;",2421,Guide to Pharmacology,16231,Compound
+R-HSA-983712,Ion channel transport,aspirin,"aspirin,Acetophen&reg;,acetylsalicylic acid,Aspirin&reg;,ASA,acetylsalicylate",4139,Guide to Pharmacology,2244,Compound
+R-HSA-983712,Ion channel transport,nafamostat,"nafamostat,FUT-175",4262,Guide to Pharmacology,4413,Compound
+R-HSA-983712,Ion channel transport,olvanil,olvanil,2488,Guide to Pharmacology,5311093,Compound
+R-HSA-983712,Ion channel transport,resiniferatoxin,resiniferatoxin,2491,Guide to Pharmacology,5702546,Compound
+R-HSA-983712,Ion channel transport,zucapsaicin,"zucapsaicin,Civanex&reg;,Zuacta&reg;",11576,Guide to Pharmacology,1548942,Compound
+R-HSA-983712,Ion channel transport,capsaicin,"capsaicin,Qutenza&reg;",2486,Guide to Pharmacology,1548943,Compound
+R-HSA-983712,Ion channel transport,propyphenazone,propyphenazone,3778,PubChem Compound,3778,Compound
+R-HSA-983712,Ion channel transport,metamizole,"metamizole,dipyrone",10608,Guide to Pharmacology,3111,Compound
+R-HSA-983712,Ion channel transport,phenazone,phenazone,2206,PubChem Compound,2206,Compound
+R-HSA-983712,Ion channel transport,capsazepine,capsazepine,2461,Guide to Pharmacology,2733484,Compound
+R-HSA-983712,Ion channel transport,ruthenium red,"ruthenium red,ammoniated ruthenium oxychloride",2432,Guide to Pharmacology,56437303,Substance
+R-HSA-983712,Ion channel transport,niflumic acid,niflumic acid,2439,Guide to Pharmacology,4488,Compound
+R-HSA-983712,Ion channel transport,crofelemer,"crofelemer,Fulyzaq&reg;,SP-303",7453,Guide to Pharmacology,349983993,Substance
+R-HSA-983712,Ion channel transport,9-anthroic acid,"9-anthroic acid,9-AC,anthracene-10-carboxylic acid",4113,Guide to Pharmacology,2201,Compound
+R-HSA-983712,Ion channel transport,Tenatoprazole,Tenatoprazole,636411,PubChem Compound,636411,Compound
+R-HSA-983712,Ion channel transport,ilaprazole,"ilaprazole,IY81149,IY-81149,Noltec&reg;",10512,Guide to Pharmacology,214351,Compound
+R-HSA-983712,Ion channel transport,esomeprazole,"esomeprazole,Nexium&reg;,(S)-omeprazole",5488,Guide to Pharmacology,9568614,Compound
+R-HSA-983712,Ion channel transport,pantoprazole,"pantoprazole,BY-1023,Protonix&reg;,SK-96022",7260,Guide to Pharmacology,4679,Compound
+R-HSA-983712,Ion channel transport,dexlansoprazole,"dexlansoprazole,Dexilant&reg;,Dexilant SoluTab&reg;,(<i>R)</i>-lansoprazole,Kapidex&reg;,(+)-lansoprazol,T 168390,TAK 390",5487,Guide to Pharmacology,9578005,Compound
+R-HSA-983712,Ion channel transport,omeprazole,"omeprazole,H 168/68,Losec&reg;,Prilosec&reg;",4279,Guide to Pharmacology,4594,Compound
+R-HSA-983712,Ion channel transport,rabeprazole,"rabeprazole,AcipHex&reg;,E-3810,Pariet&reg;",7290,Guide to Pharmacology,5029,Compound
+R-HSA-983712,Ion channel transport,lansoprazole,"lansoprazole,A-65006,AG-1749,Prevacid&reg;",7208,Guide to Pharmacology,3883,Compound
+R-HSA-983712,Ion channel transport,ouabain,ouabain,4826,Guide to Pharmacology,439501,Compound
+R-HSA-983712,Ion channel transport,deslanoside,"deslanoside,Cedilanide&reg;,desacetyl-lanatoside C",6806,Guide to Pharmacology,28620,Compound
+R-HSA-983712,Ion channel transport,digoxin,"digoxin,Lanoxin&reg;",4726,Guide to Pharmacology,2724385,Compound
+R-HSA-983712,Ion channel transport,acetyldigitoxin,"acetyldigitoxin,acetyldiginatin,Acylanid&reg;,alpha-acetyldigitoxin",6794,Guide to Pharmacology,5284512,Compound
+R-HSA-983712,Ion channel transport,digitoxin,"digitoxin,digitoxoside,unidigin",6782,Guide to Pharmacology,441207,Compound
+R-HSA-5683057,MAPK family signaling cascades,TAK-580,"TAK-580,BIIB024,MLN-2480,MLN2480,TAK580",9977,Guide to Pharmacology,25161177,Compound
+R-HSA-5683057,MAPK family signaling cascades,LY3009120,"LY3009120,LY-3009120",8943,Guide to Pharmacology,71721540,Compound
+R-HSA-5683057,MAPK family signaling cascades,TAK-632,"TAK-632,compound 8B,TAK632",10387,Guide to Pharmacology,46209401,Compound
+R-HSA-5683057,MAPK family signaling cascades,lonafarnib,"lonafarnib,SCH66336,SCH 66336,SCH-66336",8024,Guide to Pharmacology,148195,Compound
+R-HSA-5683057,MAPK family signaling cascades,tipifarnib,"tipifarnib,R115777,R-115777",8025,Guide to Pharmacology,159324,Compound
+R-HSA-5683057,MAPK family signaling cascades,BMS-214662,"BMS-214662,BMS214662,BMS 214662,BVM",8026,Guide to Pharmacology,448545,Compound
+R-HSA-5683057,MAPK family signaling cascades,L-778123,L-778123,216453,PubChem Compound,216453,Compound
+R-HSA-5683057,MAPK family signaling cascades,LB42908,"LB42908,LB 42908",8028,Guide to Pharmacology,397855,Compound
+R-HSA-5683057,MAPK family signaling cascades,FTI 276,"FTI 276,FTI276,FTI-276",6531,Guide to Pharmacology,395754,Compound
+R-HSA-5683057,MAPK family signaling cascades,"L-739,750","L-739,750,L 739750",8030,Guide to Pharmacology,5287548,Compound
+R-HSA-5683057,MAPK family signaling cascades,Palmostatin B,Palmostatin B,45100481,PubChem Compound,45100481,Compound
+R-HSA-5683057,MAPK family signaling cascades,Deltarasin,Deltarasin,73292904,PubChem Compound,73292904,Compound
+R-HSA-5683057,MAPK family signaling cascades,Cysmethynil,Cysmethynil,6918831,PubChem Compound,6918831,Compound
+R-HSA-5683057,MAPK family signaling cascades,GDC-0623,"GDC-0623,G-868,GDC0623,GDC 0623,RG-7420",9909,Guide to Pharmacology,42642654,Compound
+R-HSA-5683057,MAPK family signaling cascades,RO 5126766,"RO 5126766,RO-5126766,RO5126766,CH5126766,946128-88-7",16719221,PubChem Compound,16719221,Compound
+R-HSA-5683057,MAPK family signaling cascades,trametinib,"trametinib,GSK1120212,GSK1120212B,GSK212,JTP 74057,Mekinist&reg;,trametinib dimethyl sulfoxide",6495,Guide to Pharmacology,11707110,Compound
+R-HSA-5683057,MAPK family signaling cascades,ulixertinib,"ulixertinib,BVD-523,VRT-752271",9210,Guide to Pharmacology,11719003,Compound
+R-HSA-5683057,MAPK family signaling cascades,ravoxertinib,"ravoxertinib,example 39 [WO2013130976],GDC-0994",9229,Guide to Pharmacology,71727581,Compound
+R-HSA-5683057,MAPK family signaling cascades,VTX-11e,"VTX-11e,11e [PMID: 19827834],VX-11e",9375,Guide to Pharmacology,11634725,Compound
+R-HSA-5683057,MAPK family signaling cascades,SCH772984,"SCH772984,SCH-772984",8056,Guide to Pharmacology,24866313,Compound
+R-HSA-5683057,MAPK family signaling cascades,MK-8353,"MK-8353,MK8353,SCH900353",9974,Guide to Pharmacology,58282870,Compound
+R-HSA-5683057,MAPK family signaling cascades,pimasertib,"pimasertib,AS703026,AS-703026,MSC1936369B",7872,Guide to Pharmacology,44187362,Compound
+R-HSA-5683057,MAPK family signaling cascades,PD 0325901,"PD 0325901,PD0325901,PD-0325901",7935,Guide to Pharmacology,9826528,Compound
+R-HSA-5683057,MAPK family signaling cascades,selumetinib,"selumetinib,ARRY-142886,ARRY-886,AZD6244,NSC 741O78",5665,Guide to Pharmacology,10127622,Compound
+R-HSA-5683057,MAPK family signaling cascades,CI-1040,"CI-1040,CI1040,CI 1040,PD184352,PD-184352",5676,Guide to Pharmacology,6918454,Compound
+R-HSA-5683057,MAPK family signaling cascades,refametinib,"refametinib,BAY-869766,RDEA119",7942,Guide to Pharmacology,44182295,Compound
+R-HSA-5683057,MAPK family signaling cascades,cobimetinib,"cobimetinib,cobimetinib butyrate,cobimetinib fumarate,cometinib,Cotellic&reg;,GDC-0973,XL518,XL-518",7626,Guide to Pharmacology,16222096,Compound
+R-HSA-5683057,MAPK family signaling cascades,binimetinib,"binimetinib,ARRY 162,ARRY-162,ARRY-438162,MEK162,MEK-162,Mektovi&reg;",7921,Guide to Pharmacology,10288191,Compound
+R-HSA-165159,MTOR signalling,sirolimus,"sirolimus,AY-22989,Rapamune&reg;,rapamycin,WY-090217",6031,Guide to Pharmacology,5284616,Compound
+R-HSA-199991,Membrane Trafficking,chlorpromazine,"chlorpromazine,chlorpromazine HCl,Largactil&reg;,Thorazine&reg;",83,Guide to Pharmacology,2726,Compound
+R-HSA-71291,Metabolism of amino acids and derivatives,sulfanegen,sulfanegen,9830,Guide to Pharmacology,24830990,Compound
+R-HSA-556833,Metabolism of lipids,paricalcitol,"paricalcitol,Zemplar&reg;",2791,Guide to Pharmacology,5281104,Compound
+R-HSA-556833,Metabolism of lipids,doxercalciferol,"doxercalciferol,1-&alpha;-hydroxyergocalciferol,1&alpha;-hydroxyvitamin D2,1&alpha;OHD2 ",2790,Guide to Pharmacology,5281107,Compound
+R-HSA-556833,Metabolism of lipids,calcipotriol,"calcipotriol,Dovonex&reg;,MC903 ",2778,Guide to Pharmacology,5288783,Compound
+R-HSA-556833,Metabolism of lipids,falecalcitriol,"falecalcitriol,calcitriol hexafluoride,F6-1&alpha;,25(OH)2D3,ST-630",2781,Guide to Pharmacology,5282190,Compound
+R-HSA-556833,Metabolism of lipids,elocalcitol,"elocalcitol,1&alpha;-fluoro-16-ene-20-epi-23-ene-26,27-bishomo-25-hydroxyvitamin D3,BXL628,BXL 628,Ro-26-9228",2785,Guide to Pharmacology,11396600,Compound
+R-HSA-556833,Metabolism of lipids,maxacalcitol,"maxacalcitol,22-oxa-1&alpha;,25(OH)2D3,22-oxacalcitriol,OCT",2784,Guide to Pharmacology,6398761,Compound
+R-HSA-556833,Metabolism of lipids,dutasteride,"dutasteride,Avodart&reg;,GG-745,GI-198745",7457,Guide to Pharmacology,6918296,Compound
+R-HSA-556833,Metabolism of lipids,azelaic acid,"azelaic acid,Azelex&reg;,Finacea&reg;,ZK-62498",7484,Guide to Pharmacology,2266,Compound
+R-HSA-556833,Metabolism of lipids,finasteride,"finasteride,MK906,MK 906,MK-906,Propecia&reg;,Proscar&reg;",6818,Guide to Pharmacology,57363,Compound
+R-HSA-556833,Metabolism of lipids,aminoglutethimide,"aminoglutethimide,Cytadren&reg;",7054,Guide to Pharmacology,2145,Compound
+R-HSA-556833,Metabolism of lipids,fadrozole,"fadrozole,Afema&reg;,CGS 16949 A,CGS-16949A,FAD 286,FAD-286",8311,Guide to Pharmacology,59693,Compound
+R-HSA-556833,Metabolism of lipids,letrozole,"letrozole,Femara&reg;",5209,Guide to Pharmacology,3902,Compound
+R-HSA-556833,Metabolism of lipids,testolactone,"testolactone,SQ-9538,Teslac&reg;",7303,Guide to Pharmacology,13769,Compound
+R-HSA-556833,Metabolism of lipids,anastrozole,"anastrozole,Arimidex&reg;",5137,Guide to Pharmacology,2187,Compound
+R-HSA-556833,Metabolism of lipids,exemestane,"exemestane,Aromasin&reg;,FCE-24304",7073,Guide to Pharmacology,60198,Compound
+R-HSA-556833,Metabolism of lipids,cerivastatin,"cerivastatin,Baycol&reg;,Lipobay&reg;",2950,Guide to Pharmacology,446156,Compound
+R-HSA-556833,Metabolism of lipids,fluvastatin,"fluvastatin,Canef&reg;,Lescol&reg;",2951,Guide to Pharmacology,446155,Compound
+R-HSA-556833,Metabolism of lipids,rosuvastatin,"rosuvastatin,Crestor&reg;,ZD4522",2954,Guide to Pharmacology,446157,Compound
+R-HSA-556833,Metabolism of lipids,atorvastatin,"atorvastatin,Lipitor&reg;",2949,Guide to Pharmacology,60823,Compound
+R-HSA-556833,Metabolism of lipids,simvastatin,"simvastatin,MK-733,Zocor&reg;",2955,Guide to Pharmacology,54454,Compound
+R-HSA-556833,Metabolism of lipids,pitavastatin,"pitavastatin,itavastatin,Livalo&reg;",3035,Guide to Pharmacology,5282452,Compound
+R-HSA-556833,Metabolism of lipids,meglutol,meglutol,2960,Guide to Pharmacology,1662,Compound
+R-HSA-556833,Metabolism of lipids,lovastatin,"lovastatin,6&alpha;-methylcompactin,Mevacor&reg;,(+)-mevinolin",2739,Guide to Pharmacology,53232,Compound
+R-HSA-556833,Metabolism of lipids,pravastatin,"pravastatin,Lipostat&reg;,Pravachol&reg;,pravastatin sodium",2953,Guide to Pharmacology,54687,Compound
+R-HSA-556833,Metabolism of lipids,zoledronic acid,"zoledronic acid,Aclasta&reg;,CGP-42446,CGP-42446A,Reclast&reg;,zoledronate,Zometa&reg;",3177,Guide to Pharmacology,68740,Compound
+R-HSA-556833,Metabolism of lipids,alendronate,"alendronate,ABDP,BPH 1,Fosamax&reg;,MK-217",3141,Guide to Pharmacology,2088,Compound
+R-HSA-556833,Metabolism of lipids,risedronate,"risedronate,Actonel&reg;,Atelvia&reg;,NE-58095,risedronate sodium",3176,Guide to Pharmacology,5245,Compound
+R-HSA-556833,Metabolism of lipids,minodronic acid,"minodronic acid,BPH 261,ONO 5920,YH 529",3164,Guide to Pharmacology,130956,Compound
+R-HSA-556833,Metabolism of lipids,ibandronic acid,"ibandronic acid,Bondronat&reg;,Boniva&reg;,ibandronate",3059,Guide to Pharmacology,60852,Compound
+R-HSA-556833,Metabolism of lipids,pamidronic acid,"pamidronic acid,Aredia&reg;,CGP-23339AE",7259,Guide to Pharmacology,4674,Compound
+R-HSA-556833,Metabolism of lipids,clofibrate,"clofibrate,Atromid-S&reg;,AY-61123,ICI-28257",2667,Guide to Pharmacology,2796,Compound
+R-HSA-556833,Metabolism of lipids,ciprofibrate,"ciprofibrate,Lipanor&reg;,Modalim&reg;,WIN-35833",3438,Guide to Pharmacology,2763,Compound
+R-HSA-556833,Metabolism of lipids,gemfibrozil,"gemfibrozil,CI-719,Gen-Fibro&reg;,Jezil&reg;",3439,Guide to Pharmacology,3463,Compound
+R-HSA-556833,Metabolism of lipids,bezafibrate,"bezafibrate,Bezalip&reg;",2668,Guide to Pharmacology,39042,Compound
+R-HSA-556833,Metabolism of lipids,fenofibrate,"fenofibrate,ABT-335,Lipantil&reg;,Supralip&reg;,Tricor&reg;",7186,Guide to Pharmacology,3339,Compound
+R-HSA-556833,Metabolism of lipids,SLM6071469,"SLM6071469,compound 10 [PMID: 31895563]",10641,Guide to Pharmacology,131981409,Compound
+R-HSA-556833,Metabolism of lipids,MP-A08,MP-A08,10219,Guide to Pharmacology,420266,Compound
+R-HSA-556833,Metabolism of lipids,ROMe,"ROMe,(<i>R</i>)-FTY720 methyl ether,(<i>R</i>)-FTY720-OMe",6625,Guide to Pharmacology,71458556,Compound
+R-HSA-556833,Metabolism of lipids,opaganib,"opaganib,ABC 294640,ABC-294640,Yeliva&reg;",6624,Guide to Pharmacology,15604015,Compound
+R-HSA-556833,Metabolism of lipids,bempedoic acid,"bempedoic acid,ESP-55016,ETC-1002,Nexletol&reg;,Nilemdo&reg;",8321,Guide to Pharmacology,10472693,Compound
+R-HSA-556833,Metabolism of lipids,olsalazine,"olsalazine,CJ91B,CJ-91B,Dipentum&reg;",11578,Guide to Pharmacology,22419,Compound
+R-HSA-556833,Metabolism of lipids,sulfasalazine,"sulfasalazine,Azulfidine&reg;,Salazopyridin&reg;,Salazopyrin&reg;,SAS-500",4840,Guide to Pharmacology,5339,Compound
+R-HSA-556833,Metabolism of lipids,meclofenamic acid,"meclofenamic acid,CL-583,INF-4668,Meclomen&reg;",7219,Guide to Pharmacology,4037,Compound
+R-HSA-556833,Metabolism of lipids,zileuton,"zileuton,A-64077,ZYFLO&reg;",5297,Guide to Pharmacology,60490,Compound
+R-HSA-556833,Metabolism of lipids,balsalazide,"balsalazide,Colazal&reg;,Colazide&reg;,Giazo&reg;",11569,Guide to Pharmacology,54585,Compound
+R-HSA-556833,Metabolism of lipids,etodolac,"etodolac,AY-24236,Lodine&reg;",7185,Guide to Pharmacology,3308,Compound
+R-HSA-556833,Metabolism of lipids,celecoxib,"celecoxib,Celecox&reg;,Onsenal&reg;,SC-58635,SC58635",2892,Guide to Pharmacology,2662,Compound
+R-HSA-556833,Metabolism of lipids,etoricoxib,"etoricoxib,Arcoxia&reg;,MK0663,MK 0663,MK-0663",2896,Guide to Pharmacology,123619,Compound
+R-HSA-556833,Metabolism of lipids,rofecoxib,"rofecoxib,Ceoxx&reg;,MK 966,Vioxx&reg;",2893,Guide to Pharmacology,5090,Compound
+R-HSA-556833,Metabolism of lipids,benzquinamide,"benzquinamide,P-2647,Quantril&reg;",7124,Guide to Pharmacology,2342,Compound
+R-HSA-556833,Metabolism of lipids,carprofen,"carprofen,Ro-205720000",7141,Guide to Pharmacology,2581,Compound
+R-HSA-556833,Metabolism of lipids,valdecoxib,"valdecoxib,Bextra&reg;,SC-65872",2894,Guide to Pharmacology,119607,Compound
+R-HSA-556833,Metabolism of lipids,lumiracoxib,"lumiracoxib,Prexige&reg;",2897,Guide to Pharmacology,151166,Compound
+R-HSA-556833,Metabolism of lipids,paracetamol,"paracetamol,acetaminophen,Panadol&reg;,Tylenol&reg;",5239,Guide to Pharmacology,1983,Compound
+R-HSA-556833,Metabolism of lipids,nimesulide,"nimesulide,R-805",7401,Guide to Pharmacology,4495,Compound
+R-HSA-556833,Metabolism of lipids,fenoprofen,"fenoprofen,fenoprofen calcium,Nalfon&reg;",4820,Guide to Pharmacology,3342,Compound
+R-HSA-556833,Metabolism of lipids,indomethacin,"indomethacin,Indocid&reg;,Indocin&reg;",1909,Guide to Pharmacology,3715,Compound
+R-HSA-556833,Metabolism of lipids,meloxicam,"meloxicam,Mobic&reg;,UHAC-62XX",7220,Guide to Pharmacology,54677470,Compound
+R-HSA-556833,Metabolism of lipids,bromfenac,"bromfenac,AHR-10282B,Bromday&reg;,Prolensa&reg;,Xibrom&reg;",7131,Guide to Pharmacology,60726,Compound
+R-HSA-556833,Metabolism of lipids,donepezil,"donepezil,Aricept&reg;,E-2020",6599,Guide to Pharmacology,3152,Compound
+R-HSA-556833,Metabolism of lipids,tacrine,"tacrine,CI-970,Cognex&reg;,tetrahydroaminoacridine",6687,Guide to Pharmacology,1935,Compound
+R-HSA-556833,Metabolism of lipids,physostigmine,"physostigmine,Antilirium&reg;,eserine,physostigmine salicylate",6598,Guide to Pharmacology,5983,Compound
+R-HSA-556833,Metabolism of lipids,pralidoxime,"pralidoxime,2-PAM,Contrathion&reg;,pralidoxime chloride",7597,Guide to Pharmacology,135398747,Compound
+R-HSA-556833,Metabolism of lipids,galantamine,"galantamine,galanthamine,Razadyne&reg;",6693,Guide to Pharmacology,9651,Compound
+R-HSA-556833,Metabolism of lipids,rivastigmine,"rivastigmine,Ena 713 free base,Exelon&reg;",6602,Guide to Pharmacology,77991,Compound
+R-HSA-556833,Metabolism of lipids,edrophonium,"edrophonium,Enlon&reg;,Tensilon&reg;",9073,Guide to Pharmacology,3202,Compound
+R-HSA-556833,Metabolism of lipids,neostigmine,"neostigmine,Prostigmin&reg;",8993,Guide to Pharmacology,4456,Compound
+R-HSA-556833,Metabolism of lipids,echothiophate,"echothiophate,ecostigmine iodide,phospholine iodide",9074,Guide to Pharmacology,10548,Compound
+R-HSA-556833,Metabolism of lipids,pyridostigmine,"pyridostigmine,Mestinon&reg;,Regonol&reg;",8994,Guide to Pharmacology,4991,Compound
+R-HSA-15869,Metabolism of nucleotides,S416,S416,11164,Guide to Pharmacology,148568163,Compound
+R-HSA-15869,Metabolism of nucleotides,S312,"S312,compound 19 [PMID: 26443076]",11163,Guide to Pharmacology,138595845,Compound
+R-HSA-15869,Metabolism of nucleotides,brequinar,"brequinar,DUP785,DUP-785,NSC368390,NSC 368390,NSC-368390",7406,Guide to Pharmacology,57030,Compound
+R-HSA-15869,Metabolism of nucleotides,vidofludimus,"vidofludimus,4SC-101,IMU-838 (vidofludimus calcium),SC12267",9860,Guide to Pharmacology,9820008,Compound
+R-HSA-15869,Metabolism of nucleotides,leflunomide,"leflunomide,Arabloc&reg;,Arava&reg;,HWA 486,HWA-486,lefunamide,SU-101",6825,Guide to Pharmacology,3899,Compound
+R-HSA-15869,Metabolism of nucleotides,teriflunomide,"teriflunomide,A77 1726,Aubagio&reg;,flucyamide,HMR-1726",6844,Guide to Pharmacology,54684141,Compound
+R-HSA-15869,Metabolism of nucleotides,ribavirin,"ribavirin,Copegus&reg;,Rebetol&reg;,ribofuranosyl carboxamide,Virazole&reg;,RBV",6842,Guide to Pharmacology,37542,Compound
+R-HSA-15869,Metabolism of nucleotides,thioguanine,"thioguanine,6-mercaptoguanine,6-thioguanine,Lanvis&reg;,Tabloid&reg;",6845,Guide to Pharmacology,2723601,Compound
+R-HSA-15869,Metabolism of nucleotides,mycophenolic acid,"mycophenolic acid,ERL-080,Myfortic&reg; (mycophenolate sodium)",6832,Guide to Pharmacology,446541,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,etodolac,"etodolac,AY-24236,Lodine&reg;",7185,Guide to Pharmacology,3308,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,celecoxib,"celecoxib,Celecox&reg;,Onsenal&reg;,SC-58635,SC58635",2892,Guide to Pharmacology,2662,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,etoricoxib,"etoricoxib,Arcoxia&reg;,MK0663,MK 0663,MK-0663",2896,Guide to Pharmacology,123619,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,rofecoxib,"rofecoxib,Ceoxx&reg;,MK 966,Vioxx&reg;",2893,Guide to Pharmacology,5090,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,benzquinamide,"benzquinamide,P-2647,Quantril&reg;",7124,Guide to Pharmacology,2342,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,carprofen,"carprofen,Ro-205720000",7141,Guide to Pharmacology,2581,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,valdecoxib,"valdecoxib,Bextra&reg;,SC-65872",2894,Guide to Pharmacology,119607,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,lumiracoxib,"lumiracoxib,Prexige&reg;",2897,Guide to Pharmacology,151166,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,methotrexate,"methotrexate,Abitrexate&reg;,amethopterin,Nordimet&reg;,Rasuvo&reg;",4815,Guide to Pharmacology,126941,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,pralatrexate,"pralatrexate,Folotyn&reg;,PDX",6840,Guide to Pharmacology,148121,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,pemetrexed,"pemetrexed,Alimta&reg;,LY-231514",6837,Guide to Pharmacology,135410875,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,trimetrexate,"trimetrexate,CI-898,Neutrexin&reg;,trimetrexate glucuronate",7613,Guide to Pharmacology,5583,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,diflunisal,"diflunisal,Dolobid&reg;",7162,Guide to Pharmacology,3059,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,warfarin,"warfarin,Coumadin&reg;,Marevan&reg;,panwarfin",6853,Guide to Pharmacology,54678486,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,phenprocoumon,"phenprocoumon,Liquamar&reg;,phenprocoumarol",6839,Guide to Pharmacology,54680692,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,acenocoumarol,"acenocoumarol,Sinthrome&reg;,Sintrom&reg;",9015,Guide to Pharmacology,54676537,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,phenindione,"phenindione,Dindevan&reg;,phenylindanedione",6838,Guide to Pharmacology,4760,Compound
+R-HSA-196854,Metabolism of vitamins and cofactors,dicumarol,"dicumarol,bishydroxycoumarin,Melitoxin&reg;",6808,Guide to Pharmacology,54676038,Compound
+R-HSA-9675108,Nervous system development,netarsudil,"netarsudil,AR11324,AR-11324,ester 60 [PMID: 27072905],Rhokiinsa&reg;,Rhopressa&reg;",9322,Guide to Pharmacology,66599893,Compound
+R-HSA-9675108,Nervous system development,ripasudil,"ripasudil,Glanatec&reg;,K-115 (ripasudil hydrochloride dihydrate)",10423,Guide to Pharmacology,9863672,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,topiramate,"topiramate,epitomax,MCN-4853,RWJ-17021,Topamax&reg;",6849,Guide to Pharmacology,5284627,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,ethoxzolamide,"ethoxzolamide,Cardrase&reg;,Ethamide&reg;,ethoxazolamide,ethoxyzolamide",6814,Guide to Pharmacology,3295,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,acetazolamide,"acetazolamide,Diamox&reg;",6792,Guide to Pharmacology,1986,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,Sultiame,Sultiame,5356,PubChem Compound,5356,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,zonisamide,"zonisamide,AD-810,CI-912,PD-110843,Zonegran&reg;",7047,Guide to Pharmacology,5734,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,brinzolamide,"brinzolamide,AL-4862,Azopt&reg;",6797,Guide to Pharmacology,68844,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,diclofenamide,"diclofenamide,Daranide&reg;,dichlofenamide,dichlorphenamide,glauconide,Keveyis&reg;",6807,Guide to Pharmacology,3038,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,methazolamide,"methazolamide,methenamide,Neptazane&reg;",6828,Guide to Pharmacology,4100,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,methocarbamol,"methocarbamol,Robaxin&reg;",6829,Guide to Pharmacology,4107,Compound
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,dorzolamide,"dorzolamide,Trusopt&reg;",6810,Guide to Pharmacology,5284549,Compound
+R-HSA-9753281,Paracetamol ADME,paracetamol,"paracetamol,acetaminophen,Panadol&reg;,Tylenol&reg;",5239,Guide to Pharmacology,1983,Compound
+R-HSA-9753281,Paracetamol ADME,isoniazid,isoniazid,3767,PubChem Compound,3767,Compound
+R-HSA-2980736,Peptide hormone metabolism,aliskiren,"aliskiren,CGP-060536B,SPP100,Tekturna&reg;",4812,Guide to Pharmacology,5493444,Compound
+R-HSA-2980736,Peptide hormone metabolism,ramiprilat,ramiprilat,6344,Guide to Pharmacology,5464096,Compound
+R-HSA-2980736,Peptide hormone metabolism,captopril,"captopril,Capoten&reg;,SQ-14225",5158,Guide to Pharmacology,44093,Compound
+R-HSA-2980736,Peptide hormone metabolism,enalaprilat,"enalaprilat,MK-422",6332,Guide to Pharmacology,5462501,Compound
+R-HSA-2980736,Peptide hormone metabolism,spiraprilat,"spiraprilat,SCH-33861",6576,Guide to Pharmacology,3033702,Compound
+R-HSA-2980736,Peptide hormone metabolism,Delapril diacid,Delapril diacid,5488746,PubChem Compound,5488746,Compound
+R-HSA-2980736,Peptide hormone metabolism,Temocaprilat,Temocaprilat,443151,PubChem Compound,443151,Compound
+R-HSA-2980736,Peptide hormone metabolism,trandolaprilat,trandolaprilat,6455,Guide to Pharmacology,5464097,Compound
+R-HSA-2980736,Peptide hormone metabolism,quinaprilat,"quinaprilat,CL-928",6352,Guide to Pharmacology,107994,Compound
+R-HSA-2980736,Peptide hormone metabolism,benazeprilat,"benazeprilat,CGS-14831",6375,Guide to Pharmacology,5463984,Compound
+R-HSA-2980736,Peptide hormone metabolism,lisinopril,"lisinopril,Prinivil&reg;,Zestril&reg;",6360,Guide to Pharmacology,5362119,Compound
+R-HSA-2980736,Peptide hormone metabolism,imidaprilat,imidaprilat,6378,Guide to Pharmacology,5464344,Compound
+R-HSA-2980736,Peptide hormone metabolism,moexiprilat,"moexiprilat,RS-10029",6572,Guide to Pharmacology,55331,Compound
+R-HSA-2980736,Peptide hormone metabolism,cilazaprilat,"cilazaprilat,Ro 31-3113",6461,Guide to Pharmacology,64766,Compound
+R-HSA-2980736,Peptide hormone metabolism,zofenoprilat,zofenoprilat,6463,Guide to Pharmacology,3034048,Compound
+R-HSA-2980736,Peptide hormone metabolism,perindoprilat,"perindoprilat,S-9780",6373,Guide to Pharmacology,72022,Compound
+R-HSA-2980736,Peptide hormone metabolism,fosinoprilat,"fosinoprilat,SQ-27519",6457,Guide to Pharmacology,62956,Compound
+R-HSA-2980736,Peptide hormone metabolism,enalapril,"enalapril,Enaladex&reg;,Vasotec&reg;",6322,Guide to Pharmacology,5388962,Compound
+R-HSA-2980736,Peptide hormone metabolism,Temocapril,Temocapril,443874,PubChem Compound,443874,Compound
+R-HSA-2980736,Peptide hormone metabolism,fosinopril,"fosinopril,Monopril&reg;,SQ-28555",6456,Guide to Pharmacology,55891,Compound
+R-HSA-2980736,Peptide hormone metabolism,cilazapril,"cilazapril,Inhibace&reg;,Ro 31-2848006,Vascace&reg;",6459,Guide to Pharmacology,56330,Compound
+R-HSA-2980736,Peptide hormone metabolism,perindopril,"perindopril,Coversyl&reg;,Preterax&reg;,S-9490",6367,Guide to Pharmacology,107807,Compound
+R-HSA-2980736,Peptide hormone metabolism,ramipril,"ramipril,Altace&reg;,HOE-498,Tritace&reg;",6339,Guide to Pharmacology,5362129,Compound
+R-HSA-2980736,Peptide hormone metabolism,benazepril,"benazepril,CGS-14824A,Lotensin&reg;",6374,Guide to Pharmacology,5362124,Compound
+R-HSA-2980736,Peptide hormone metabolism,zofenopril,"zofenopril,SO-26991,SQ-26900",6462,Guide to Pharmacology,92400,Compound
+R-HSA-2980736,Peptide hormone metabolism,quinapril,"quinapril,Accupril&reg;,Accupro&reg;,CI-906",6350,Guide to Pharmacology,54892,Compound
+R-HSA-2980736,Peptide hormone metabolism,moexipril,"moexipril,RS-10085,SPM-925,Univasc&reg;",6571,Guide to Pharmacology,91270,Compound
+R-HSA-2980736,Peptide hormone metabolism,trandolapril,"trandolapril,CI-907,indolapril,Mavik&reg;,RU-44570",6453,Guide to Pharmacology,5484727,Compound
+R-HSA-2980736,Peptide hormone metabolism,imidapril,"imidapril,imidapril hydrochloride",6377,Guide to Pharmacology,5464343,Compound
+R-HSA-2980736,Peptide hormone metabolism,spirapril,"spirapril,Renormax&reg;,SCH-33844",6575,Guide to Pharmacology,5311447,Compound
+R-HSA-2980736,Peptide hormone metabolism,anagliptin,"anagliptin,compound 4a [PMID: 22019046],CWP-403,SK0403,SK-0403,Suiny&reg;",11582,Guide to Pharmacology,44513473,Compound
+R-HSA-2980736,Peptide hormone metabolism,linagliptin,"linagliptin,BI-1356,Tradjenta&reg;",6318,Guide to Pharmacology,10096344,Compound
+R-HSA-2980736,Peptide hormone metabolism,Trelagliptin,Trelagliptin,15983988,PubChem Compound,15983988,Compound
+R-HSA-2980736,Peptide hormone metabolism,sitagliptin,"sitagliptin,Januvia&reg;,MK-0431",6286,Guide to Pharmacology,4369359,Compound
+R-HSA-2980736,Peptide hormone metabolism,evogliptin,evogliptin,25022354,PubChem Compound,25022354,Compound
+R-HSA-2980736,Peptide hormone metabolism,saxagliptin,"saxagliptin,BMS-477118,Onglyza&reg;",6316,Guide to Pharmacology,11243969,Compound
+R-HSA-2980736,Peptide hormone metabolism,Gemigliptin,Gemigliptin,11953153,PubChem Compound,11953153,Compound
+R-HSA-2980736,Peptide hormone metabolism,vildagliptin,"vildagliptin,Galvus&reg;,LAF-237,NVP-LAF237",6310,Guide to Pharmacology,6918537,Compound
+R-HSA-2980736,Peptide hormone metabolism,gosogliptin,"gosogliptin,PF-00734200",7413,Guide to Pharmacology,11516136,Compound
+R-HSA-2980736,Peptide hormone metabolism,teneligliptin,"teneligliptin,compound 8g [PMID: 22959556],MP513,MP-513,Teneli",9906,Guide to Pharmacology,11949652,Compound
+R-HSA-2980736,Peptide hormone metabolism,alogliptin,"alogliptin,Nesina&reg;,SYR-322,Vipidia&reg;",6319,Guide to Pharmacology,11450633,Compound
+R-HSA-2980736,Peptide hormone metabolism,omarigliptin,"omarigliptin,MK3102,MK-3102",8402,Guide to Pharmacology,46209133,Compound
+R-HSA-174824,"Plasma lipoprotein assembly, remodeling, and clearance",lomitapide,"lomitapide,AEGR-733,BMS-201038,Juxtapid&reg;,Lojuxta&reg;",7439,Guide to Pharmacology,9853053,Compound
+R-HSA-174824,"Plasma lipoprotein assembly, remodeling, and clearance",Torcetrapib,Torcetrapib,159325,PubChem Compound,159325,Compound
+R-HSA-174824,"Plasma lipoprotein assembly, remodeling, and clearance",evolocumab,"evolocumab,AMG145,AMG-145,Repatha&reg;",7343,Guide to Pharmacology,387060184,Substance
+R-HSA-174824,"Plasma lipoprotein assembly, remodeling, and clearance",alirocumab,"alirocumab,Praluent&reg;,REGN727,SAR236553,SAR-236553",6744,Guide to Pharmacology,375563015,Substance
+R-HSA-75892,Platelet Adhesion to exposed collagen,caplacizumab,"caplacizumab,ALX-0081,anti-vWF Nanobody,Cablivi&reg;,caplacizumab-yhdp",9123,Guide to Pharmacology,160671749,Substance
+R-HSA-76002,"Platelet activation, signaling and aggregation",ticagrelor,"ticagrelor,AR-C126532XX,AZD6140,Brilinta&reg;,Brilique&reg;,compound 17 [PMID: 17827008]",1765,Guide to Pharmacology,9871419,Compound
+R-HSA-76002,"Platelet activation, signaling and aggregation",clopidogrel (active metabolite),clopidogrel (active metabolite),1772,Guide to Pharmacology,10066813,Compound
+R-HSA-76002,"Platelet activation, signaling and aggregation",ticlopidine,"ticlopidine,4-C-32,53-32C,Ticlid&reg;",7307,Guide to Pharmacology,5472,Compound
+R-HSA-76002,"Platelet activation, signaling and aggregation",R-138727,"R-138727,R138727,R 138727",1771,Guide to Pharmacology,10405534,Compound
+R-HSA-76002,"Platelet activation, signaling and aggregation",cangrelor,"cangrelor,AR-C69931MX,ARL69931,Kengreal&reg;",1776,Guide to Pharmacology,9854012,Compound
+R-HSA-76002,"Platelet activation, signaling and aggregation",vorapaxar,"vorapaxar,SCH530348,SCH 530348,SCH-530348,Zontivity&reg;",4047,Guide to Pharmacology,10077130,Compound
+R-HSA-418346,Platelet homeostasis,treprostinil,"treprostinil,LRX-15,Remodulin&reg;,Tyvaso&reg;",5820,Guide to Pharmacology,6918140,Compound
+R-HSA-418346,Platelet homeostasis,iloprost,"iloprost,Ventavis&reg;",1895,Guide to Pharmacology,5311181,Compound
+R-HSA-418346,Platelet homeostasis,MRE-269,"MRE-269,ACT 333679,ACT-333679,MRE 269",5852,Guide to Pharmacology,9931891,Compound
+R-HSA-418346,Platelet homeostasis,cinaciguat,"cinaciguat,BAY 58-2667",5168,Guide to Pharmacology,9808022,Compound
+R-HSA-418346,Platelet homeostasis,ataciguat,ataciguat,5141,Guide to Pharmacology,213037,Compound
+R-HSA-418346,Platelet homeostasis,praliciguat,"praliciguat,IW1973,IW-1973",9900,Guide to Pharmacology,86269973,Compound
+R-HSA-418346,Platelet homeostasis,YC-1,"YC-1,3-(5′-hydroxymethyl-2′furyl)-1-benzyl-indazole,YC1",5291,Guide to Pharmacology,5712,Compound
+R-HSA-418346,Platelet homeostasis,vericiguat,"vericiguat,BAY-1021189,MK-1242",10010,Guide to Pharmacology,54674461,Compound
+R-HSA-418346,Platelet homeostasis,BAY412272,"BAY412272,BAY 41-2272,BAY-412272",5146,Guide to Pharmacology,9798973,Compound
+R-HSA-418346,Platelet homeostasis,riociguat,"riociguat,Adempas&reg;,BAY 63-2521",5257,Guide to Pharmacology,11304743,Compound
+R-HSA-597592,Post-translational protein modification,monomethyl fumarate,"monomethyl fumarate,methyl hydrogen fumarate",5786,Guide to Pharmacology,5369209,Compound
+R-HSA-597592,Post-translational protein modification,sulforaphane,sulforaphane,6569,Guide to Pharmacology,5350,Compound
+R-HSA-597592,Post-translational protein modification,dimethyl fumarate,"dimethyl fumarate,BG00012,BG-12,fumaric acid,Tecfidera&reg;",7045,Guide to Pharmacology,637568,Compound
+R-HSA-1296071,Potassium Channels,Cilobradine,Cilobradine,2355,Guide to Pharmacology,9869877,Compound
+R-HSA-1296071,Potassium Channels,zatebradine,"zatebradine,UL-FS49",2358,Guide to Pharmacology,65637,Compound
+R-HSA-1296071,Potassium Channels,ivabradine,"ivabradine,Corlanor&reg;,Corlentor&reg;,Procoralan&reg;,S-16257",2357,Guide to Pharmacology,132999,Compound
+R-HSA-9757110,Prednisone ADME,prednisone,"prednisone,Lodotra&reg;,Sterapred&reg;",7096,Guide to Pharmacology,5865,Compound
+R-HSA-9757110,Prednisone ADME,prednisolone,"prednisolone,DELTA.1-Cortisol,Orapred&reg;,Pediapred&reg;",2866,Guide to Pharmacology,5755,Compound
+R-HSA-9757110,Prednisone ADME,laniquidar,laniquidar,6450806,PubChem Compound,6450806,Compound
+R-HSA-9757110,Prednisone ADME,tariquidar,tariquidar,148201,PubChem Compound,148201,Compound
+R-HSA-9757110,Prednisone ADME,elacridar,elacridar,119373,PubChem Compound,119373,Compound
+R-HSA-9757110,Prednisone ADME,biricodar,biricodar,11741,Guide to Pharmacology,3037617,Compound
+R-HSA-9757110,Prednisone ADME,verapamil,"verapamil,Ansyr&reg;,CP-165331 /  CP-16533-1,Securon&reg;",2406,Guide to Pharmacology,2520,Compound
+R-HSA-9757110,Prednisone ADME,zosuquidar,zosuquidar,3036703,PubChem Compound,3036703,Compound
+R-HSA-9757110,Prednisone ADME,cyclosporin A,"cyclosporin A,ciclosporin,cyclosporine,cyclosporine A,Ikervis&reg; (opthalmic solution),Neoral&reg;,Sandimmun&reg;,Verkazia&reg; (opthalmic solution)",1024,Guide to Pharmacology,5284373,Compound
+R-HSA-9757110,Prednisone ADME,quinine,"quinine,GNF-Pf-506,Qualaquin&reg;,Quinate&reg;,quinine bisulphate,quinine sulfate",2510,Guide to Pharmacology,3034034,Compound
+R-HSA-9757110,Prednisone ADME,tetrandrine,tetrandrine,73078,PubChem Compound,73078,Compound
+R-HSA-9757110,Prednisone ADME,valspodar,valspodar,11745,Guide to Pharmacology,5281884,Compound
+R-HSA-9757110,Prednisone ADME,colchicine,"colchicine,Colcrys&reg;",2367,Guide to Pharmacology,6167,Compound
+R-HSA-9757110,Prednisone ADME,bisantrene,bisantrene,5351322,PubChem Compound,5351322,Compound
+R-HSA-9757110,Prednisone ADME,gramicidin D,gramicidin D,45267103,PubChem Compound,45267103,Compound
+R-HSA-9757110,Prednisone ADME,melphalan,"melphalan,Alkeran&reg;,CB-3025,L-phenylalanine mustard (L-PAM),L-sarcolysine,melfalan,Sarcolysin&reg;",7620,Guide to Pharmacology,460612,Compound
+R-HSA-9757110,Prednisone ADME,vincristine,"vincristine,22-oxovincaleukoblastine,kyocristine,leurocristine sulfate,NSC-67574,Oncovin&reg;",6785,Guide to Pharmacology,5978,Compound
+R-HSA-9757110,Prednisone ADME,dexamethasone,"dexamethasone,Decadron&reg;,desametasone,fluormethylprednisolone",2768,Guide to Pharmacology,5743,Compound
+R-HSA-9757110,Prednisone ADME,teniposide,"teniposide,isosulfan blue,VM-26,Vumon&reg;",6843,Guide to Pharmacology,452548,Compound
+R-HSA-9757110,Prednisone ADME,temozolomide,"temozolomide,CCRG-81045,M-39831,Temodal&reg;,Temodar&reg;",7301,Guide to Pharmacology,5394,Compound
+R-HSA-9757110,Prednisone ADME,vinblastine,"vinblastine,29060-LE,Velban&reg;,Velbe&reg;,vincaleucoblastin,vincaleukoblastine",6851,Guide to Pharmacology,13342,Compound
+R-HSA-9757110,Prednisone ADME,Dactinomycin,Dactinomycin,457193,PubChem Compound,457193,Compound
+R-HSA-9757110,Prednisone ADME,doxorubicin,"doxorubicin,Adriamycin&reg;,Caelyx&reg; (liposomal doxorubicin),Doxil&reg;,doxorubicin hydrochloride",7069,Guide to Pharmacology,31703,Compound
+R-HSA-9757110,Prednisone ADME,methylprednisolone,"methylprednisolone,Medrol&reg;,U-67590A",7088,Guide to Pharmacology,6741,Compound
+R-HSA-9757110,Prednisone ADME,budesonide,"budesonide,Entocort&reg;,Jorveza&reg;,Pulmicort&reg;,S-1320,Uceris&reg;",7434,Guide to Pharmacology,5281004,Compound
+R-HSA-9757110,Prednisone ADME,paclitaxel,"paclitaxel,7-epipaclitaxel,Abraxane&reg; (albumin-bound suspension),Taxol&reg;",2770,Guide to Pharmacology,36314,Compound
+R-HSA-9757110,Prednisone ADME,daunorubicin,"daunorubicin,Cerubidine&reg;,daunomycin,FI-6339,NDC-0082-4155,RP-13057",7063,Guide to Pharmacology,30323,Compound
+R-HSA-9757110,Prednisone ADME,etoposide,"etoposide,Etopophos&reg;,(-)-etoposide,Toposar&reg;,trans-etoposide,VePesid&reg;,VP-16,VP 16-213",6815,Guide to Pharmacology,36462,Compound
+R-HSA-9757110,Prednisone ADME,docetaxel,"docetaxel,Docecad&reg;,docetaxel anhydrous,EmDOC,Taxotere&reg;",6809,Guide to Pharmacology,148124,Compound
+R-HSA-9757110,Prednisone ADME,azithromycin,azithromycin,6510,Guide to Pharmacology,447043,Compound
+R-HSA-9757110,Prednisone ADME,erythromycin,"erythromycin,E-Mycin&reg;,Erythrocin&reg;,erythromycin-A",1456,Guide to Pharmacology,12560,Compound
+R-HSA-9757110,Prednisone ADME,imatinib,"imatinib,CGP 57148,Gleevec&reg;,Glivec&reg;,STI571",5687,Guide to Pharmacology,5291,Compound
+R-HSA-9757110,Prednisone ADME,irinotecan,"irinotecan,biotecan,Campto&reg;,Camptosar&reg;,CPT-11,(+)-irinotecan,irinotecan hydrochloride,Onivyde&reg;",6823,Guide to Pharmacology,60838,Compound
+R-HSA-5218859,Regulated Necrosis,ponatinib,"ponatinib,AP24534,Iclusig&reg;",5890,Guide to Pharmacology,24826799,Compound
+R-HSA-5218859,Regulated Necrosis,sorafenib,"sorafenib,BAY 43-9006,Nexavar",5711,Guide to Pharmacology,216239,Compound
+R-HSA-5218859,Regulated Necrosis,pazopanib,"pazopanib,GW 786034,indazolylpyrimidine 13,Votrient&reg;",5698,Guide to Pharmacology,10113978,Compound
+R-HSA-5218859,Regulated Necrosis,disulfiram,"disulfiram,Antabuse&reg;,NSC-25953",7168,Guide to Pharmacology,3117,Compound
+R-HSA-5218859,Regulated Necrosis,diroximel fumarate,"diroximel fumarate,ALKS8700,ALKS-8700,BIIB098,Vumerity&reg;",10525,Guide to Pharmacology,73330464,Compound
+R-HSA-5218859,Regulated Necrosis,dimethyl fumarate,"dimethyl fumarate,BG00012,BG-12,fumaric acid,Tecfidera&reg;",7045,Guide to Pharmacology,637568,Compound
+R-HSA-9755088,Ribavirin ADME,ribavirin,"ribavirin,Copegus&reg;,Rebetol&reg;,ribofuranosyl carboxamide,Virazole&reg;,RBV",6842,Guide to Pharmacology,37542,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,cimetidine,"cimetidine,cimetidine HCl,Tagamet&reg;",1231,Guide to Pharmacology,2756,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,chloroquine,"chloroquine,Aralen&reg;,chloraquine,Malaquin&reg;",5535,Guide to Pharmacology,2719,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,quinidine,"quinidine,Quinaglute&reg;,Quinidex&reg;,quinidine hydrochloride",2342,Guide to Pharmacology,441074,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,ipragliflozin,"ipragliflozin,ASP-1941,ASP1941,Suglat&reg;",9394,Guide to Pharmacology,10453870,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,ertugliflozin,"ertugliflozin,MK-8835,PF-04971729,Steglatro&reg;",8376,Guide to Pharmacology,44814423,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,canagliflozin,"canagliflozin,Invokana&reg;,JNJ-28431754,TA-7284",4582,Guide to Pharmacology,24812758,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,sotagliflozin,"sotagliflozin,LX-4211,LX4211,Zynquista&reg;",8312,Guide to Pharmacology,24831714,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,tofogliflozin,"tofogliflozin,Apleway&reg;,compound 16d [PMID: 22889351],CSG-452,CSG452,Deberza&reg;",9395,Guide to Pharmacology,46908929,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,dapagliflozin,"dapagliflozin,BMS-512148,Farxiga&reg;,Forxiga&reg;",4594,Guide to Pharmacology,9887712,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,empagliflozin,"empagliflozin,BI 10773,Jardiance&reg;",4754,Guide to Pharmacology,11949646,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,trichlormethiazide,"trichlormethiazide,Naqua&reg;",7314,Guide to Pharmacology,5560,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,bendroflumethiazide,"bendroflumethiazide,Aprinox&reg;,Aprinox&reg;,Naturetin&reg;",7122,Guide to Pharmacology,2315,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,benzthiazide,"benzthiazide,Aquatag&reg;,Fovane&reg;",7125,Guide to Pharmacology,2343,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,polythiazide,"polythiazide,P-2525,Renese&reg;",7274,Guide to Pharmacology,9968,Substance
+R-HSA-425407,SLC-mediated transmembrane transport,quinethazone,"quinethazone,Hydromox&reg;",7289,Guide to Pharmacology,6307,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,hydrochlorothiazide,"hydrochlorothiazide,Apo-hydro&reg;",4836,Guide to Pharmacology,3639,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,chlorothiazide,"chlorothiazide,Diuril&reg;",4835,Guide to Pharmacology,2720,Compound
+R-HSA-425407,SLC-mediated transmembrane transport,metolazone,"metolazone,SR-720-22,Zaroxolyn&reg;",4838,Guide to Pharmacology,4170,Compound
+R-HSA-9717189,Sensory perception of taste,amiloride,"amiloride,amiloride HCl,Midamor&reg;",2421,Guide to Pharmacology,16231,Compound
+R-HSA-9717189,Sensory perception of taste,chlorpheniramine,"chlorpheniramine,chlorprophenpyridamine maleate,Phenetron&reg;,Teldrin&reg;",6976,Guide to Pharmacology,2725,Compound
+R-HSA-9717189,Sensory perception of taste,dextromethorphan,"dextromethorphan,d-methorphan",6953,Guide to Pharmacology,5360696,Compound
+R-HSA-9717189,Sensory perception of taste,haloperidol,"haloperidol,Haldol&reg;,MCN-JR-1625,R-1625,Serenace&reg;",86,Guide to Pharmacology,3559,Compound
+R-HSA-9717189,Sensory perception of taste,chloroquine,"chloroquine,Aralen&reg;,chloraquine,Malaquin&reg;",5535,Guide to Pharmacology,2719,Compound
+R-HSA-9717189,Sensory perception of taste,famotidine,"famotidine,Gaster&reg;,MK-208,Pepcid&reg;",7074,Guide to Pharmacology,5702160,Compound
+R-HSA-9717189,Sensory perception of taste,diphenhydramine,"diphenhydramine,Benadryl&reg;,benzhydramine,dimehydrinate",1224,Guide to Pharmacology,3100,Compound
+R-HSA-9006335,Signaling by Erythropoietin,Epoetin beta,Epoetin beta,46508122,PubChem Substance,46508122,Substance
+R-HSA-9006335,Signaling by Erythropoietin,peginesatide,"peginesatide,AF37702,Hematide&reg;,Omontys&reg;",7447,Guide to Pharmacology,135362536,Substance
+R-HSA-9006335,Signaling by Erythropoietin,Epoetin theta,Epoetin theta,135315770,PubChem Substance,46508122,Substance
+R-HSA-9006335,Signaling by Erythropoietin,Epoetin zeta,Epoetin zeta,160703832,PubChem Substance,46508122,Substance
+R-HSA-9006335,Signaling by Erythropoietin,Darbepoetin alfa,Darbepoetin alfa,46504480,PubChem Substance,46504480,Substance
+R-HSA-9006335,Signaling by Erythropoietin,erythropoietin,"erythropoietin,Epogen&reg;,Procrit&reg;",4921,Guide to Pharmacology,11751549,Compound
+R-HSA-9006335,Signaling by Erythropoietin,Methoxy polyethylene glycol-epoetin beta,Methoxy polyethylene glycol-epoetin beta,347910408,PubChem Substance,318464551,Substance
+R-HSA-372790,Signaling by GPCR,netarsudil,"netarsudil,AR11324,AR-11324,ester 60 [PMID: 27072905],Rhokiinsa&reg;,Rhopressa&reg;",9322,Guide to Pharmacology,66599893,Compound
+R-HSA-372790,Signaling by GPCR,ripasudil,"ripasudil,Glanatec&reg;,K-115 (ripasudil hydrochloride dihydrate)",10423,Guide to Pharmacology,9863672,Compound
+R-HSA-372790,Signaling by GPCR,CHF-6001,CHF-6001,70662473,PubChem Compound,70662473,Compound
+R-HSA-372790,Signaling by GPCR,cilomilast,"cilomilast,SB-207499",7407,Guide to Pharmacology,151170,Compound
+R-HSA-372790,Signaling by GPCR,rolipram,"rolipram,(&plusmn;)-rolipram,(R,S)-rolipram",5260,Guide to Pharmacology,5092,Compound
+R-HSA-372790,Signaling by GPCR,roflumilast,roflumilast,6962,Guide to Pharmacology,449193,Compound
+R-HSA-372790,Signaling by GPCR,Piclamilast,Piclamilast,154575,PubChem Compound,154575,Compound
+R-HSA-372790,Signaling by GPCR,ibudilast,"ibudilast,AV-411,KC-404,Ketas&reg;,MN-166",7399,Guide to Pharmacology,3671,Compound
+R-HSA-372790,Signaling by GPCR,crisaborole,"crisaborole,AN2728,AN 2728,compound 5b [PMID: 19303290],Eucrisa&reg;,Staquis&reg;",9151,Guide to Pharmacology,44591583,Compound
+R-HSA-372790,Signaling by GPCR,pentoxifylline,"pentoxifylline,BL-191,Trental&reg;",7095,Guide to Pharmacology,4740,Compound
+R-HSA-372790,Signaling by GPCR,apremilast,"apremilast,CC-10004,Otezla&reg;",7372,Guide to Pharmacology,11561674,Compound
+R-HSA-372790,Signaling by GPCR,cilostazol,"cilostazol,OPC-13013,OPC-21,Pletal&reg;",7148,Guide to Pharmacology,2754,Compound
+R-HSA-372790,Signaling by GPCR,inamrinone,"inamrinone,amrinone lactate,Inocor&reg;,WIN-40680",7202,Guide to Pharmacology,3698,Compound
+R-HSA-372790,Signaling by GPCR,anagrelide,"anagrelide,Agrylin&reg;,BL-4162a,Xagrid&reg;",7114,Guide to Pharmacology,135409400,Compound
+R-HSA-372790,Signaling by GPCR,enoximone,"enoximone,fenoximone,MDL 17,043,MDL-17043,MDL-17,043,Perfan&reg;",9063,Guide to Pharmacology,53708,Compound
+R-HSA-372790,Signaling by GPCR,milrinone,"milrinone,milrinone lactate,Primacor&reg;",5225,Guide to Pharmacology,4197,Compound
+R-HSA-372790,Signaling by GPCR,bimatoprost (free acid form),"bimatoprost (free acid form),17-phenyl-<i>&omega;</i>-trinor-PGF<sub>2&alpha;</sub>",1959,Guide to Pharmacology,5283081,Compound
+R-HSA-372790,Signaling by GPCR,tafluprost acid,"tafluprost acid,AFP-172",7452,Guide to Pharmacology,9978917,Compound
+R-HSA-372790,Signaling by GPCR,latanoprost (free acid form),"latanoprost (free acid form),latanoprost-free acid,PHXA85",1960,Guide to Pharmacology,6441636,Compound
+R-HSA-372790,Signaling by GPCR,latanoprostene bunod,"latanoprostene bunod,BOL-303259-X,NCX-116,PF-3187207,Vyzulta&reg;",9635,Guide to Pharmacology,11156438,Compound
+R-HSA-372790,Signaling by GPCR,fluprostenol,"fluprostenol,ICI 81008",1940,Guide to Pharmacology,5311100,Compound
+R-HSA-372790,Signaling by GPCR,BAYu9773,"BAYu9773,BAY u9773,BAY-u 9773",3381,Guide to Pharmacology,5311015,Compound
+R-HSA-372790,Signaling by GPCR,iralukast,iralukast,5861,Guide to Pharmacology,6913104,Compound
+R-HSA-372790,Signaling by GPCR,verlukast,"verlukast,MK679,MK-679",6193,Guide to Pharmacology,6509849,Compound
+R-HSA-372790,Signaling by GPCR,MK-571,"MK-571,MK-0571,MK571,MK 571",10346,Guide to Pharmacology,5281888,Compound
+R-HSA-372790,Signaling by GPCR,pobilukast,"pobilukast,SKF 104353",3334,Guide to Pharmacology,60842,Compound
+R-HSA-372790,Signaling by GPCR,SR2640,"SR2640,SR 2640,SR-2640",3329,Guide to Pharmacology,128355,Compound
+R-HSA-372790,Signaling by GPCR,sulukast,sulukast,3327,Guide to Pharmacology,6436123,Compound
+R-HSA-372790,Signaling by GPCR,triple modulator 10,"triple modulator 10,triple modulator 10 [PMID: 29878767]",10002,Guide to Pharmacology,,
+R-HSA-372790,Signaling by GPCR,pranlukast,"pranlukast,ONO RS-411",3634,Guide to Pharmacology,4887,Compound
+R-HSA-372790,Signaling by GPCR,zafirlukast,"zafirlukast,Accolate&reg;,ICI-204219",3322,Guide to Pharmacology,5717,Compound
+R-HSA-372790,Signaling by GPCR,montelukast,"montelukast,Singulair&reg;",3340,Guide to Pharmacology,5281040,Compound
+R-HSA-372790,Signaling by GPCR,ozanimod,"ozanimod,RPC1063,RPC-1063,Zeposia&reg;",8709,Guide to Pharmacology,52938427,Compound
+R-HSA-372790,Signaling by GPCR,siponimod,"siponimod,BAF-312,BAF312,compound 32 [PMID: 24900670],Mayzent&reg;",9289,Guide to Pharmacology,44599207,Compound
+R-HSA-372790,Signaling by GPCR,fingolimod,"fingolimod,FTY-720,FTY720,Gilenya&reg;",2407,Guide to Pharmacology,107970,Compound
+R-HSA-372790,Signaling by GPCR,N-methyl scopolamine,"N-methyl scopolamine,methylscopolamine,methylscopolamine bromide,N-methylscopolamine,NMS,Pamine&reg;",316,Guide to Pharmacology,71183,Compound
+R-HSA-372790,Signaling by GPCR,propantheline,"propantheline,Pro-Banthine&reg;",329,Guide to Pharmacology,4934,Compound
+R-HSA-372790,Signaling by GPCR,clidinium,"clidinium,Quarzan&reg;",366,Guide to Pharmacology,2784,Compound
+R-HSA-372790,Signaling by GPCR,umeclidinium,"umeclidinium,GSK573719A,Incruse Ellipta&reg;",7354,Guide to Pharmacology,11519070,Compound
+R-HSA-372790,Signaling by GPCR,oxybutynin,"oxybutynin,Cystrin&reg;,Ditropan&reg;,oxybutynin chloride",359,Guide to Pharmacology,4634,Compound
+R-HSA-372790,Signaling by GPCR,biperiden,"biperiden,Akineton&reg;,biperiden HCl,biperiden lactate",7128,Guide to Pharmacology,2381,Compound
+R-HSA-372790,Signaling by GPCR,ipratropium,"ipratropium,Atrovent&reg;,Ipraxa&reg;",325,Guide to Pharmacology,657309,Compound
+R-HSA-372790,Signaling by GPCR,revefenacin,"revefenacin,GSK-1160724,GSK1160724,TD4208,Yupelri&reg;",10129,Guide to Pharmacology,11753673,Compound
+R-HSA-372790,Signaling by GPCR,mepenzolic acid,"mepenzolic acid,(&plusmn;)-mepenzolate,Cantril&reg;,glycophenylate,mepenzolate,racemic mepenzolate",10470,Guide to Pharmacology,4057,Compound
+R-HSA-372790,Signaling by GPCR,tiotropium,"tiotropium,BA-679-BR,Spiriva&reg;",367,Guide to Pharmacology,5487427,Compound
+R-HSA-372790,Signaling by GPCR,glycopyrrolate,"glycopyrrolate,AHR-504,Qbrexza&reg (glycopyrronium cloth),Robinul&reg;,Seebri Neohaler&reg;,Tovanor Breezhaler&reg;",7459,Guide to Pharmacology,11693,Compound
+R-HSA-372790,Signaling by GPCR,tolterodine,"tolterodine,Detrol&reg;,Detrusitol&reg;,KABI-2234",360,Guide to Pharmacology,443879,Compound
+R-HSA-372790,Signaling by GPCR,amitriptyline,"amitriptyline,amitryptiline,Elavil&reg;,Endep&reg;",200,Guide to Pharmacology,2160,Compound
+R-HSA-372790,Signaling by GPCR,darifenacin,"darifenacin,Emselex&reg;,Enablex&reg;,UK-88525",321,Guide to Pharmacology,444031,Compound
+R-HSA-372790,Signaling by GPCR,pirenzepine,pirenzepine,328,Guide to Pharmacology,4848,Compound
+R-HSA-372790,Signaling by GPCR,atropine,"atropine,Atropen&reg;,hyoscyamine",320,Guide to Pharmacology,174174,Compound
+R-HSA-372790,Signaling by GPCR,solifenacin,"solifenacin,Vesicare&reg;,YM-67905,YM-905",7483,Guide to Pharmacology,154059,Compound
+R-HSA-372790,Signaling by GPCR,scopolamine,"scopolamine,hyoscine,levo-duboisine,Scopoderm&reg;",330,Guide to Pharmacology,3000322,Compound
+R-HSA-372790,Signaling by GPCR,dosulepin,"dosulepin,Dothep&reg;,dothiepin,Prothiaden&reg;",7549,Guide to Pharmacology,5284550,Compound
+R-HSA-372790,Signaling by GPCR,aclidinium,"aclidinium,LAS W-330,LAS-34273,Tudorza Pressair&reg;",7449,Guide to Pharmacology,11434515,Compound
+R-HSA-372790,Signaling by GPCR,dicyclomine,"dicyclomine,Bentyl&reg;,Byclomine&reg;",355,Guide to Pharmacology,3042,Compound
+R-HSA-372790,Signaling by GPCR,oxyphenonium,"oxyphenonium,oxyphenonium bromide",7257,Guide to Pharmacology,5749,Compound
+R-HSA-372790,Signaling by GPCR,tropicamide,"tropicamide,Mydriacyl&reg;",7319,Guide to Pharmacology,5593,Compound
+R-HSA-372790,Signaling by GPCR,diphenhydramine,"diphenhydramine,Benadryl&reg;,benzhydramine,dimehydrinate",1224,Guide to Pharmacology,3100,Compound
+R-HSA-372790,Signaling by GPCR,hyoscyamine,hyoscyamine,154417,PubChem Compound,154417,Compound
+R-HSA-372790,Signaling by GPCR,brimonidine,"brimonidine,Alphagan&reg;,Lumify&reg;,Mirvaso&reg;,UK14304,UK14,304",520,Guide to Pharmacology,2435,Compound
+R-HSA-372790,Signaling by GPCR,clonidine,"clonidine,Catapres&reg;,Kapvay&reg",516,Guide to Pharmacology,2803,Compound
+R-HSA-372790,Signaling by GPCR,dexmedetomidine,"dexmedetomidine,MPV 1440,Precedex&reg;",521,Guide to Pharmacology,5311068,Compound
+R-HSA-372790,Signaling by GPCR,guanabenz,"guanabenz,NSC 68982,Wy 8678,Wytensin&reg;",5443,Guide to Pharmacology,5702063,Compound
+R-HSA-372790,Signaling by GPCR,apraclonidine,"apraclonidine,AL-02145,Iopidine&reg;",7117,Guide to Pharmacology,2216,Compound
+R-HSA-372790,Signaling by GPCR,guanfacine,"guanfacine,Estulic&reg;,Tenex&reg;",522,Guide to Pharmacology,3519,Compound
+R-HSA-372790,Signaling by GPCR,prazosin,"prazosin,CP-12299-1,Hypovase&reg;,Minipress&reg;,prazosine",503,Guide to Pharmacology,4893,Compound
+R-HSA-372790,Signaling by GPCR,doxazosin,"doxazosin,Cardura&reg;,UK-3327427",7170,Guide to Pharmacology,3157,Compound
+R-HSA-372790,Signaling by GPCR,terazosin,"terazosin,ABBOTT-45975,Hytrin&reg;",7302,Guide to Pharmacology,5401,Compound
+R-HSA-372790,Signaling by GPCR,A61603,"A61603,A 61603,A-61603",480,Guide to Pharmacology,4038180,Compound
+R-HSA-372790,Signaling by GPCR,NS-49,NS-49,481,Guide to Pharmacology,9838763,Compound
+R-HSA-372790,Signaling by GPCR,methoxamine,"methoxamine,2,5-dimethoxynorephedrine",483,Guide to Pharmacology,6082,Compound
+R-HSA-372790,Signaling by GPCR,phenylephrine,"phenylephrine,metasynephrine,m-oxedrine",485,Guide to Pharmacology,6041,Compound
+R-HSA-372790,Signaling by GPCR,dabuzalgron,"dabuzalgron,R 450,Ro-115-1240,Ro-1151240190",3469,Guide to Pharmacology,216249,Compound
+R-HSA-372790,Signaling by GPCR,oxymetazoline,"oxymetazoline,Afrin&reg;,oxymethazoline,SCH-9384,Vicks Sinex&reg;",124,Guide to Pharmacology,4636,Compound
+R-HSA-372790,Signaling by GPCR,dobutamine,"dobutamine,dobutamine hydrochloride,Dobutrex&reg;,Inotrex&reg;",535,Guide to Pharmacology,36811,Compound
+R-HSA-372790,Signaling by GPCR,isoprenaline,"isoprenaline,isoproterenol,Isuprel&reg;,Medihaler-Iso&reg;",536,Guide to Pharmacology,3779,Compound
+R-HSA-372790,Signaling by GPCR,abediterol,"abediterol,LAS-100977",9326,Guide to Pharmacology,11962616,Compound
+R-HSA-372790,Signaling by GPCR,indacaterol,"indacaterol,Arcapta Neohaler&reg;,Onbrez&reg;,QAB149,QAB-149",7455,Guide to Pharmacology,6918554,Compound
+R-HSA-372790,Signaling by GPCR,arformoterol,"arformoterol,Brovana&reg;,YM-08316",7479,Guide to Pharmacology,3083544,Compound
+R-HSA-372790,Signaling by GPCR,xamoterol,"xamoterol,ICI-118587",538,Guide to Pharmacology,155774,Compound
+R-HSA-372790,Signaling by GPCR,denopamine,"denopamine,TA 064,TA-064",534,Guide to Pharmacology,5311064,Compound
+R-HSA-372790,Signaling by GPCR,prenalterol,"prenalterol,CGP 7760B",537,Guide to Pharmacology,42396,Compound
+R-HSA-372790,Signaling by GPCR,metoprolol,"metoprolol,CGP-2175C,GP-2175E,H-93/26,Lopressor&reg;,Toprol&reg;",553,Guide to Pharmacology,4171,Compound
+R-HSA-372790,Signaling by GPCR,betaxolol,"betaxolol,betaxolol HCl,Betoptic&reg;,Kerlone&reg;,SL-75212-10",549,Guide to Pharmacology,2369,Compound
+R-HSA-372790,Signaling by GPCR,propranolol,"propranolol,Bedranol&reg;,Inderal&reg;,propranolol hydrochloride",564,Guide to Pharmacology,4946,Compound
+R-HSA-372790,Signaling by GPCR,levobunolol,"levobunolol,Ak-beta&reg;,BRN 1887243,(-)-bunolol,L-bunolol,Liquifilm&reg;,W-6421A",570,Guide to Pharmacology,39468,Compound
+R-HSA-372790,Signaling by GPCR,bupranolol,"bupranolol,Betadrenol&reg;,BRN 2272923,Ophtorenin&reg;,SK&F 16805-A",550,Guide to Pharmacology,2475,Compound
+R-HSA-372790,Signaling by GPCR,pindolol,"pindolol,betapindol,LB-46,Visken&reg;",91,Guide to Pharmacology,4828,Compound
+R-HSA-372790,Signaling by GPCR,esmolol,"esmolol,Brevibloc&reg;,SL-8052",7178,Guide to Pharmacology,59768,Compound
+R-HSA-372790,Signaling by GPCR,labetalol,"labetalol,AH-5158A,Normodyne&reg;,SCH-15719W,Trandate&reg;",7207,Guide to Pharmacology,3869,Compound
+R-HSA-372790,Signaling by GPCR,nadolol,"nadolol,Corgard&reg;,corzide,SQ-11725",554,Guide to Pharmacology,39147,Compound
+R-HSA-372790,Signaling by GPCR,nebivolol,"nebivolol,Bystolic&reg;,R-65824,Ro-67555",7246,Guide to Pharmacology,71301,Compound
+R-HSA-372790,Signaling by GPCR,cicloprolol,"cicloprolol,SL 75-177-10",552,Guide to Pharmacology,146294,Compound
+R-HSA-372790,Signaling by GPCR,levobetaxolol,"levobetaxolol,AL-1577A,(-)-betaxolol,Betaxon&reg;,(S)-betaxolol",8035,Guide to Pharmacology,60657,Compound
+R-HSA-372790,Signaling by GPCR,sotalol,"sotalol,Betapace&reg;,MJ-1999",7297,Guide to Pharmacology,5253,Compound
+R-HSA-372790,Signaling by GPCR,carvedilol,"carvedilol,Coreg&reg;,DQ 2466,Eucardic&reg;,SKF 105517",551,Guide to Pharmacology,2585,Compound
+R-HSA-372790,Signaling by GPCR,practolol,"practolol,AY-21011,ICI-50172",555,Guide to Pharmacology,4883,Compound
+R-HSA-372790,Signaling by GPCR,acebutolol,"acebutolol,IL-17803A,Sectral&reg;",7107,Guide to Pharmacology,1978,Compound
+R-HSA-372790,Signaling by GPCR,atenolol,"atenolol,Myocord&reg;,Normiten&reg;,Tenormin&reg;",548,Guide to Pharmacology,2249,Compound
+R-HSA-372790,Signaling by GPCR,solabegron,"solabegron,compound 38 [PMID: 16640337],GW427353",9512,Guide to Pharmacology,9887812,Compound
+R-HSA-372790,Signaling by GPCR,vibegron,vibegron,10100,Guide to Pharmacology,44472635,Compound
+R-HSA-372790,Signaling by GPCR,mirabegron,"mirabegron,Betmiga&reg;,Myrbetriq&reg;,YM-178",7445,Guide to Pharmacology,9865528,Compound
+R-HSA-372790,Signaling by GPCR,amisulpride,"amisulpride,(&plusmn;)-amisulpride",963,Guide to Pharmacology,2159,Compound
+R-HSA-372790,Signaling by GPCR,aripiprazole,"aripiprazole,Abilify&reg;,Aripiprex&reg;,Aristada&reg; (aripiprazole lauroxil),OPC 14597,OPC-14597",34,Guide to Pharmacology,60795,Compound
+R-HSA-372790,Signaling by GPCR,sulpiride,"sulpiride,(&plusmn;)-sulpiride,dl-sulpiride,Dolmatil&reg;,RD 1403,Sulpor&reg;,sulpyrid",5501,Guide to Pharmacology,5355,Compound
+R-HSA-372790,Signaling by GPCR,risperidone,"risperidone,R-64-766,R-64766,Risperdal&reg;",96,Guide to Pharmacology,5073,Compound
+R-HSA-372790,Signaling by GPCR,perphenazine,"perphenazine,Decentan&reg;,Fentazin&reg;,Trilafon&reg;",209,Guide to Pharmacology,4748,Compound
+R-HSA-372790,Signaling by GPCR,cariprazine,"cariprazine,Reagila&reg;,RGH 188,RGH-188,Vraylar&reg;",7671,Guide to Pharmacology,11154555,Compound
+R-HSA-372790,Signaling by GPCR,asenapine,"asenapine,ORG-5222,Saphris&reg;,Sycrest&reg;",22,Guide to Pharmacology,3036780,Compound
+R-HSA-372790,Signaling by GPCR,trifluoperazine,"trifluoperazine,Eskazinyl&reg;,Stelazine&reg;,trifluoperazine hydrochloride",214,Guide to Pharmacology,5566,Compound
+R-HSA-372790,Signaling by GPCR,perospirone,"perospirone,Lullan&reg; (Japan)",7556,Guide to Pharmacology,115368,Compound
+R-HSA-372790,Signaling by GPCR,zotepine,"zotepine,Zoleptil&reg;",103,Guide to Pharmacology,5736,Compound
+R-HSA-372790,Signaling by GPCR,fluphenazine,"fluphenazine,Prolixin&reg;",204,Guide to Pharmacology,3372,Compound
+R-HSA-372790,Signaling by GPCR,blonanserin,"blonanserin,AD 5423,AD-5423,Lonasen&reg;",7670,Guide to Pharmacology,125564,Compound
+R-HSA-372790,Signaling by GPCR,sertindole,"sertindole,Serdolect&reg;,Serlect&reg;,sertindol",98,Guide to Pharmacology,60149,Compound
+R-HSA-372790,Signaling by GPCR,quetiapine,"quetiapine,Seroquel&reg;,ZM-204636",50,Guide to Pharmacology,5002,Compound
+R-HSA-372790,Signaling by GPCR,chlorpromazine,"chlorpromazine,chlorpromazine HCl,Largactil&reg;,Thorazine&reg;",83,Guide to Pharmacology,2726,Compound
+R-HSA-372790,Signaling by GPCR,domperidone,"domperidone,Motilium&reg;,Nauzelin&reg;,R-33812",965,Guide to Pharmacology,3151,Compound
+R-HSA-372790,Signaling by GPCR,clozapine,"clozapine,Clorazil&reg;,HF-1854",38,Guide to Pharmacology,135398737,Compound
+R-HSA-372790,Signaling by GPCR,flupentixol,"flupentixol,<i>cis</i> flupenthixol,alpha-flupenthixol,flupenthixol",948,Guide to Pharmacology,5281881,Compound
+R-HSA-372790,Signaling by GPCR,mesoridazine,"mesoridazine,NC-123,Serentil&reg;,TPS-23",7227,Guide to Pharmacology,4078,Compound
+R-HSA-372790,Signaling by GPCR,loxapine,"loxapine,Adasuve&reg;,CL-62362,CL-71563,Loxapac&reg;,Loxitane&reg;,SUM-3170",205,Guide to Pharmacology,3964,Compound
+R-HSA-372790,Signaling by GPCR,benperidol,"benperidol,Anquil&reg;,MCN-JR-4584,R-4584",9215,Guide to Pharmacology,16363,Compound
+R-HSA-372790,Signaling by GPCR,pipotiazine,"pipotiazine,Piportil&reg;,pipothiazine",7557,Guide to Pharmacology,62867,Compound
+R-HSA-372790,Signaling by GPCR,ziprasidone,"ziprasidone,CP-88059,CP-88059-27,CP-880591,CP-8805927,Geodon&reg;",59,Guide to Pharmacology,60854,Compound
+R-HSA-372790,Signaling by GPCR,olanzapine,"olanzapine,LY-170053,Zyprexa&reg;",47,Guide to Pharmacology,135398745,Compound
+R-HSA-372790,Signaling by GPCR,pimozide,"pimozide,haldol decanoate,Orap&reg;,R-6238",90,Guide to Pharmacology,16362,Compound
+R-HSA-372790,Signaling by GPCR,promazine,"promazine,Sparine&reg;",7281,Guide to Pharmacology,4926,Compound
+R-HSA-372790,Signaling by GPCR,haloperidol,"haloperidol,Haldol&reg;,MCN-JR-1625,R-1625,Serenace&reg;",86,Guide to Pharmacology,3559,Compound
+R-HSA-372790,Signaling by GPCR,terguride,"terguride,dironyl",56,Guide to Pharmacology,443951,Compound
+R-HSA-372790,Signaling by GPCR,pitolisant,"pitolisant,BF2.649,tiprolisant [USAN],Wakix&reg;",8924,Guide to Pharmacology,9948102,Compound
+R-HSA-372790,Signaling by GPCR,nizatidine,"nizatidine,Axid&reg;,LY-139037",7248,Guide to Pharmacology,3033637,Compound
+R-HSA-372790,Signaling by GPCR,cimetidine,"cimetidine,cimetidine HCl,Tagamet&reg;",1231,Guide to Pharmacology,2756,Compound
+R-HSA-372790,Signaling by GPCR,famotidine,"famotidine,Gaster&reg;,MK-208,Pepcid&reg;",7074,Guide to Pharmacology,5702160,Compound
+R-HSA-372790,Signaling by GPCR,ranitidine,"ranitidine,AH-19065,Gavilast&reg;,GR-122311X,Zantac&reg;",1234,Guide to Pharmacology,3001055,Compound
+R-HSA-372790,Signaling by GPCR,hydroxyzine,"hydroxyzine,Atarax&reg;,hydroxyzine hydrochloride,hydroxyzine pamoate,Vistaril&reg;",7199,Guide to Pharmacology,3658,Compound
+R-HSA-372790,Signaling by GPCR,astemizole,"astemizole,Hismanal&reg;",2603,Guide to Pharmacology,2247,Compound
+R-HSA-372790,Signaling by GPCR,mizolastine,"mizolastine,Mizollen&reg;,MKC431,MKC-431,SL850324,SL 85.0324,SL-850324",10102,Guide to Pharmacology,65906,Compound
+R-HSA-372790,Signaling by GPCR,rupatadine,"rupatadine,Rinialer&reg;,Rupafin&reg;,UR12592,UR-12592",10103,Guide to Pharmacology,133017,Compound
+R-HSA-372790,Signaling by GPCR,epinastine,"epinastine,Elestat&reg;,epinastine hydrochloride",7176,Guide to Pharmacology,3241,Compound
+R-HSA-372790,Signaling by GPCR,promethazine,"promethazine,Phenergan&reg;,Sominex&reg;",7282,Guide to Pharmacology,4927,Compound
+R-HSA-372790,Signaling by GPCR,terfenadine,"terfenadine,RMI-9918,Seldane&reg;,Triludan&reg;",2608,Guide to Pharmacology,5405,Compound
+R-HSA-372790,Signaling by GPCR,cetirizine,"cetirizine,Reactine&reg;,Zyrtec&reg;",1222,Guide to Pharmacology,2678,Compound
+R-HSA-372790,Signaling by GPCR,mepyramine,"mepyramine,Anthisan&reg;,mepiramine,mepyramine maleate,pyrilamine,pyrilamine tannate,Pyrlex&reg;",1227,Guide to Pharmacology,4992,Compound
+R-HSA-372790,Signaling by GPCR,chlorpheniramine,"chlorpheniramine,chlorprophenpyridamine maleate,Phenetron&reg;,Teldrin&reg;",6976,Guide to Pharmacology,2725,Compound
+R-HSA-372790,Signaling by GPCR,loratadine,"loratadine,Claritin&reg;,SCH-29851",7216,Guide to Pharmacology,3957,Compound
+R-HSA-372790,Signaling by GPCR,bilastine,"bilastine,Bilaxten&reg;,Ilaxten&reg;",11579,Guide to Pharmacology,185460,Compound
+R-HSA-372790,Signaling by GPCR,cyclizine,"cyclizine,Marezine&reg;",7151,Guide to Pharmacology,6726,Compound
+R-HSA-372790,Signaling by GPCR,triprolidine,"triprolidine,Actidil&reg;",1228,Guide to Pharmacology,5282443,Compound
+R-HSA-372790,Signaling by GPCR,molindone,"molindone,EN-1733A,Moban&reg;,(+-)-molindone",207,Guide to Pharmacology,23897,Compound
+R-HSA-372790,Signaling by GPCR,alimemazine,"alimemazine,Nedeltran&reg;,trimeprazine",7237,Guide to Pharmacology,5574,Compound
+R-HSA-372790,Signaling by GPCR,thioridazine,"thioridazine,Mellaril&reg;,thioridazin,TP-21",100,Guide to Pharmacology,5452,Compound
+R-HSA-372790,Signaling by GPCR,azelastine,"azelastine,A-5610,Astelin&reg;,E-0659,Rhinolast&reg;,W-2979M",7121,Guide to Pharmacology,2267,Compound
+R-HSA-372790,Signaling by GPCR,desloratadine,"desloratadine,Clarinex&reg;,SCH-34117",7157,Guide to Pharmacology,124087,Compound
+R-HSA-372790,Signaling by GPCR,doxepin,"doxepin,Deptran&reg;,P-3693A,Sinequan&reg;",1225,Guide to Pharmacology,667477,Compound
+R-HSA-372790,Signaling by GPCR,thiothixene,"thiothixene,Navane&reg;",212,Guide to Pharmacology,941651,Compound
+R-HSA-372790,Signaling by GPCR,clemastine,"clemastine,HS-592,meclastin,Tavegil&reg;,Tavist&reg;",6063,Guide to Pharmacology,26987,Compound
+R-HSA-372790,Signaling by GPCR,fluspirilene,"fluspirilene,Imap&reg;,MCN-JR-6218,R-6218,Redeptin&reg;",85,Guide to Pharmacology,3396,Compound
+R-HSA-372790,Signaling by GPCR,ketotifen,"ketotifen,HC-20511,Zaditor&reg;",7206,Guide to Pharmacology,3827,Compound
+R-HSA-372790,Signaling by GPCR,cyproheptadine,"cyproheptadine,cyproheptidine,Periactin&reg;,Peritol&reg;",277,Guide to Pharmacology,2913,Compound
+R-HSA-372790,Signaling by GPCR,tripelennamine,"tripelennamine,Pyribenzamine&reg;",7318,Guide to Pharmacology,5587,Compound
+R-HSA-372790,Signaling by GPCR,fexofenadine,"fexofenadine,Allegra&reg;,fexofenadine HCl",4819,Guide to Pharmacology,3348,Compound
+R-HSA-372790,Signaling by GPCR,lisuride,"lisuride,(+)-lisuride,Dopergin&reg;,lysuride",43,Guide to Pharmacology,28864,Compound
+R-HSA-372790,Signaling by GPCR,flibanserin,"flibanserin,Addyi&reg;,BIMT-17,Girosa&reg; (proposed trade name)",8182,Guide to Pharmacology,6918248,Compound
+R-HSA-372790,Signaling by GPCR,vortioxetine,"vortioxetine,Brintellix&reg;,Lu AA21004,Trintellix&reg;",7351,Guide to Pharmacology,9966051,Compound
+R-HSA-372790,Signaling by GPCR,bromocriptine,"bromocriptine,2-bromoergocryptine,bromocryptine,CB-154,Parlodel&reg;",35,Guide to Pharmacology,31101,Compound
+R-HSA-372790,Signaling by GPCR,rizatriptan,"rizatriptan,Maxalt&reg;,MK-0462,MK-462,MK-A462,rizatriptan benzoate",51,Guide to Pharmacology,5078,Compound
+R-HSA-372790,Signaling by GPCR,eletriptan,"eletriptan,Relpax&reg;,UK 116044",40,Guide to Pharmacology,77993,Compound
+R-HSA-372790,Signaling by GPCR,pergolide,"pergolide,LY-127809,Permax&reg;",48,Guide to Pharmacology,47811,Compound
+R-HSA-372790,Signaling by GPCR,flesinoxan,"flesinoxan,DU-29,373,(+)-flesinoxan",1,Guide to Pharmacology,9909776,Compound
+R-HSA-372790,Signaling by GPCR,apomorphine,"apomorphine,Apokyn&reg;,Ixense&reg;,Uprima&reg;",33,Guide to Pharmacology,6005,Compound
+R-HSA-372790,Signaling by GPCR,buspirone,"buspirone,Buspar&reg;,MJ-9022-1",36,Guide to Pharmacology,2477,Compound
+R-HSA-372790,Signaling by GPCR,naratriptan,"naratriptan,Amerge&reg;,GR-85548A",45,Guide to Pharmacology,4440,Compound
+R-HSA-372790,Signaling by GPCR,zolmitriptan,"zolmitriptan,311C90,Zomig&reg;",60,Guide to Pharmacology,60857,Compound
+R-HSA-372790,Signaling by GPCR,sumatriptan,"sumatriptan,GR-43175C,Imigran&reg;,Tosymra&reg; (nasal spray)",54,Guide to Pharmacology,5358,Compound
+R-HSA-372790,Signaling by GPCR,vilazodone,"vilazodone,EMD-515259,EMD-68-843,SB-659746-A,Viibryd&reg;",7427,Guide to Pharmacology,6918314,Compound
+R-HSA-372790,Signaling by GPCR,cabergoline,"cabergoline,Cabaser&reg;,Caberlin&reg;",37,Guide to Pharmacology,54746,Compound
+R-HSA-372790,Signaling by GPCR,frovatriptan,"frovatriptan,Frova&reg;,SB-209509-AX,VML-251",7191,Guide to Pharmacology,77992,Compound
+R-HSA-372790,Signaling by GPCR,iloperidone,"iloperidone,Fanapt&reg;,HP-873",87,Guide to Pharmacology,71360,Compound
+R-HSA-372790,Signaling by GPCR,yohimbine,"yohimbine,Actibine&reg;,corynine,quebrachin,yohimbin",102,Guide to Pharmacology,8969,Compound
+R-HSA-372790,Signaling by GPCR,ketanserin,"ketanserin,ketaserin,R41 468",88,Guide to Pharmacology,3822,Compound
+R-HSA-372790,Signaling by GPCR,pizotifen,"pizotifen,BC-105,pizotifan,pizotyline,sandomigran",93,Guide to Pharmacology,27400,Compound
+R-HSA-372790,Signaling by GPCR,buserelin,"buserelin,buserelin acetate,HOE 766,HOE 766A,ICI 123215,Metrelef&reg;,Suprefact&reg;",3860,Guide to Pharmacology,50225,Compound
+R-HSA-372790,Signaling by GPCR,triptorelin,"triptorelin,CL 118532,CL-118532,Decapeptyl&reg;,Pamorelin&reg;,Trelstar&reg;,Triptodur&reg;",1177,Guide to Pharmacology,25074470,Compound
+R-HSA-372790,Signaling by GPCR,leuprolide,"leuprolide,ABBOTT-43818,Lupron&reg;,TAP-144",1175,Guide to Pharmacology,657181,Compound
+R-HSA-372790,Signaling by GPCR,goserelin,"goserelin,decapeptide I,ICI 118630,Zoladex&reg;",3879,Guide to Pharmacology,5311128,Compound
+R-HSA-372790,Signaling by GPCR,nafarelin,"nafarelin,Synarel&reg;",3902,Guide to Pharmacology,25077405,Compound
+R-HSA-372790,Signaling by GPCR,histrelin,"histrelin,ORF 17070,RWJ 17070,Vantas&reg;",3884,Guide to Pharmacology,25077993,Compound
+R-HSA-372790,Signaling by GPCR,degarelix,"degarelix,FE200486,Firmagon&reg;",5585,Guide to Pharmacology,16136245,Compound
+R-HSA-372790,Signaling by GPCR,cetrorelix,"cetrorelix,Cetrotide&reg;,SB-075",1190,Guide to Pharmacology,25074887,Compound
+R-HSA-372790,Signaling by GPCR,abarelix,"abarelix,Plenaxis&reg;,PPI 149,R 3827",1188,Guide to Pharmacology,16131215,Compound
+R-HSA-372790,Signaling by GPCR,ganirelix,"ganirelix,D 24598,D-24598,Orgalutran&reg;,RS 26306,RS-26306",3877,Guide to Pharmacology,16130957,Compound
+R-HSA-372790,Signaling by GPCR,Linzagolix,Linzagolix,16656889,PubChem Compound,16656889,Compound
+R-HSA-372790,Signaling by GPCR,elagolix,"elagolix,compound 10b [PMID 19006286],NBI-56418,NBI56418,Orilissa&reg;",8362,Guide to Pharmacology,11250647,Compound
+R-HSA-372790,Signaling by GPCR,relugolix,"relugolix,Orgovyx&reg;,TAK 385,TAK-385",5586,Guide to Pharmacology,10348973,Compound
+R-HSA-372790,Signaling by GPCR,&Delta;<sup>9</sup>-tetrahydrocannabinol,"&Delta;<sup>9</sup>-tetrahydrocannabinol,&Delta;<sup>9</sup>-THC,delta9-THC,Abbott 40566,Marinol&reg;,tetrahydrocannabinol",2424,Guide to Pharmacology,,
+R-HSA-372790,Signaling by GPCR,nabilone,"nabilone,Cesamet&reg;,LY 109514,LY-109514",9071,Guide to Pharmacology,5284592,Compound
+R-HSA-372790,Signaling by GPCR,ticagrelor,"ticagrelor,AR-C126532XX,AZD6140,Brilinta&reg;,Brilique&reg;,compound 17 [PMID: 17827008]",1765,Guide to Pharmacology,9871419,Compound
+R-HSA-372790,Signaling by GPCR,clopidogrel (active metabolite),clopidogrel (active metabolite),1772,Guide to Pharmacology,10066813,Compound
+R-HSA-372790,Signaling by GPCR,ticlopidine,"ticlopidine,4-C-32,53-32C,Ticlid&reg;",7307,Guide to Pharmacology,5472,Compound
+R-HSA-372790,Signaling by GPCR,R-138727,"R-138727,R138727,R 138727",1771,Guide to Pharmacology,10405534,Compound
+R-HSA-372790,Signaling by GPCR,cangrelor,"cangrelor,AR-C69931MX,ARL69931,Kengreal&reg;",1776,Guide to Pharmacology,9854012,Compound
+R-HSA-372790,Signaling by GPCR,atosiban,"atosiban,Antocin&reg;,d[<small>D</small>-Tyr(Et)<sup>2</sup>,Thr<sup>4</sup>,Orn<sup>8</sup>]vasotocin,d[<small>D</small>-Tyr(Et)<sup>2</sup>,Thr<sup>4</sup>]OVT,ORF22164,RWJ 22164,Tractocile&reg;",2213,Guide to Pharmacology,5311010,Compound
+R-HSA-372790,Signaling by GPCR,lixivaptan,"lixivaptan,VPA985,VPA-985,WAY-VPA-985",2238,Guide to Pharmacology,172997,Compound
+R-HSA-372790,Signaling by GPCR,mozavaptan,"mozavaptan,OPC31260,OPC 31260,OPC-31260",2197,Guide to Pharmacology,119369,Compound
+R-HSA-372790,Signaling by GPCR,satavaptan,"satavaptan,SR121463A,SR 121463A,SR-121463B,SR-121463F",2199,Guide to Pharmacology,158348,Compound
+R-HSA-372790,Signaling by GPCR,conivaptan,"conivaptan,Vaprisol&reg;,YM-087,YM087",2203,Guide to Pharmacology,151171,Compound
+R-HSA-372790,Signaling by GPCR,tolvaptan,"tolvaptan,OPC-41061,Samsca&reg;",2226,Guide to Pharmacology,216237,Compound
+R-HSA-372790,Signaling by GPCR,desmopressin,"desmopressin,1-deamino,<small>D</small>-AVP,[deamino-Cys<sup>1</sup>,<small>D</small>-Arg<sup>8</sup>]vasopressin,dDAVP,Noctiva&reg;",2182,Guide to Pharmacology,5311065,Compound
+R-HSA-372790,Signaling by GPCR,bosentan,"bosentan,RO 47-0203,Tracleer&reg;",3494,Guide to Pharmacology,104865,Compound
+R-HSA-372790,Signaling by GPCR,macitentan,"macitentan,ACT-064992,Opsumit&reg;",7352,Guide to Pharmacology,16004692,Compound
+R-HSA-372790,Signaling by GPCR,ambrisentan,"ambrisentan,Letairis&reg;",3951,Guide to Pharmacology,6918493,Compound
+R-HSA-372790,Signaling by GPCR,sitaxsentan,"sitaxsentan,TBC11251 / TBC-11251,Thelin&reg;",3950,Guide to Pharmacology,216235,Compound
+R-HSA-372790,Signaling by GPCR,valsartan,"valsartan,CGP-48933,Diovan&reg;,Prexxartan&reg; (oral solution)",3937,Guide to Pharmacology,60846,Compound
+R-HSA-372790,Signaling by GPCR,candesartan,"candesartan,CV-11974,TCV-116 (prodrug)",587,Guide to Pharmacology,2541,Compound
+R-HSA-372790,Signaling by GPCR,irbesartan,"irbesartan,Aprovel&reg;,Avapro&reg;,SR 47436",589,Guide to Pharmacology,3749,Compound
+R-HSA-372790,Signaling by GPCR,forasartan,"forasartan,SC-52458",6896,Guide to Pharmacology,132706,Compound
+R-HSA-372790,Signaling by GPCR,eprosartan,"eprosartan,Eprozar&reg;,SK-108566,Teveten&reg;",588,Guide to Pharmacology,5281037,Compound
+R-HSA-372790,Signaling by GPCR,telmisartan,"telmisartan,BIBR-277SE,Micardis&reg;,Pritor&reg;",592,Guide to Pharmacology,65999,Compound
+R-HSA-372790,Signaling by GPCR,olmesartan,"olmesartan,Benicar&reg;,CS-866,Olmetec&reg;",591,Guide to Pharmacology,158781,Compound
+R-HSA-372790,Signaling by GPCR,losartan,"losartan,Cozaar&reg;,DuP 753,MK-954",590,Guide to Pharmacology,3961,Compound
+R-HSA-372790,Signaling by GPCR,etelcalcetide,"etelcalcetide,AMG 416,AMG-416,KAI-4169,Parsabiv&reg;,velcalcetide",8375,Guide to Pharmacology,71511839,Compound
+R-HSA-372790,Signaling by GPCR,cinacalcet,"cinacalcet,AMG-073,Mimpara&reg;,Sensipar&reg;",3308,Guide to Pharmacology,156419,Compound
+R-HSA-372790,Signaling by GPCR,evocalcet,"evocalcet,KHK-7580,MT-4580",9042,Guide to Pharmacology,71242808,Compound
+R-HSA-372790,Signaling by GPCR,olcegepant,"olcegepant,BIBN4096BS,BIBN 4096 BS",702,Guide to Pharmacology,6918509,Compound
+R-HSA-372790,Signaling by GPCR,atogepant,"atogepant,AGN-241689,example 4 [US20120122911],MK-8031",9730,Guide to Pharmacology,72163100,Compound
+R-HSA-372790,Signaling by GPCR,rimegepant,"rimegepant,BHV3000,BHV-3000,BMS927711,BMS-927711,compound 8 [PMID: 23153230],Nurtec ODT&reg;",10704,Guide to Pharmacology,51049968,Compound
+R-HSA-372790,Signaling by GPCR,telcagepant,"telcagepant,MK 0974 ,MK-0974,MK0974 ",703,Guide to Pharmacology,11319053,Compound
+R-HSA-372790,Signaling by GPCR,ubrogepant,"ubrogepant,MK1602,MK-1602,Ubrelvy&reg;",10176,Guide to Pharmacology,68748835,Compound
+R-HSA-372790,Signaling by GPCR,fremanezumab,"fremanezumab,Ajovy&reg;,fremanezumab-vfrm,LBR-101,PF-04427429,PF-4427429,RI-307,RN307,RN-307,TEV-48125",9208,Guide to Pharmacology,315661284,Substance
+R-HSA-372790,Signaling by GPCR,eptinezumab,"eptinezumab,ALD403,ALD-403,eptinezumab-jjmr,Vyepti&reg;",10694,Guide to Pharmacology,336908622,Substance
+R-HSA-372790,Signaling by GPCR,galcanezumab,"galcanezumab,clone III,Emgality&reg;,galcanezumab-gnlm,LY2951742,LY-2951742",8967,Guide to Pharmacology,310264747,Substance
+R-HSA-372790,Signaling by GPCR,erenumab,"erenumab,Aimovig&reg;,AMG 334,AMG-334,erenumab-aooe",9250,Guide to Pharmacology,315661325,Substance
+R-HSA-372790,Signaling by GPCR,pramlintide,"pramlintide,AC0137,Symlin&reg;",7482,Guide to Pharmacology,70691388,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,raloxifene,"raloxifene,Evista&reg;,LY-156758,Optruma&reg;,raloxifene hydrochloride",2820,Guide to Pharmacology,5035,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,clomiphene,"clomiphene,Androxal&reg;,Clomid&reg;,clomifene,MER-41,MRL-41,Omifin&reg;,RMI-16289",4159,Guide to Pharmacology,1548953,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,fulvestrant,"fulvestrant,Faslodex&reg;,ICI 182,780,ICI 182780,ICI182780,ZD-9238",1015,Guide to Pharmacology,104741,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,tamoxifen,"tamoxifen,ICI-46474,Nolvadex&reg;,Soltamox&reg;",1016,Guide to Pharmacology,2733526,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,bazedoxifene,"bazedoxifene,Conbriza&reg;,TSE-424,Viviant&reg;,WAY-140424",7355,Guide to Pharmacology,154257,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,diethylstilbestrol,"diethylstilbestrol,stilboestrol",2801,Guide to Pharmacology,448537,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,tibolone,"tibolone,Boltin,Livial,Org OD 14,Tibofem",9711,Guide to Pharmacology,444008,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,ethinylestradiol,"ethinylestradiol,17&alpha;-ethynylestradiol,ethinyl estradiol",7071,Guide to Pharmacology,5991,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,acitretin,"acitretin,Ro-101670000,Soriatane&reg;",7598,Guide to Pharmacology,5284513,Compound
+R-HSA-9006931,Signaling by Nuclear Receptors,dichloroacetate,"dichloroacetate,dichloroacetic acid",4518,Guide to Pharmacology,25975,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,imatinib,"imatinib,CGP 57148,Gleevec&reg;,Glivec&reg;,STI571",5687,Guide to Pharmacology,5291,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,axitinib,"axitinib,AG013736,AG 013736,AG-013736,Inlyta&reg;",5659,Guide to Pharmacology,6450551,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,cabozantinib,"cabozantinib,BMS907351,Cabometyx&reg;,Cometriq&reg;,XL184,XL-184",5887,Guide to Pharmacology,25102847,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,sorafenib,"sorafenib,BAY 43-9006,Nexavar",5711,Guide to Pharmacology,216239,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,ponatinib,"ponatinib,AP24534,Iclusig&reg;",5890,Guide to Pharmacology,24826799,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,nilotinib,"nilotinib,AMN107,AMN 107,Tasigna&reg;",5697,Guide to Pharmacology,644241,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,dasatinib,"dasatinib,BMS 345825,BMS 354825,BMS 35482513,Sprycel&reg;",5678,Guide to Pharmacology,3062316,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,regorafenib,"regorafenib,BAY 73-4506,Stivarga&reg;",5891,Guide to Pharmacology,11167602,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,sunitinib,"sunitinib,SU11248,Sutent&reg;",5713,Guide to Pharmacology,5329102,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,masitinib,"masitinib,AB1010,AB-1010,Masican&reg; (proposed trade name)",5656,Guide to Pharmacology,10074640,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,lenvatinib,"lenvatinib,E 7080,ER-203492-00,Kisplyx&reg;,Lenvima&reg;",7426,Guide to Pharmacology,9823820,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,avapritinib,"avapritinib,BLU285,BLU-285",10368,Guide to Pharmacology,118023034,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,midostaurin,"midostaurin,CGP 41231,CGP 41251,N-benzoylstaurosporine,PKC412,Rydapt&reg;",5702,Guide to Pharmacology,9829523,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,dovitinib,"dovitinib,Chir 258,CHIR-258,TKI 258,TKI-258",5962,Guide to Pharmacology,135398510,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,ripretinib,"ripretinib,DCC2618,DCC-2618",9175,Guide to Pharmacology,71584930,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,pertuzumab,"pertuzumab,2C4,Omnitarg&reg; (obsolete trade name),Perjeta&reg;",5046,Guide to Pharmacology,50069677,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,trastuzumab,"trastuzumab,D5v8,Herceptin&reg;,R-597",5082,Guide to Pharmacology,329976959,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,CP-724714,"CP-724714,CP724714,CP 724714",7883,Guide to Pharmacology,9874913,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,afatinib,"afatinib,BIBW2992,Gilotrif&reg;",5667,Guide to Pharmacology,10184653,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,AZ5104,"AZ5104,AZ-5104",11580,Guide to Pharmacology,71496460,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,sapitinib,"sapitinib,AZD8931,AZD-8931",7717,Guide to Pharmacology,11488320,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,tesevatinib,"tesevatinib,EXEL-7647,KD-019,XL647,XL-647",7944,Guide to Pharmacology,10458325,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,lapatinib,"lapatinib,FMM,GW572016,GW 572016,Tykerb&reg;,Tyverb&reg;",5692,Guide to Pharmacology,208908,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,neratinib,"neratinib,HKI 272,HKI-272",5686,Guide to Pharmacology,9915743,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,AEE788,"AEE788,AEE 788,NVP-AEE788",7643,Guide to Pharmacology,10297043,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,canertinib,"canertinib,CI 1033,CI-1033,PD 183805 dihydrochloride",5675,Guide to Pharmacology,156414,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,pazopanib,"pazopanib,GW 786034,indazolylpyrimidine 13,Votrient&reg;",5698,Guide to Pharmacology,10113978,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,crenolanib,"crenolanib,ARO-002,CP 868596,CP-868596,CP-868,596",7882,Guide to Pharmacology,10366136,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,nintedanib,"nintedanib,BIBF1120,BIBF-1120,Ofev&reg;,Vargatef&reg;",5936,Guide to Pharmacology,135423438,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,olaratumab,"olaratumab,IMC-3G3,Lartruvo&reg;,LY3012207",9172,Guide to Pharmacology,135279750,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,SAIT301,"SAIT301,Anti-C-met Monoclonal Antibody SAIT301",C119619,NCIthesaurus,,
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,onartuzumab,"onartuzumab,MetMAb,OA5D5,OA-5D5,PRO 143966",8966,Guide to Pharmacology,135324888,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,emibetuzumab,"emibetuzumab,LA480,LY2875358,LY-2875358",7748,Guide to Pharmacology,223366081,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,ARGX-111,"ARGX-111,Anti-c-Met Monoclonal Antibody ARGX-111",C113802,NCIthesaurus,,
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,OMO-1,"OMO-1,example 60 [WO2007075567A1],JNJ38877618,JNJ-38877618,OMO1",10507,Guide to Pharmacology,57654476,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,tivantinib,"tivantinib,ARQ197,ARQ-197",7948,Guide to Pharmacology,11494412,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,amuvatinib,"amuvatinib,MP470,MP 470,MP-470",7932,Guide to Pharmacology,11282283,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,SU11274,"SU11274,Met kinase Inhibitor,SU-11274",5057,Guide to Pharmacology,9549297,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,golvatinib,"golvatinib,E7050,E-7050",7956,Guide to Pharmacology,16118392,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,MK-2461,"MK-2461,MK 2461",7962,Guide to Pharmacology,44137946,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,capmatinib,"capmatinib,INC280,INCB28060,Tabrecta&reg;",7904,Guide to Pharmacology,25145656,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,tepotinib,"tepotinib,compound 22 [PMID: 25736998],EMD 1214063,EMD-1214063,MSC2156119,MSC2156119J,Tepmetko&reg;",8293,Guide to Pharmacology,25171648,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,SGX-523,"SGX-523,SGX523",5709,Guide to Pharmacology,24779724,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,AMG-337,"AMG-337,AMG 337,AMG-337,compound 24 [PMID: 19819693]",8913,Guide to Pharmacology,44181686,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,BMS-777607,"BMS-777607,BMS777607,BMS 777607",7953,Guide to Pharmacology,24794418,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,glesatinib,"glesatinib,compound 10a [PMID: 18434145],MGCD265,MGCD 265,MGCD-265",9133,Guide to Pharmacology,25181472,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,foretinib,"foretinib,EXEL-2880,GSK1363089,GSK 1363089G,XL 880",5679,Guide to Pharmacology,42642645,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,crizotinib,"crizotinib,(<i>R</i>)-crizotinib,PF-02341066,PF2341066,PF 2341066,PF-2341066,Xalkori&reg;",4903,Guide to Pharmacology,11626560,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,PHA-665752,"PHA-665752,PHA 665752,TCMDC-125885",5700,Guide to Pharmacology,10461815,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,savolitinib,"savolitinib,AZD6094,AZD-6094,compound 28 [PMID: 25148209],HMPL504,HMPL-504,volitinib",9918,Guide to Pharmacology,68289010,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,NVP-TAE684,"NVP-TAE684,NVP-TAE 684,TAE684,TAE-684",5714,Guide to Pharmacology,16038120,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,brigatinib,"brigatinib,Alunbrig&reg;,AP26113,AP-26113,compound 11q [PMID: 27144831]",7741,Guide to Pharmacology,68165256,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,ceritinib,"ceritinib,compound 15b [PMID 23742252],LDK378,NVP-LDK378-NX,Zykadia&reg;",7397,Guide to Pharmacology,57379345,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,entrectinib,"entrectinib,NMS-E628,Rozlytrek&reg;,RXDX-101",8290,Guide to Pharmacology,25141092,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,lorlatinib,"lorlatinib,(10R)-7-amino-12-fluoro-2,10,16-trimethyl-15-oxo-10,15,16,17-tetrahydro-2H-4,8-methenopyrazolo[4,3-h][2,5,11]benzoxadiazacyclotetradecine-3-carbonitrile,Lorbrena&reg;,Lorviqua&reg;,PF06463922,PF-06463922",7476,Guide to Pharmacology,71731823,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,alectinib,"alectinib,AF802,Alecensa&reg;,CH5424802",7739,Guide to Pharmacology,49806720,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,AZD3463,"AZD3463,AZD-3463,CS-1382,HY-15609,KB-154896",7706,Guide to Pharmacology,56599293,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,ASP-3026,"ASP-3026,ASP3026,ASP 3026",7740,Guide to Pharmacology,25134326,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,abicipar pegol,"abicipar pegol,AGN-150998,MP0112",8371,Guide to Pharmacology,252166583,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,vanucizumab,"vanucizumab,RG7221,RG-7221,RO5520985",9132,Guide to Pharmacology,312468109,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,aflibercept,"aflibercept,AVE0005,Eylea&reg;,VEGF Trap,Zaltrap&reg;,ziv-aflibercept",6786,Guide to Pharmacology,134445687,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,bevacizumab,"bevacizumab,Avastin&reg;,rhuMAb-VEGF",6771,Guide to Pharmacology,46504473,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,pegaptanib,"pegaptanib,EYEOO1,Macugen&reg;,NX183,pegaptanib sodium",6836,Guide to Pharmacology,76374506,Compound
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,brolucizumab,"brolucizumab,Beovu&reg;,brolucizumab-dbll,ESBA1008,ESBA-1008,RTH258",8713,Guide to Pharmacology,252827371,Substance
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,ranibizumab,"ranibizumab,Fab-12 variant Y0317,Lucentis&reg;,muMAb VEGF A.4.6.1,rhuFab V2",6779,Guide to Pharmacology,46506960,Substance
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",netarsudil,"netarsudil,AR11324,AR-11324,ester 60 [PMID: 27072905],Rhokiinsa&reg;,Rhopressa&reg;",9322,Guide to Pharmacology,66599893,Compound
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",ripasudil,"ripasudil,Glanatec&reg;,K-115 (ripasudil hydrochloride dihydrate)",10423,Guide to Pharmacology,9863672,Compound
+R-HSA-445355,Smooth Muscle Contraction,cinaciguat,"cinaciguat,BAY 58-2667",5168,Guide to Pharmacology,9808022,Compound
+R-HSA-445355,Smooth Muscle Contraction,mibefradil,"mibefradil,Posicor&reg;,Ro-405967-001",2522,Guide to Pharmacology,60663,Compound
+R-HSA-445355,Smooth Muscle Contraction,paramethadione,paramethadione,8280,PubChem Compound,8280,Compound
+R-HSA-445355,Smooth Muscle Contraction,bepridil,"bepridil,CERM-1978,Vascor&reg;",2337,Guide to Pharmacology,2351,Compound
+R-HSA-445355,Smooth Muscle Contraction,butamben,butamben,2482,PubChem Compound,2482,Compound
+R-HSA-445355,Smooth Muscle Contraction,zonisamide,"zonisamide,AD-810,CI-912,PD-110843,Zonegran&reg;",7047,Guide to Pharmacology,5734,Compound
+R-HSA-445355,Smooth Muscle Contraction,ethosuximide,"ethosuximide,CI-366,CN-10395,PM-671,Zarontin&reg;",7182,Guide to Pharmacology,3291,Compound
+R-HSA-445355,Smooth Muscle Contraction,cinnarizine,"cinnarizine,R-1575,Stugeron&reg;",9072,Guide to Pharmacology,1547484,Compound
+R-HSA-445355,Smooth Muscle Contraction,manidipine,manidipine,11739,Guide to Pharmacology,4008,Compound
+R-HSA-445355,Smooth Muscle Contraction,Methsuximide,Methsuximide,6476,PubChem Compound,6476,Compound
+R-HSA-445355,Smooth Muscle Contraction,trimethadione,"trimethadione,Tridione&reg;",7316,Guide to Pharmacology,5576,Compound
+R-HSA-445355,Smooth Muscle Contraction,benidipine,"benidipine,Coniel&reg;",10159,Guide to Pharmacology,656668,Compound
+R-HSA-445355,Smooth Muscle Contraction,felodipine,"felodipine,felodipine,Plandil&reg;,Renedil&reg;",4190,Guide to Pharmacology,3333,Compound
+R-HSA-445355,Smooth Muscle Contraction,flunarizine,flunarizine,941361,PubChem Compound,941361,Compound
+R-HSA-445355,Smooth Muscle Contraction,nitroglycerin,"nitroglycerin,glyceryl trinitrate,Glytrin&reg;,Minitran&reg;,Rectogesic&reg;",7053,Guide to Pharmacology,4510,Compound
+R-HSA-445355,Smooth Muscle Contraction,ataciguat,ataciguat,5141,Guide to Pharmacology,213037,Compound
+R-HSA-445355,Smooth Muscle Contraction,praliciguat,"praliciguat,IW1973,IW-1973",9900,Guide to Pharmacology,86269973,Compound
+R-HSA-445355,Smooth Muscle Contraction,YC-1,"YC-1,3-(5′-hydroxymethyl-2′furyl)-1-benzyl-indazole,YC1",5291,Guide to Pharmacology,5712,Compound
+R-HSA-445355,Smooth Muscle Contraction,vericiguat,"vericiguat,BAY-1021189,MK-1242",10010,Guide to Pharmacology,54674461,Compound
+R-HSA-445355,Smooth Muscle Contraction,BAY412272,"BAY412272,BAY 41-2272,BAY-412272",5146,Guide to Pharmacology,9798973,Compound
+R-HSA-445355,Smooth Muscle Contraction,riociguat,"riociguat,Adempas&reg;,BAY 63-2521",5257,Guide to Pharmacology,11304743,Compound
+R-HSA-445355,Smooth Muscle Contraction,mirodenafil,mirodenafil,11738,Guide to Pharmacology,135497803,Compound
+R-HSA-445355,Smooth Muscle Contraction,vardenafil,"vardenafil,Levitra&reg;,Vivanza&reg;",7320,Guide to Pharmacology,135400189,Compound
+R-HSA-445355,Smooth Muscle Contraction,udenafil,"udenafil,DA8159,DA-8159,Zydena&reg;",11577,Guide to Pharmacology,135413547,Compound
+R-HSA-445355,Smooth Muscle Contraction,sildenafil,"sildenafil,Viagra&reg;",4743,Guide to Pharmacology,135398744,Compound
+R-HSA-445355,Smooth Muscle Contraction,avanafil,"avanafil,Spedra&reg;,Stendra&reg;,TA-1790",7448,Guide to Pharmacology,9869929,Compound
+R-HSA-445355,Smooth Muscle Contraction,tadalafil,"tadalafil,Adcirca&reg;,Cialis&reg;,IC351,IC-351",7299,Guide to Pharmacology,110635,Compound
+R-HSA-1428517,The citric acid (TCA) cycle and respiratory electron transport,dichloroacetate,"dichloroacetate,dichloroacetic acid",4518,Guide to Pharmacology,25975,Compound
+R-HSA-381340,Transcriptional regulation of white adipocyte differentiation,rosiglitazone,"rosiglitazone,Avandia&reg;,rosiglizole",1056,Guide to Pharmacology,77999,Compound
+R-HSA-381340,Transcriptional regulation of white adipocyte differentiation,pioglitazone,"pioglitazone,Actos&reg;,Glustin&reg;,pioglitazone HCl,U-72107A",2694,Guide to Pharmacology,4829,Compound
+R-HSA-381340,Transcriptional regulation of white adipocyte differentiation,troglitazone,"troglitazone,CS-045,Rezulin&reg;",2693,Guide to Pharmacology,5591,Compound
+R-HSA-112315,Transmission across Chemical Synapses,donepezil,"donepezil,Aricept&reg;,E-2020",6599,Guide to Pharmacology,3152,Compound
+R-HSA-112315,Transmission across Chemical Synapses,tacrine,"tacrine,CI-970,Cognex&reg;,tetrahydroaminoacridine",6687,Guide to Pharmacology,1935,Compound
+R-HSA-112315,Transmission across Chemical Synapses,physostigmine,"physostigmine,Antilirium&reg;,eserine,physostigmine salicylate",6598,Guide to Pharmacology,5983,Compound
+R-HSA-112315,Transmission across Chemical Synapses,pralidoxime,"pralidoxime,2-PAM,Contrathion&reg;,pralidoxime chloride",7597,Guide to Pharmacology,135398747,Compound
+R-HSA-112315,Transmission across Chemical Synapses,galantamine,"galantamine,galanthamine,Razadyne&reg;",6693,Guide to Pharmacology,9651,Compound
+R-HSA-112315,Transmission across Chemical Synapses,rivastigmine,"rivastigmine,Ena 713 free base,Exelon&reg;",6602,Guide to Pharmacology,77991,Compound
+R-HSA-112315,Transmission across Chemical Synapses,edrophonium,"edrophonium,Enlon&reg;,Tensilon&reg;",9073,Guide to Pharmacology,3202,Compound
+R-HSA-112315,Transmission across Chemical Synapses,neostigmine,"neostigmine,Prostigmin&reg;",8993,Guide to Pharmacology,4456,Compound
+R-HSA-112315,Transmission across Chemical Synapses,echothiophate,"echothiophate,ecostigmine iodide,phospholine iodide",9074,Guide to Pharmacology,10548,Compound
+R-HSA-112315,Transmission across Chemical Synapses,pyridostigmine,"pyridostigmine,Mestinon&reg;,Regonol&reg;",8994,Guide to Pharmacology,4991,Compound
+R-HSA-112315,Transmission across Chemical Synapses,fluvoxamine,"fluvoxamine,Luvox&reg;,U-23000",7189,Guide to Pharmacology,5324346,Compound
+R-HSA-112315,Transmission across Chemical Synapses,dosulepin,"dosulepin,Dothep&reg;,dothiepin,Prothiaden&reg;",7549,Guide to Pharmacology,5284550,Compound
+R-HSA-112315,Transmission across Chemical Synapses,nefazodone,"nefazodone,BMY-13754,MJ-13754-1,Nefadar&reg;",7247,Guide to Pharmacology,4449,Compound
+R-HSA-112315,Transmission across Chemical Synapses,levomilnacipran,"levomilnacipran,F-2695,Fetzima&reg;",7435,Guide to Pharmacology,6917779,Compound
+R-HSA-112315,Transmission across Chemical Synapses,desipramine,"desipramine,EX-4355,JB-8181,Norpramin&reg;,Pertrofane&reg;,Treyzafagit&reg;",2399,Guide to Pharmacology,2995,Compound
+R-HSA-112315,Transmission across Chemical Synapses,venlafaxine,"venlafaxine,Effexor&reg;,WY-45030",7321,Guide to Pharmacology,5656,Compound
+R-HSA-112315,Transmission across Chemical Synapses,clomipramine,"clomipramine,Anafranil&reg;,G-34586",2398,Guide to Pharmacology,2801,Compound
+R-HSA-112315,Transmission across Chemical Synapses,amoxapine,"amoxapine,amoxipine,Asendin&reg;",201,Guide to Pharmacology,2170,Compound
+R-HSA-112315,Transmission across Chemical Synapses,protriptyline,"protriptyline,MK-240,Vivactil&reg;",7285,Guide to Pharmacology,4976,Compound
+R-HSA-112315,Transmission across Chemical Synapses,dapoxetine,"dapoxetine,LY 210448,LY-210448",7901,Guide to Pharmacology,71353,Compound
+R-HSA-112315,Transmission across Chemical Synapses,duloxetine,"duloxetine,Cymbalta&reg;,LY248686",202,Guide to Pharmacology,60835,Compound
+R-HSA-112315,Transmission across Chemical Synapses,citalopram,"citalopram,Celexa&reg;,Cipramil&reg;,LU-10171B",7547,Guide to Pharmacology,2771,Compound
+R-HSA-112315,Transmission across Chemical Synapses,vilazodone,"vilazodone,EMD-515259,EMD-68-843,SB-659746-A,Viibryd&reg;",7427,Guide to Pharmacology,6918314,Compound
+R-HSA-112315,Transmission across Chemical Synapses,fluoxetine,"fluoxetine,Prozac&reg;",203,Guide to Pharmacology,3386,Compound
+R-HSA-112315,Transmission across Chemical Synapses,amitriptyline,"amitriptyline,amitryptiline,Elavil&reg;,Endep&reg;",200,Guide to Pharmacology,2160,Compound
+R-HSA-112315,Transmission across Chemical Synapses,doxepin,"doxepin,Deptran&reg;,P-3693A,Sinequan&reg;",1225,Guide to Pharmacology,667477,Compound
+R-HSA-112315,Transmission across Chemical Synapses,paroxetine,"paroxetine,paroxetine hydrochloride (anhydrous or hemihydrate),Paxil&reg;,Seroxat&reg;",4790,Guide to Pharmacology,43815,Compound
+R-HSA-112315,Transmission across Chemical Synapses,desvenlafaxine,"desvenlafaxine,<i>O</i>-desmethylvenlafaxine (ODV),Pristiq&reg;,WY-45233",7158,Guide to Pharmacology,125017,Compound
+R-HSA-112315,Transmission across Chemical Synapses,trimipramine,"trimipramine,7162 RP,IL-6001,Surmontil&reg;",7317,Guide to Pharmacology,5584,Compound
+R-HSA-112315,Transmission across Chemical Synapses,vortioxetine,"vortioxetine,Brintellix&reg;,Lu AA21004,Trintellix&reg;",7351,Guide to Pharmacology,9966051,Compound
+R-HSA-112315,Transmission across Chemical Synapses,milnacipran,"milnacipran,Savella&reg;",7436,Guide to Pharmacology,65833,Compound
+R-HSA-112315,Transmission across Chemical Synapses,lofepramine,"lofepramine,Gamanil &reg;,Lomont &reg;,WHR-2908A",7551,Guide to Pharmacology,3947,Compound
+R-HSA-112315,Transmission across Chemical Synapses,imipramine,"imipramine,imidobenzyle,Tofranil&reg;",357,Guide to Pharmacology,3696,Compound
+R-HSA-112315,Transmission across Chemical Synapses,sertraline,"sertraline,CP-519741,CP-51974-1,Lustral&reg;,Zoloft&reg;",4798,Guide to Pharmacology,68617,Compound
+R-HSA-112315,Transmission across Chemical Synapses,escitalopram,"escitalopram,Cipralex&reg;,Lexapro&reg;,LU-26-054-0",7177,Guide to Pharmacology,146570,Compound
+R-HSA-112315,Transmission across Chemical Synapses,nortriptyline,"nortriptyline,Aventyl&reg;,nortriptyline hydrochloride,Pamelor&reg;",2404,Guide to Pharmacology,4543,Compound
+R-HSA-112315,Transmission across Chemical Synapses,dexmethylphenidate,"dexmethylphenidate,Attenade&reg;,D-TMP,Focalin&reg;",7554,Guide to Pharmacology,154101,Compound
+R-HSA-112315,Transmission across Chemical Synapses,dexamfetamine,"dexamfetamine,(+)-alpha-methylphenylethylamine,d-amphetamine,Dexadrine&reg;,dextroamphetamine,Dextrostat&reg;,S(+)amphetamine",2147,Guide to Pharmacology,5826,Compound
+R-HSA-112315,Transmission across Chemical Synapses,mazindol,"mazindol,Mazanor&reg;,Sanorex&reg;",4797,Guide to Pharmacology,4020,Compound
+R-HSA-112315,Transmission across Chemical Synapses,solriamfetol,"solriamfetol,ADXN05,ADX-N05,JZP110,JZP-110,Sunosi&reg;",10342,Guide to Pharmacology,10130337,Compound
+R-HSA-112315,Transmission across Chemical Synapses,methylphenidate,"methylphenidate,Concerta&reg;,Jornay PM&reg; (a.k.a. HLD200),Ritalin&reg;",7236,Guide to Pharmacology,4158,Compound
+R-HSA-112315,Transmission across Chemical Synapses,bupropion,"bupropion,amfebutamone,BW-323,Wellbutrin&reg;,Zyban&reg;",7135,Guide to Pharmacology,444,Compound
+R-HSA-112315,Transmission across Chemical Synapses,modafinil,"modafinil,Provigil&reg;",7555,Guide to Pharmacology,4236,Compound
+R-HSA-112315,Transmission across Chemical Synapses,entacapone,"entacapone,Comtan&reg;,Comtess&reg;,OR-611",6647,Guide to Pharmacology,5281081,Compound
+R-HSA-112315,Transmission across Chemical Synapses,tolcapone,"tolcapone,Ro 40-7592,Ro-407592,Tasmar&reg;",6646,Guide to Pharmacology,4659569,Compound
+R-HSA-112315,Transmission across Chemical Synapses,opicapone,"opicapone,BIA 9-1067,compound 37d [PMID: 20334432],Ongentys&reg;",8988,Guide to Pharmacology,135565903,Compound
+R-HSA-112315,Transmission across Chemical Synapses,toloxatone,toloxatone,34521,PubChem Compound,34521,Compound
+R-HSA-112315,Transmission across Chemical Synapses,moclobemide,"moclobemide,GNF-Pf-695,Manerix&reg;",7428,Guide to Pharmacology,4235,Compound
+R-HSA-112315,Transmission across Chemical Synapses,pirlindole,"pirlindole,Pyrazidol &reg;",6638,Guide to Pharmacology,68802,Compound
+R-HSA-112315,Transmission across Chemical Synapses,tranylcypromine,"tranylcypromine,Parnate&reg;,tranylcypromine sulphate",5281,Guide to Pharmacology,19493,Compound
+R-HSA-112315,Transmission across Chemical Synapses,bifemelane,bifemelane,11742,Guide to Pharmacology,2377,Compound
+R-HSA-112315,Transmission across Chemical Synapses,selegiline,"selegiline,Eldepryl&reg;,L-deprenalin,Otrasel&reg;,Selegene&reg;,Zelapar&reg;",6639,Guide to Pharmacology,26757,Compound
+R-HSA-112315,Transmission across Chemical Synapses,isocarboxazid,"isocarboxazid,Marplan&reg;",7204,Guide to Pharmacology,3759,Compound
+R-HSA-112315,Transmission across Chemical Synapses,ifenprodil,"ifenprodil,(&plusmn;)-ifenprodil,RC 61-91",5472,Guide to Pharmacology,3689,Compound
+R-HSA-112315,Transmission across Chemical Synapses,palonosetron,"palonosetron,Aloxi&reg;,aurothioglucose,RS-25259-197",7486,Guide to Pharmacology,6337614,Compound
+R-HSA-112315,Transmission across Chemical Synapses,azasetron,"azasetron,Y-25130",2285,Guide to Pharmacology,2264,Compound
+R-HSA-112315,Transmission across Chemical Synapses,alosetron,"alosetron,GR68755,Lotronex&reg;",2296,Guide to Pharmacology,2099,Compound
+R-HSA-112315,Transmission across Chemical Synapses,ondansetron,"ondansetron,GR-38032F/GR-38032,ondansetron hydrochloride,ondansetron hydrochloride dihydrate,Zofran&reg;",2290,Guide to Pharmacology,4595,Compound
+R-HSA-112315,Transmission across Chemical Synapses,tropisetron,"tropisetron,ICF 205-930,ICS 205930,Navoban&reg;,tropisteron",260,Guide to Pharmacology,656665,Compound
+R-HSA-112315,Transmission across Chemical Synapses,granisetron,"granisetron,BRL 43694,BRL-43694,Kytril&reg;,LY-278584,Sancuso&reg;,Sustol&reg;",2300,Guide to Pharmacology,5284566,Compound
+R-HSA-112315,Transmission across Chemical Synapses,ramosetron,ramosetron,2301,Guide to Pharmacology,108000,Compound
+R-HSA-112315,Transmission across Chemical Synapses,cilansetron,cilansetron,2297,Guide to Pharmacology,6918107,Compound

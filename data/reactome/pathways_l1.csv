@@ -1,0 +1,172 @@
+PathwayID,PathwayName,Layer
+R-HSA-382556,ABC-family proteins mediated transport,1
+R-HSA-2161522,Abacavir ADME,1
+R-HSA-5619507,Activation of HOX genes during differentiation,1
+R-HSA-1280218,Adaptive Immune System,1
+R-HSA-977225,Amyloid fiber formation,1
+R-HSA-109581,Apoptosis,1
+R-HSA-445717,Aquaporin-mediated transport,1
+R-HSA-9749641,Aspirin ADME,1
+R-HSA-9754706,Atorvastatin ADME,1
+R-HSA-9748787,Azathioprine ADME,1
+R-HSA-1368108,"BMAL1:CLOCK,NPAS2 activates circadian gene expression",1
+R-HSA-73884,Base Excision Repair,1
+R-HSA-2173782,Binding and Uptake of Ligands by Scavenger Receptors,1
+R-HSA-211859,Biological oxidations,1
+R-HSA-5576891,Cardiac conduction,1
+R-HSA-9733709,Cardiogenesis,1
+R-HSA-69620,Cell Cycle Checkpoints,1
+R-HSA-69278,"Cell Cycle, Mitotic",1
+R-HSA-446728,Cell junction organization,1
+R-HSA-202733,Cell surface interactions at the vascular wall,1
+R-HSA-2262752,Cellular responses to stress,1
+R-HSA-9613829,Chaperone Mediated Autophagy,1
+R-HSA-3247509,Chromatin modifying enzymes,1
+R-HSA-73886,Chromosome Maintenance,1
+R-HSA-5617833,Cilium Assembly,1
+R-HSA-9793528,Ciprofloxacin ADME,1
+R-HSA-9603798,Class I peroxisomal membrane protein import,1
+R-HSA-1474290,Collagen formation,1
+R-HSA-1280215,Cytokine Signaling in Immune system,1
+R-HSA-2564830,Cytosolic iron-sulfur cluster assembly,1
+R-HSA-73893,DNA Damage Bypass,1
+R-HSA-73942,DNA Damage Reversal,1
+R-HSA-5693532,DNA Double-Strand Break Repair,1
+R-HSA-69002,DNA Replication Pre-Initiation,1
+R-HSA-429914,Deadenylation-dependent mRNA decay,1
+R-HSA-73887,Death Receptor Signaling,1
+R-HSA-1474228,Degradation of the extracellular matrix,1
+R-HSA-8935690,Digestion,1
+R-HSA-9675135,Diseases of DNA repair,1
+R-HSA-5260271,Diseases of Immune System,1
+R-HSA-9675132,Diseases of cellular response to stress,1
+R-HSA-9671793,Diseases of hemostasis,1
+R-HSA-5668914,Diseases of metabolism,1
+R-HSA-9675126,Diseases of mitotic cell cycle,1
+R-HSA-9645723,Diseases of programmed cell death,1
+R-HSA-5663202,Diseases of signal transduction by growth factor receptors and second messengers,1
+R-HSA-9675143,Diseases of the neuronal system,1
+R-HSA-9675151,Disorders of Developmental Biology,1
+R-HSA-5619115,Disorders of transmembrane transporters,1
+R-HSA-75205,Dissolution of Fibrin Clot,1
+R-HSA-3000178,ECM proteoglycans,1
+R-HSA-1566948,Elastic fibre formation,1
+R-HSA-212165,Epigenetic regulation of gene expression,1
+R-HSA-983231,Factors involved in megakaryocyte development and platelet production,1
+R-HSA-6783310,Fanconi Anemia Pathway,1
+R-HSA-1187000,Fertilization,1
+R-HSA-1566977,Fibronectin matrix formation,1
+R-HSA-140877,Formation of Fibrin Clot (Clotting Cascade),1
+R-HSA-9758941,Gastrulation,1
+R-HSA-211000,Gene Silencing by RNA,1
+R-HSA-5663205,Infectious disease,1
+R-HSA-168249,Innate Immune System,1
+R-HSA-1483249,Inositol phosphate metabolism,1
+R-HSA-9609523,Insertion of tail-anchored proteins into the endoplasmic reticulum membrane,1
+R-HSA-428359,Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA,1
+R-HSA-163685,Integration of energy metabolism,1
+R-HSA-216083,Integrin cell surface interactions,1
+R-HSA-354192,Integrin signaling,1
+R-HSA-8963676,Intestinal absorption,1
+R-HSA-8981607,Intracellular oxygen transport,1
+R-HSA-9006925,Intracellular signaling by second messengers,1
+R-HSA-8941237,Invadopodia formation,1
+R-HSA-983712,Ion channel transport,1
+R-HSA-917937,Iron uptake and transport,1
+R-HSA-6805567,Keratinization,1
+R-HSA-5682910,LGI-ADAM interactions,1
+R-HSA-3000157,Laminin interactions,1
+R-HSA-9615710,Late endosomal microautophagy,1
+R-HSA-5683057,MAPK family signaling cascades,1
+R-HSA-165159,MTOR signalling,1
+R-HSA-1632852,Macroautophagy,1
+R-HSA-9816359,Maternal to zygotic transition (MZT),1
+R-HSA-1500620,Meiosis,1
+R-HSA-199991,Membrane Trafficking,1
+R-HSA-71291,Metabolism of amino acids and derivatives,1
+R-HSA-71387,Metabolism of carbohydrates,1
+R-HSA-556833,Metabolism of lipids,1
+R-HSA-202131,Metabolism of nitric oxide: NOS3 activation and regulation,1
+R-HSA-194441,Metabolism of non-coding RNA,1
+R-HSA-15869,Metabolism of nucleotides,1
+R-HSA-189445,Metabolism of porphyrins,1
+R-HSA-196854,Metabolism of vitamins and cofactors,1
+R-HSA-5223345,Miscellaneous transport and binding events,1
+R-HSA-5358508,Mismatch Repair,1
+R-HSA-9836573,Mitochondrial RNA degradation,1
+R-HSA-1592230,Mitochondrial biogenesis,1
+R-HSA-8949215,Mitochondrial calcium ion transport,1
+R-HSA-1362409,Mitochondrial iron-sulfur cluster biogenesis,1
+R-HSA-1268020,Mitochondrial protein import,1
+R-HSA-525793,Myogenesis,1
+R-HSA-1368071,NR1D1 (REV-ERBA) represses gene expression,1
+R-HSA-373753,Nephrin family interactions,1
+R-HSA-9675108,Nervous system development,1
+R-HSA-3000171,Non-integrin membrane-ECM interactions,1
+R-HSA-927802,Nonsense-Mediated Decay (NMD),1
+R-HSA-5696398,Nucleotide Excision Repair,1
+R-HSA-1480926,O2/CO2 exchange in erythrocytes,1
+R-HSA-381753,Olfactory Signaling Pathway,1
+R-HSA-9753281,Paracetamol ADME,1
+R-HSA-2980736,Peptide hormone metabolism,1
+R-HSA-9033241,Peroxisomal protein import,1
+R-HSA-174824,"Plasma lipoprotein assembly, remodeling, and clearance",1
+R-HSA-75892,Platelet Adhesion to exposed collagen,1
+R-HSA-76002,"Platelet activation, signaling and aggregation",1
+R-HSA-418346,Platelet homeostasis,1
+R-HSA-597592,Post-translational protein modification,1
+R-HSA-1296071,Potassium Channels,1
+R-HSA-9757110,Prednisone ADME,1
+R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,1
+R-HSA-75067,Processing of Capped Intronless Pre-mRNA,1
+R-HSA-391251,Protein folding,1
+R-HSA-5676934,Protein repair,1
+R-HSA-6794362,Protein-protein interactions at synapses,1
+R-HSA-71737,Pyrophosphate hydrolysis,1
+R-HSA-73864,RNA Polymerase I Transcription,1
+R-HSA-73857,RNA Polymerase II Transcription,1
+R-HSA-74158,RNA Polymerase III Transcription,1
+R-HSA-1368082,RORA activates gene expression,1
+R-HSA-5218859,Regulated Necrosis,1
+R-HSA-381426,Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs),1
+R-HSA-186712,Regulation of beta-cell development,1
+R-HSA-450531,Regulation of mRNA stability by proteins that bind AU-rich elements,1
+R-HSA-5660526,Response to metal ions,1
+R-HSA-1475029,Reversible hydration of carbon dioxide,1
+R-HSA-9755088,Ribavirin ADME,1
+R-HSA-425407,SLC-mediated transmembrane transport,1
+R-HSA-9717189,Sensory perception of taste,1
+R-HSA-9659379,Sensory processing of sound,1
+R-HSA-391160,Signal regulatory protein family interactions,1
+R-HSA-9006335,Signaling by Erythropoietin,1
+R-HSA-372790,Signaling by GPCR,1
+R-HSA-5358351,Signaling by Hedgehog,1
+R-HSA-2028269,Signaling by Hippo,1
+R-HSA-2586552,Signaling by Leptin,1
+R-HSA-1181150,Signaling by NODAL,1
+R-HSA-157118,Signaling by NOTCH,1
+R-HSA-9006927,Signaling by Non-Receptor Tyrosine Kinases,1
+R-HSA-9006931,Signaling by Nuclear Receptors,1
+R-HSA-9006934,Signaling by Receptor Tyrosine Kinases,1
+R-HSA-9716542,"Signaling by Rho GTPases, Miro GTPases and RHOBTB3",1
+R-HSA-9006936,Signaling by TGFB family members,1
+R-HSA-195721,Signaling by WNT,1
+R-HSA-445355,Smooth Muscle Contraction,1
+R-HSA-9827857,Specification of primordial germ cells,1
+R-HSA-390522,Striated Muscle Contraction,1
+R-HSA-5683826,Surfactant metabolism,1
+R-HSA-69239,Synthesis of DNA,1
+R-HSA-1428517,The citric acid (TCA) cycle and respiratory electron transport,1
+R-HSA-75944,Transcription from mitochondrial promoters,1
+R-HSA-9616222,Transcriptional regulation of granulopoiesis,1
+R-HSA-452723,Transcriptional regulation of pluripotent stem cells,1
+R-HSA-9690406,Transcriptional regulation of testis differentiation,1
+R-HSA-381340,Transcriptional regulation of white adipocyte differentiation,1
+R-HSA-72766,Translation,1
+R-HSA-112315,Transmission across Chemical Synapses,1
+R-HSA-112307,Transmission across Electrical Synapses ,1
+R-HSA-2187338,Visual phototransduction,1
+R-HSA-72086,mRNA Capping,1
+R-HSA-75072,mRNA Editing,1
+R-HSA-72312,rRNA processing,1
+R-HSA-72306,tRNA processing,1
