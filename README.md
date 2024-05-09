@@ -151,7 +151,7 @@ Our pipeline has primarily been developed and executed in High Performance Compu
 
 - *Daneel* nodes on [HPC@SNS](https://hpccenter.sns.it), each equipped with 2 Intel Xeon CPUs, 36 cores (18 cores per socket), 1.5 TB of RAM (about 42 GB/core), 6TB local scratch space and 4 Tesla (V100) NVIDIA GPUs with 32 GB of RAM (each);
 - *Gaia* nodes on [HPC@SNS](https://hpccenter.sns.it), equipped with 2 AMD EPYC 7352, 48 cores (24 physical cores per socket), 512 GB of RAM (10.6 GB/core), 4 NVIDIA A100 and a local scratch area of ~890 GB;
-- *BullSequana X2135 “Da Vinci* nodes on [Leonardo Supercomputer @ CINECA](https://leonardo-supercomputer.cineca.eu), equipped with 1 x CPU Intel Xeon 8358 32 core, 2,6 GHz, 512 (8 x 64) GB RAM DDR4 3200 MHz and 4x Nvidia custom Ampere (A100) GPU 64GB HBM2.
+- *BullSequana X2135 "Da Vinci"* nodes on [Leonardo Supercomputer @ CINECA](https://leonardo-supercomputer.cineca.eu), equipped with 1 x CPU Intel Xeon 8358 32 core, 2,6 GHz, 512 (8 x 64) GB RAM DDR4 3200 MHz and 4x Nvidia custom Ampere (A100) GPU 64GB HBM2.
 
 Despite the high-performance hardware requirements for development and training phases, the final trained models are designed to be deployable on standard desktops or laptops without the need for GPU acceleration. These models will be made available upon publication.
 
