@@ -20,6 +20,8 @@ The code is organized into four main directories, each tailored to facilitate sp
 
 This guide provides detailed steps to set up the development environment necessary to replicate the results from our research. The setup includes creating a new Python environment, installing general libraries, large language model (LLM) libraries, and compiling XGBoost with GPU support.
 
+**NOTE: overall time requirments to setup the enviroment may greatly vary from system to system
+
 ## Creating a New Python Environment
 
 First, create a new environment using Conda and install CUDA toolkit:
