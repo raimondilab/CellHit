@@ -88,6 +88,14 @@ def obtain_metadata(dataset='gdsc',path='./data',drug_threshold=10,**kwargs):
     
     if dataset == 'prism':
         return obtain_prism_lfc(path,drug_threshold,**kwargs)
+
+def obtain_drugs_metadata(dataset='gdsc',path='./data'):
+    
+    if dataset == 'gdsc':
+        return get_gdsc_drugs_metadata(path)
+    
+    if dataset == 'prism':
+        return get_prism_lfc_drugs_metadata(path)
     
 
 def get_gdsc_drugs_metadata(data_path='./data'):

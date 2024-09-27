@@ -62,7 +62,8 @@ class AutoXGBRegressor:
                 dtrain = xgb.DMatrix(data['train_X'], data['train_Y'])
                 dval = xgb.DMatrix(data['valid_X'], data['valid_Y'])
                 
-                booster = xgb.train(params, dtrain, evals=[(dval, 'eval')], num_boost_round=params['n_estimators'], early_stopping_rounds=params['early_stopping_rounds'], verbose_eval=False)
+                train_params = {k: v for k, v in params.items() if k not in ['n_estimators', 'early_stopping_rounds']} #used to get rid of the warnings when training the model
+                booster = xgb.train(train_params, dtrain, evals=[(dval, 'eval')], num_boost_round=params['n_estimators'], early_stopping_rounds=params['early_stopping_rounds'], verbose_eval=False)
                 #booster.set_param({'device':f'cuda:{self.gpuID}'})
                 
                 y_pred = booster.predict(dval)

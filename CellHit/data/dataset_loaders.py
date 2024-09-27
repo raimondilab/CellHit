@@ -160,10 +160,12 @@ class DatasetLoader():
             self.cell_lines_data = (self.cell_lines_data - self.cell_mean)/self.cell_std
             self.all_transcriptomics_data = (self.all_transcriptomics_data - self.cell_mean)/self.cell_std
             all_lines_dict = {cid:np.array(cell).reshape(1,-1) for cid,cell in zip(self.all_transcriptomics_data.index,self.all_transcriptomics_data.values)}
+            self.Xs_pos_name_mapper = {pos:col for pos,col in enumerate(self.all_transcriptomics_data.columns)}
             self.Xs = IndexedArray(all_lines_dict)
 
         else:
             cell_lines_dict = {cid:np.array(cell).reshape(1,-1) for cid,cell in zip(self.cell_lines_data.index,self.cell_lines_data.values)}
+            self.Xs_pos_name_mapper = {pos:col for pos,col in enumerate(self.cell_lines_data.columns)}
             self.Xs = IndexedArray(cell_lines_dict)
 
         self.x_are_scaled = True

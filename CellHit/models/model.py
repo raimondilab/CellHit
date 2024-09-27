@@ -2,6 +2,7 @@ from xgboost import XGBRegressor
 import numpy as np
 import shap
 import xgboost as xgb
+import os
 
 class CustomXGBoost():
 
@@ -19,7 +20,8 @@ class CustomXGBoost():
         dtrain = xgb.DMatrix(train_X, train_Y)
         dval = xgb.DMatrix(valid_X, valid_Y)
 
-        self.model = xgb.train(self.base_params, dtrain, evals=[(dval, 'eval')], num_boost_round=self.base_params['n_estimators'], early_stopping_rounds=self.base_params['early_stopping_rounds'], verbose_eval=False)
+        train_params = {k: v for k, v in self.base_params.items() if k not in ['n_estimators', 'early_stopping_rounds']} #used to get rid of the warnings when training the model
+        self.model = xgb.train(train_params, dtrain, evals=[(dval, 'eval')], num_boost_round=self.base_params['n_estimators'], early_stopping_rounds=self.base_params['early_stopping_rounds'], verbose_eval=False)
 
     def predict(self, test_X, return_shaps=False):
         
@@ -39,7 +41,7 @@ class CustomXGBoost():
 
 
 class EnsembleXGBoost():
-    def __init__(self, base_params):
+    def __init__(self, base_params=None):
         """
         Initialize the EnsembleXGBoost class.
         
@@ -63,8 +65,9 @@ class EnsembleXGBoost():
 
             if fix_seed:
                 self.base_params['seed'] = idx
-                
-            booster = xgb.train(self.base_params, dtrain, evals=[(dval, 'eval')], 
+
+            train_params = {k: v for k, v in self.base_params.items() if k not in ['n_estimators', 'early_stopping_rounds']} #used to get rid of the warnings when training the model
+            booster = xgb.train(train_params, dtrain, evals=[(dval, 'eval')], 
                                 num_boost_round=self.base_params['n_estimators'], 
                                 early_stopping_rounds=self.base_params['early_stopping_rounds'], 
                                 verbose_eval=False)
@@ -90,7 +93,12 @@ class EnsembleXGBoost():
         shaps = []
         
         for model in self.models:
-            #check whethere test_
+            #check whethere test_X has the same features as the model
+            try:
+                test_X = test_X[model.feature_names]
+            except:
+                raise ValueError(f'Test data has different features than the model. Check the feature names.')
+
             dtest = xgb.DMatrix(test_X)
             preds.append(model.predict(dtest))
             
@@ -140,4 +148,27 @@ class EnsembleXGBoost():
     def get_important_features(self):
         return np.mean([model.feature_importances_ for model in self.models], axis=0)
     
-    
+
+    def save_model(self, path):
+        for i,model in enumerate(self.models):
+            model.save_model(f'{path}/{i}.json')
+
+    @classmethod
+    def load_model(cls, path):
+        instance = cls(None)
+        instance.models = []
+        i = 0
+        while True:
+            model_path = f'{path}/{i}.json'
+            if not os.path.exists(model_path):
+                break
+                #raise ValueError(f'Model {model_path} does not exist')
+            model = xgb.Booster()
+            model.load_model(model_path)
+            instance.models.append(model)
+            i += 1
+
+        if len(instance.models) == 0:
+            raise ValueError(f'No models found in {path}')
+        
+        return instance
