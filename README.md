@@ -22,7 +22,16 @@ This guide provides detailed steps to set up the development environment necessa
 
 **NOTE: overall time requirments to setup the enviroment may greatly vary from system to system
 
-## Creating a New Python Environment
+## A. Creating the new enviroment through the yml file (recommended)
+
+We freezed into the "cellHit.yml" file all of the libraries needed to run the code provided in this codebase. In order create a new enviroment with the yml just run
+
+```bash
+conda env create --name envname --file=cellHit.yml
+```
+
+
+## B. Creating a New Python Environment (alternative from scratch)
 
 First, create a new environment using Conda and install CUDA toolkit:
 
@@ -31,7 +40,7 @@ conda create -n CellHit python=3.11
 conda install -c "nvidia/label/cuda-11.8" cuda-toolkit
 ```
 
-## General Libraries Installation
+### General Libraries Installation
 
 Install the following general purpose libraries using pip:
 
@@ -46,7 +55,7 @@ pip install biopython==1.82 \
             openpyxl==3.1.2
 ```
 
-## LLM Libraries Installation
+### LLM Libraries Installation
 
 Install libraries specifically used for working with large language models:
 
@@ -79,7 +88,7 @@ pip install --upgrade xformers --index-url https://download.pytorch.org/whl/cu11
 
 For additional informations refer to the [original vLLM documentation](https://docs.vllm.ai/en/v0.2.7/)
 
-## Machine Learning Libraries
+### Machine Learning Libraries
 
 Install additional machine learning libraries:
 
@@ -87,7 +96,7 @@ Install additional machine learning libraries:
 pip install scikit-learn==1.3.2 shap==0.43.0 optuna==3.3.0 
 ```
 
-## Compiling XGBoost with GPU Support
+### Compiling XGBoost with GPU Support
 
 Follow these steps to compile XGBoost with GPU support, using CUDA 11.8 and gcc 10.2.0:
 
