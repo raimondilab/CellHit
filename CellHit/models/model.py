@@ -73,10 +73,6 @@ class EnsembleXGBoost():
                                 verbose_eval=False)
                 
             self.models.append(booster)
-
-            #model = XGBRegressor(**self.base_params)
-            #model.fit(X_train.values, y_train, eval_set=[(X_valid.values, y_valid)], verbose=False)
-            #self.models.append(model)
             
 
     def predict(self,test_X,return_shaps=False,return_stds=False):
@@ -91,20 +87,23 @@ class EnsembleXGBoost():
         """
         preds = []
         shaps = []
+
+        feature_names = self.models[0].feature_names
+
+        #check whethere test_X has the same features as the model
+        try:
+            test_X = test_X[feature_names]
+        except:
+            raise ValueError(f'Test data has different features than the model. Check the feature names.')
+
+        dtest = xgb.DMatrix(test_X)
         
         for model in self.models:
-            #check whethere test_X has the same features as the model
-            try:
-                test_X = test_X[model.feature_names]
-            except:
-                raise ValueError(f'Test data has different features than the model. Check the feature names.')
-
-            dtest = xgb.DMatrix(test_X)
+            
             preds.append(model.predict(dtest))
             
             if return_shaps:
                 explainer = shap.TreeExplainer(model)
-                #shaps.append(explainer.shap_values(X_test.values))
                 shaps.append(explainer(test_X.values))
                 
         if return_shaps:
@@ -113,11 +112,7 @@ class EnsembleXGBoost():
             shap_values = np.mean(shap_values,axis=0)
             shap_base_values = np.array([x.base_values for x in shaps])
             shap_base_values = np.mean(shap_base_values,axis=0)
-            #obtain the mean of the shap values
             
-            #if inverse_map:
-            #    feature_names = [inverse_map[x] for x in X_test.columns]
-            #else:   
             feature_names = test_X.columns
            
             explanation = shap.Explanation(values=shap_values,
@@ -125,14 +120,6 @@ class EnsembleXGBoost():
                                 data=test_X.values,
                                 feature_names=feature_names,
                                 instance_names=list(test_X.index))
-            
-            #return np.mean(preds, axis=0),explanation
-
-            #output = {}
-            #output['predictions'] = np.mean(preds, axis=0)  
-            #output['shap_values'] = explanation
-
-            #return output
         
         output = {}
         output['predictions'] = np.mean(preds, axis=0)
