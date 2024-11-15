@@ -4,6 +4,9 @@ import shap
 import xgboost as xgb
 import os
 
+import tempfile
+import shutil
+
 class CustomXGBoost():
 
     def __init__(self, base_params):
@@ -137,25 +140,40 @@ class EnsembleXGBoost():
     
 
     def save_model(self, path):
-        for i,model in enumerate(self.models):
-            model.save_model(f'{path}/{i}.json')
+        # Create a temporary directory to save individual models
+        with tempfile.NamedTemporaryFile(suffix='.bin', delete=False) as temp_file:
+            # Write number of models
+            np.save(temp_file, len(self.models))
+            
+            # Save each model's binary data
+            for model in self.models:
+                # Get model binary data
+                model_data = model.save_raw()
+                # Save length and data
+                np.save(temp_file, len(model_data))
+                temp_file.write(model_data)
+                
+        # Move temporary file to final destination
+        shutil.move(temp_file.name, path)
 
     @classmethod
     def load_model(cls, path):
         instance = cls(None)
         instance.models = []
-        i = 0
-        while True:
-            model_path = f'{path}/{i}.json'
-            if not os.path.exists(model_path):
-                break
-                #raise ValueError(f'Model {model_path} does not exist')
-            model = xgb.Booster()
-            model.load_model(model_path)
-            instance.models.append(model)
-            i += 1
-
-        if len(instance.models) == 0:
-            raise ValueError(f'No models found in {path}')
+        
+        with open(path, 'rb') as f:
+            # Read number of models
+            n_models = np.load(f)
+            
+            for _ in range(int(n_models)):
+                # Read model size
+                model_size = np.load(f)
+                # Read model data
+                model_data = f.read(int(model_size))
+                
+                # Create new booster
+                model = xgb.Booster()
+                model.load_model(bytearray(model_data))
+                instance.models.append(model)
         
         return instance
