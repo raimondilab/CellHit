@@ -175,5 +175,23 @@ class EnsembleXGBoost():
                 model = xgb.Booster()
                 model.load_model(bytearray(model_data))
                 instance.models.append(model)
-        
+            
         return instance
+    
+
+    @classmethod
+    def legacy_load_model(cls, path):
+        instance = cls(None)
+        instance.models = []
+        i = 0
+        while True:
+            model_path = f'{path}/{i}.json'
+            if not os.path.exists(model_path):
+                break
+                #raise ValueError(f'Model {model_path} does not exist')
+            model = xgb.Booster()
+            model.load_model(model_path)
+            instance.models.append(model)
+            i += 1
+        if len(instance.models) == 0:
+            raise ValueError(f'No models found in {path}')
