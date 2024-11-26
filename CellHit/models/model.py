@@ -193,5 +193,8 @@ class EnsembleXGBoost():
             model.load_model(model_path)
             instance.models.append(model)
             i += 1
+
         if len(instance.models) == 0:
             raise ValueError(f'No models found in {path}')
+        
+        return instance
