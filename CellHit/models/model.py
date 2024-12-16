@@ -157,15 +157,20 @@ class EnsembleXGBoost():
         shutil.move(temp_file.name, path)
 
     @classmethod
-    def load_model(cls, path):
+    def load_model(cls, path,limit_load:int=None):
         instance = cls(None)
         instance.models = []
         
         with open(path, 'rb') as f:
             # Read number of models
             n_models = np.load(f)
+
+            if limit_load is not None:
+                n_models = limit_load
+            else:
+                n_models = int(n_models)
             
-            for _ in range(int(n_models)):
+            for _ in range(n_models):
                 # Read model size
                 model_size = np.load(f)
                 # Read model data
