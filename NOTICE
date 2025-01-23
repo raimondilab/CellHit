@@ -1,0 +1,146 @@
+--- START OF FILE NOTICE.txt ---
+NOTICE
+
+This project uses the following software packages, which are distributed under their respective licenses.
+
+We acknowledge and thank the developers and contributors of these packages for their valuable work.
+
+**Major Software Packages Used:**
+
+* **Python**
+  * License: Python Software Foundation License
+  * URL: https://www.python.org/psf/license/
+
+* **PyTorch**
+  * License: MIT License
+  * URL: https://github.com/pytorch/pytorch/blob/master/LICENSE
+
+* **scikit-learn (sklearn)**
+  * License: BSD-3 Clause License
+  * URL: https://scikit-learn.org/stable/about.html#license
+
+* **NumPy**
+  * License: BSD-3 Clause License
+  * URL: https://numpy.org/doc/stable/user/license.html
+
+* **pandas**
+  * License: BSD-3 Clause License
+  * URL: https://pandas.pydata.org/docs/getting_started/license.html
+
+* **SciPy**
+  * License: BSD-3 Clause License
+  * URL: https://scipy.org/license.html
+
+* **XGBoost**
+  * License: Apache-2.0 License
+  * URL: https://xgboost.readthedocs.io/en/stable/licensing.html
+
+* **Transformers (Hugging Face)**
+  * License: Apache-2.0 License
+  * URL: https://huggingface.co/transformers/license.html
+
+* **Accelerate (Hugging Face)**
+  * License: Apache-2.0 License
+  * URL: https://huggingface.co/docs/accelerate/index
+
+* **Datasets (Hugging Face)**
+  * License: Apache-2.0 License
+  * URL: https://huggingface.co/docs/datasets/index
+
+* **Tokenizers (Hugging Face)**
+  * License: Apache-2.0 License
+  * URL: https://huggingface.co/docs/tokenizers/index
+
+* **Hugging Face Hub**
+  * License: Apache-2.0 License
+  * URL: https://huggingface.co/docs/huggingface_hub/index
+
+* **Optimum (Hugging Face)**
+  * License: Apache-2.0 License
+  * URL: https://huggingface.co/docs/optimum/index
+
+* **PEFT (Hugging Face)**
+  * License: Apache-2.0 License
+  * URL: https://huggingface.co/docs/peft/index
+
+* **Safetensors (Hugging Face)**
+  * License: MIT License
+  * URL: https://github.com/huggingface/safetensors/blob/main/LICENSE
+
+* **tqdm**
+  * License: MPL-2.0 License
+  * URL: https://github.com/tqdm/tqdm/blob/master/LICENSE
+
+* **Matplotlib**
+  * License: Matplotlib License (Based on the Python Software Foundation License)
+  * URL: https://matplotlib.org/stable/users/license.html
+
+* **Seaborn**
+  * License: BSD-3 Clause License
+  * URL: https://github.com/mwaskom/seaborn/blob/master/LICENSE
+
+* **Joblib**
+  * License: BSD-3 Clause License
+  * URL: https://joblib.readthedocs.io/en/latest/license.html
+
+* **Requests**
+  * License: Apache-2.0 License
+  * URL: https://requests.readthedocs.io/en/latest/community/licensing/
+
+* **FastAPI**
+  * License: MIT License
+  * URL: https://fastapi.tiangolo.com/
+
+* **Uvicorn**
+  * License: BSD-3 Clause License
+  * URL: https://www.uvicorn.org/
+
+* **Pydantic**
+  * License: MIT License
+  * URL: https://docs.pydantic.dev/latest/
+
+* **SQLAlchemy**
+  * License: MIT License
+  * URL: https://www.sqlalchemy.org/
+
+* **Jinja2**
+  * License: BSD-3 Clause License
+  * URL: https://palletsprojects.com/p/jinja/
+
+* **MarkupSafe**
+  * License: BSD-3 Clause License
+  * URL: https://palletsprojects.com/p/markupsafe/
+
+* **PyYAML**
+  * License: MIT License
+  * URL: https://pyyaml.org/wiki/PyYAMLDocumentation
+
+* **Intel TBB (Threading Building Blocks)**
+  * License: Apache-2.0 License
+  * URL: https://software.intel.com/content/www/us/en/develop/tools/threading-building-blocks/licensing.html
+
+* **Numba**
+  * License: BSD-3 Clause License
+  * URL: https://numba.pydata.org/numba-doc/latest/license.html
+
+* **llvmlite**
+  * License: BSD-3 Clause License
+  * URL: https://llvmlite.readthedocs.io/en/latest/
+
+* **Optuna**
+  * License: MIT License
+  * URL: https://optuna.org/#license
+
+* **Ray**
+  * License: Apache-2.0 License
+  * URL: https://github.com/ray-project/ray/blob/master/LICENSE
+
+* **vLLM**
+  * License: Apache-2.0 License
+  * URL: https://github.com/vllm-project/vllm/blob/main/LICENSE
+
+**Disclaimer:**
+
+This is not an exhaustive list of all software packages used in this environment. The licenses listed above are based on common knowledge and publicly available information. It is the user's responsibility to verify the licenses of all used software and comply with their terms. For precise license terms, please refer to the software package's documentation or license file directly. This NOTICE file is for informational purposes and to acknowledge the open-source community.
+
+--- END OF FILE NOTICE.txt ---
