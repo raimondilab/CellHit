@@ -2,7 +2,9 @@
 
 ![Workflow](learning_workflow.png)
 
-This repository contains the complete codebase required to reproduce the analysis presented in the paper [Learning and actioning general principles of cancer cell drug sensitivity](https://www.biorxiv.org/content/10.1101/2024.03.28.586783v2.article-metrics).
+This repository contains the complete codebase required to reproduce the analysis presented in the paper [Learning and actioning general principles of cancer cell drug sensitivity](https://www.nature.com/articles/s41467-025-56827-5).
+
+A web server version of this computational pipeline is available [here](https://cellhit.bioinfolab.sns.it) and decribed in the article [CellHit: a web server to predict and analyze cancer patients’ drug responsiveness](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkaf414/8133636?utm_source=advanceaccess&utm_campaign=nar&utm_medium=email)
 
 ## Repository Structure
 
